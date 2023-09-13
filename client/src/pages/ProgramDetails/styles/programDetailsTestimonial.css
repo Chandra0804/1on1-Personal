@@ -1,0 +1,126 @@
+.testimonial-section {
+    width: 60vw;
+    margin: 0 auto;
+    position: relative;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    width: 60vw;
+}
+
+.program-details-testimonials-arrow {
+    cursor: pointer;
+    font-size: 24px;
+    color: #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffe4cc;
+    position: absolute;
+    top: 12rem;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.program-details-testimonials-arrow:hover {
+    background-color: #fff;
+}
+
+
+.program-details-left-arrow {
+    left: -7rem;
+}
+
+.program-details-right-arrow {
+    right: -7rem;
+}
+
+.program-details-testimonials-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.program-details-testimonial-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    transform: translateX(calc(-60.9vw * var(--currentCard)));
+    transition: transform 0.5s ease-in-out;
+}
+
+.program-details-testimonial-card{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 5px rgba(0, 0, 0, 0.2);
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    width: 55vw;
+    margin: 0 auto;
+    gap: 2rem;
+    position: relative;
+}
+
+.program-details-testimonial-card>.user-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.program-details-testimonial-card>.user-info>p{
+    font-size: 20px;
+    color: #ff7a01;
+    font-weight: 800;
+}
+
+.program-details-testimonial-card>.user-info>img{
+    width: 12vw;
+}
+
+.testimonial-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.testimonial-text>p{
+    font-size: 18px;
+}
+
+.qoute-icon-left{
+    position: absolute;
+    left: 17rem;
+    top: 3rem;
+    font-size: 20px;
+}
+
+.qoute-icon-right{
+    position: absolute;
+    right: 4rem;
+    bottom: 4rem;
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px){
+    .testimonial-section{
+        display: none;
+    }
+}
+
+

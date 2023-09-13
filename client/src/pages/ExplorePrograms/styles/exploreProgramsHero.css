@@ -1,0 +1,214 @@
+.explore-programs-heroSection {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.explore-programs-heroTop {
+    display: flex;
+    flex-direction: row;
+    width: 78vw;
+    margin: 0 auto;
+    background: linear-gradient(130deg, rgba(248, 248, 248, 1) 41%, rgba(254, 231, 218, 1) 63%);
+    border-radius: 10px;
+    padding: 1rem 6rem;
+    box-shadow: 2px 2px #e4e4e4;
+    border: solid 2px #e4e4e4;
+}
+
+.explore-programs-heroLeft {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.explore-programs-heroLeft>h1 {
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.placement-grey-text{
+    color: #6c6c6c;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.placement-guarantee-blackText{
+    background-color: #000;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 30px;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.explore-programs-heroLeft>button{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    width: fit-content;
+}
+
+.explore-programs-heroRight {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore-programs-heroRight>img {
+    width: 35vw;
+}
+
+.explore-programs-heroBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #ffe4cc;
+    padding: 0;
+    align-items: center;
+}
+
+.check-icon{
+    font-size: 23px;
+    color: #ff7a01;
+}
+
+.explore-programs-heroBottom > p{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* Common Styles (for both portrait and landscape) */
+.explore-programs-heroTop {
+    flex-direction: column;
+    align-items: center; /* Center-align content vertically */
+    text-align: center; /* Center-align text within the container */
+    width: 90vw;
+    padding: 1rem 2rem;
+}
+
+.explore-programs-heroLeft {
+    width: 100%;
+}
+
+.explore-programs-heroLeft>h1 {
+    font-size: 24px; /* Decrease font size for mobile */
+}
+
+.placement-grey-text {
+    font-size: 14px; /* Decrease font size for mobile */
+}
+
+.placement-guarantee-blackText {
+    font-size: 12px; /* Decrease font size for mobile */
+    margin-bottom: 1rem; /* Adjust spacing */
+}
+
+.explore-programs-heroLeft>button {
+    font-size: 16px; /* Decrease font size for mobile */
+    margin-top: 1rem; /* Adjust spacing */
+    margin-bottom: 1rem; /* Adjust spacing */
+    padding: 1rem 2rem;
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .explore-programs-heroTop {
+        width: 80vw;
+        padding: 1rem 4rem;
+    }
+    .explore-programs-heroRight{
+        display: none;
+    }
+
+    .explore-programs-heroLeft {
+        width: 60%;
+    }
+
+    .explore-programs-heroRight {
+        display: none; /* Hide the image in tablet portrait mode */
+    }
+}
+
+@media (max-width: 768px) {
+    .explore-programs-heroRight{
+        display: none;
+        
+        
+    }
+    .explore-programs-heroLeft{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 25px;
+
+    }
+    
+}
+
+/* Landscape Styles */
+@media  (orientation: landscape) {
+    .explore-programs-heroTop {
+        flex-direction: row; /* Display content and image side by side in landscape */
+        align-items: center; /* Center-align content vertically */
+    }
+    
+
+    .explore-programs-heroLeft {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center-align text horizontally */
+        text-align: center; /* Center-align text within the container */
+    }
+
+    .explore-programs-heroRight {
+        width: 40%;
+        justify-content: center;
+        display: flex; /* Show the image in tablet landscape mode */
+    }
+
+    .explore-programs-heroRight > img {
+        width: 70%;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    
+    .explore-programs-heroTop {
+        width: 78vw;
+        padding: 1rem 6rem;
+    }
+
+    .explore-programs-heroLeft {
+        width: 50%;
+        text-align: left; /* Adjust text alignment for desktop if needed */
+    }
+
+    .explore-programs-heroRight {
+        width: 50%;
+        display: flex; /* Show the image in desktop mode */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .explore-programs-heroRight > img {
+        width: 35vw;
+    }
+}
+

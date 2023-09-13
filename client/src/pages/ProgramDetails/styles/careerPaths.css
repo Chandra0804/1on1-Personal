@@ -1,0 +1,123 @@
+.CareerPaths{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20vh;
+}
+
+.CareerPathCard>img{
+    height: 20vh;
+    width: 80%;
+    object-fit: contain;
+}
+
+.CareerPathCard>p{
+    font-weight: 700;
+}
+
+.PromisingCareerPaths{
+    margin-left: 1%;
+    margin-bottom: 4%;
+}
+
+.CareerPathCard{
+    border: 1px solid #ffc38d;
+    border-radius: 20px;
+    width: 55%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.CareerPathsDetail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3em;
+    margin: 0 auto;
+}
+@media (orientation:landscape){
+  .image-container{
+    
+    height: 70vh;
+
+  }
+}
+
+@media (max-width: 468px) {
+  .card {
+    display: block;
+  }
+
+  .image-container {
+    width: 80vw;
+  }
+
+  .card-image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .CareerPathCard{
+    width: 55vw;
+  }
+
+  .icons-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .card-details {
+    border-radius: 0;
+    padding: 1rem;
+  }
+
+  .course-card-title {
+    font-size: 16px;
+    margin-top: 0.5rem;
+  }
+
+  .count-details {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .star-count {
+    margin-top: 0.5rem;
+  }
+
+  .star-count > p,
+  .count-details > p {
+    font-size: 14px;
+  }
+
+  .gray-dash {
+    display: none;
+  }
+
+  .knowMore-button {
+    font-size: 16px;
+  }
+
+  .ellipsis-icon {
+    font-size: 24px;
+  }
+  .PromisingCareerPaths{
+    font-size: 20px;
+  }
+  .CareerPaths{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .CareerPathsDetail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Add flex-wrap to wrap cards */
+    gap: 3em;
+    margin: 0 auto;
+  }
+}

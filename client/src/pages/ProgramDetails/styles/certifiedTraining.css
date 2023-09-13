@@ -1,0 +1,109 @@
+.certificate-section {
+    position: relative;
+}
+
+.Certified-Training {
+    display: flex;
+    flex-direction: column; /* Change to column for mobile and tablet */
+    margin-bottom: 10vh;
+    position: relative;
+    z-index: 3;
+}
+
+.certificate-bg {
+    position: absolute;
+    z-index: 1;
+}
+
+.Certificate-image-wrapper {
+    flex: 1;
+    width: 100%; /* Use 100% width for mobile and tablet */
+    margin-left: 0; /* Remove margin for mobile and tablet */
+}
+
+.Certificate-image {
+    width: 100%;
+}
+
+.Certificate-title {
+    margin-bottom: 3%;
+    text-align: center; /* Center the title for mobile and tablet */
+}
+
+.Certificate-content {
+    flex: 2;
+    margin-left: 0; /* Remove margin for mobile and tablet */
+    font-weight: 400;
+    text-align: center; /* Center content for mobile and tablet */
+    padding: 0 15px; /* Add some padding for mobile and tablet */
+}
+
+.one-on-one {
+    font-weight: bold;
+}
+
+.first-para {
+    margin-bottom: 4%;
+}
+
+.Certificate-content .para {
+    margin: 0;
+    margin-bottom: 1vh;
+}
+
+.first-para,
+.para,
+.para {
+    font-size: 22px;
+}
+
+/* Media query for tablets (768px width) */
+@media screen and (min-width: 768px) {
+    .Certified-Training {
+        flex-direction: row; /* Revert to row for tablets and larger screens */
+    }
+
+    .Certificate-image-wrapper {
+        width: 35%;
+        margin-left: 3%;
+    }
+
+    .Certificate-content {
+        margin-left: 3%;
+    }
+}
+
+@media(max-width:468px){
+    .certificate-bg{
+        display: none;
+    }
+
+    .Certificate-title{
+        font-size: 20px;
+        margin-top: 3rem;
+    }
+
+    .Certificate-content>p{
+        font-size: 13px;
+        text-align: left;
+        margin: 0 auto;
+        line-height: 2;
+    }
+
+    .Certificate-image-wrapper{
+        position: relative;
+        left: 2rem;
+        top: 5rem;
+    }
+
+    .Certificate-image{
+        width: 70vw;
+    }
+
+    .Certificate-content{
+        box-shadow: 0 0 2px #787878;
+        border-radius: 30px;
+        padding: 2rem;
+        margin: 0 1rem;
+    }
+}

@@ -1,0 +1,144 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 0 1rem;
+  box-shadow: 0px 4px 4px #c8c8c8;
+  text-align: center;
+  /* width: 20vw; */
+}
+
+.image-container {
+  flex: 1;
+  /* position: relative; */
+  background-color: #ffe4cc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 372px;
+  height: 216px;
+  align-items:center;
+}
+
+.card-image {
+  /* width: 15vw; */
+  object-fit: cover;
+}
+
+.icons-container{
+  display: flex;
+  flex-direction: column;
+  width:3vw;
+  gap: 0;
+}
+
+.card-details {
+  flex: 1;
+  background-color: #fff;
+  text-align: left;
+  padding: 1rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.card-details>p {
+  font-size: 15px;
+  color: #747474;
+  margin: 0;
+}
+
+.card-main-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.course-card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.course-card-field{
+  font-size: 14px;
+  margin: 0;
+}
+
+.count-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.star-count {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.star-count>p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.count-details>p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.gray-dash {
+  color: #d7d7d7;
+}
+
+.card-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.knowMore-button {
+  padding: 0.5rem 0.7rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+.ellipsis-icon {
+  font-size: 30px;
+}
+
+
+@media (max-width: 768px) {
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 0 1rem;
+  box-shadow: 0px 4px 4px #c8c8c8;
+  text-align: center;
+  width: 80vw;
+  height: fit-content;
+}
+
+.star-count{
+  display: none;
+}
+.purchases{
+  display: none;
+}
+.course-card-field{
+  display: none;
+}
+}

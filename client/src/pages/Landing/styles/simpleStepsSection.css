@@ -1,0 +1,122 @@
+/* simpleStepsSection.css */
+.simpleSteps-section {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.simpleSteps-section>h2{
+    font-size: 35px;
+}
+
+.svg-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+
+.pendulum-images {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.request-call-button {
+    background-color: #000;
+    color: #fff;
+    padding: 1% 1%;
+    font-weight: 600;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    /* margin-left: 45%; */
+    cursor: pointer;
+    position:absolute;
+    z-index: 5;
+    top: 45rem;
+    text-align: center;
+
+}
+
+
+
+
+.group-img{
+    width: 100%;
+    margin-top: 25%;
+}
+
+.pendulum-image1 {
+    width: 13%;
+    animation: swing 1.5s ease-in infinite alternate;
+}
+
+.pendulum-image2 {
+    top:50%;
+    width: 20%;
+    animation: swing-reverse 1.5s ease-in infinite alternate;
+}
+
+@keyframes swing-reverse{
+    0%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
+}
+
+.reversed-image {
+    transform: scaleY(-1) scaleX(-1);
+    margin-top: 43vh;
+  }
+
+.desktop-request-call-button{
+    display: block;
+    
+}
+
+
+
+@media (max-width: 768px) {
+    .pendulum-images {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    
+
+    .pendulum-image1,
+    .pendulum-image2 {
+        width: 15%;
+    }
+
+    /* .request-call-button {
+        top: 25rem;
+    } */
+
+    /* Add styles for the two containers in landscape mode */
+    .container1,
+    .container2 {
+        width: 50%;
+    }
+}
