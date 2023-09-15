@@ -1,0 +1,112 @@
+[
+    {
+        "title":"Full-Stack Development",
+        "imageSrc" : "../assets/program_card_images/fullstackp.png",
+        "period" :"24 weeks",
+        "rating" : "4.6",
+        "courseId" :"0",
+        "purchases":"1500+",
+        "gradientColors": "#FFC0CB"
+    },
+
+
+    {
+        "title":"Front-End Development",
+        "imageSrc" : "../assets/program_card_images/frontendp.png",
+        "period" :"24 weeks",
+        "rating" : "4.5",
+        "courseId" :"1",
+        "purchases":"1500+",
+        "gradientColors": "#FFD700"
+    },
+    {
+        "title":"Back-End Development",
+        "imageSrc" : "../assets/program_card_images/backendp.png",
+        "period" :"24 weeks",
+        "rating" : "4.7",
+        "courseId" :"2",
+        "purchases":"1500+",
+        "gradientColors": "#FFFFE0"
+    },
+    {
+        "title":"UI/UX Designer",
+        "imageSrc" : "../assets/program_card_images/uiuxp.png",
+        "period" :"24 weeks",
+        "rating" : "4.6",
+        "courseId" :"3",
+        "purchases":"1500+",
+        "gradientColors": "#90EE90"
+    },
+    {
+        "title":"AI Engineer",
+        "imageSrc" : "../assets/program_card_images/aip.png",
+        "period" :"24 weeks",
+        "rating" : "4.5",
+        "courseId" :"4",
+        "purchases":"1500+",
+        "gradientColors": "#ADD8E6"
+    },
+    {
+        "title":"Data Science",
+        "imageSrc" : "../assets/program_card_images/dsp.png",
+        "period" :"24 weeks",
+        "rating" : "4.7",
+        "courseId" :"5",
+        "purchases":"1500+",
+        "gradientColors": "#E6E6FA"
+    },
+    {
+        "title":"Python Developer",
+        "imageSrc" : "../assets/program_card_images/pythonp.png",
+        "period" :"24 weeks",
+        "rating" : "4.5",
+        "courseId" :"6",
+        "purchases":"1500+",
+        "gradientColors": "#FFB6C1"
+    },
+    {
+        "title":"Java Developer",
+        "imageSrc" : "../assets/program_card_images/javap.png",
+        "period" :"24 weeks",
+        "rating" : "4.6",
+        "courseId" :"7",
+        "purchases":"1500+",
+        "gradientColors": "#F8E6F8"
+    },
+    {
+        "title":"QA Automation",
+        "imageSrc" : "../assets/program_card_images/qap.png",
+        "period" :"24 weeks",
+        "rating" : "4.5",
+        "courseId" :"8",
+        "purchases":"1500+",
+        "gradientColors": "#D3D3D3"
+    },
+    {
+        "title":"DevOps Engineer",
+        "imageSrc" : "../assets/program_card_images/devopsp.png",
+        "period" :"24 weeks",
+        "rating" : "4.3",
+        "courseId" :"9",
+        "purchases":"1500+",
+        "gradientColors": "#F5F5DC"
+    },
+    {
+        "title":"App Development(Android)",
+        "imageSrc" : "../assets/program_card_images/mobile.png",
+        "period" :"24 weeks",
+        "rating" : "4.6",
+        "courseId" :"10",
+        "purchases":"1500+",
+        "gradientColors": "#FFE4B5"
+    },
+    {
+        "title":"App Development(iOS)",
+        "imageSrc" : "../assets/program_card_images/mobiosp.png",
+        "period" :"24 weeks",
+        "rating" : "4.5",
+        "courseId" :"11",
+        "purchases":"1500+",
+        "gradientColors": "#B0E0E6"
+    }
+]

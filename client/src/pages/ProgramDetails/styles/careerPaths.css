@@ -1,0 +1,176 @@
+.CareerPaths{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20vh;
+}
+
+.CareerPathCard>img{
+    height: 20vh;
+    width: 80%;
+    object-fit: contain;
+}
+
+.CareerPathCard>p{
+    font-weight: 700;
+}
+
+.PromisingCareerPaths{
+    margin-left: 1%;
+    margin-bottom: 4%;
+}
+
+.CareerPathCard{
+    border: 1px solid #ffc38d;
+    border-radius: 20px;
+    width: 55%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.CareerPathsDetail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3em;
+    margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+  .card {
+    display: block;
+  }
+
+  .image-container {
+    width: 80vw;
+  }
+
+  .card-image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .CareerPathCard{
+    width: 55vw;
+  }
+
+  .icons-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .card-details {
+    border-radius: 0;
+    padding: 1rem;
+  }
+
+  .course-card-title {
+    font-size: 16px;
+    margin-top: 0.5rem;
+  }
+
+  .count-details {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .star-count {
+    margin-top: 0.5rem;
+  }
+
+  .star-count > p,
+  .count-details > p {
+    font-size: 14px;
+  }
+
+  .gray-dash {
+    display: none;
+  }
+
+  .knowMore-button {
+    font-size: 16px;
+  }
+
+  .ellipsis-icon {
+    font-size: 24px;
+  }
+  .PromisingCareerPaths{
+    font-size: 20px;
+  }
+  .CareerPaths{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .CareerPathsDetail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Add flex-wrap to wrap cards */
+    gap: 3em;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 736px){
+  .CareerPathsDetail{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 2rem;
+    grid-column-gap: 3rem;
+  }
+
+  .CareerPathCard{
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .CareerPaths{
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (min-width: 737px) and (max-width: 768px){
+  .CareerPathsDetail{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 2rem;
+    grid-column-gap: 3rem;
+  }
+
+  .CareerPathCard{
+    width: 40vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .CareerPaths{
+    margin-bottom: 10vh;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .CareerPathsDetail{
+    width: 90vw;
+    gap: 2rem;
+  }
+  .CareerPathCard{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .CareerPathCard>p{
+    font-size: 15px;
+  }
+}

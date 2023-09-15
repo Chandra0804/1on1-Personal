@@ -1,0 +1,158 @@
+.program-details-skills {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10vh;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-skills-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5vh;
+  gap: 8rem;
+}
+
+.name {
+  margin-top: 2vh;
+  font-weight: 600;
+}
+
+.program-details-skills-img {
+  height: 10vh;
+}
+
+.bottom-skills-row {
+  margin-top: 8vh;
+}
+
+
+
+/* Desktop View */
+.program-details-skills {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10vh;
+}
+
+.top-skills-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5vh;
+  gap: 8rem;
+}
+
+.name {
+  margin-top: 2vh;
+  font-weight: 600;
+}
+
+.program-details-skills-img {
+  height: 10vh;
+}
+
+.bottom-skills-row {
+  margin-top: 8vh;
+}
+
+.skills-mobile{
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .skills-laptop {
+    display: none;
+  }
+
+  .program-details-skills {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .program-details-skills>h1 {
+    font-size: 20px;
+    margin-bottom: 2rem;
+  }
+
+  .skills-column {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 3rem;
+    grid-column-gap: 2rem;
+
+  }
+}
+
+/* Small Tablets and Large Phones (portrait) */
+@media screen and (min-width: 481px) and (max-width: 736px) {
+  .skills-mobile {
+    display: none;
+  }
+
+  .program-details-skills {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .program-details-skills>h1 {
+    font-size: 20px;
+    margin-bottom: 2rem;
+  }
+
+  .top-skills-row{
+    gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 737px) and (max-width: 768px){
+  .skills-mobile {
+    display: none;
+  }
+
+  .program-details-skills {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .program-details-skills>h1 {
+    font-size: 20px;
+    margin-bottom: 2rem;
+  }
+
+  .top-skills-row{
+    gap: 3rem;
+  }
+
+  .center>img{
+    width: 8vw;
+    height: 7vh;
+  }
+}
+
+/* iPads (portrait) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Your iPad-specific CSS here */
+  .top-skills-row{
+    gap: 5rem;
+  }
+  .bottom-skills-row{
+    margin-top: 5rem;
+  }
+
+  .skills-mobile{
+    display: none;
+  }
+}

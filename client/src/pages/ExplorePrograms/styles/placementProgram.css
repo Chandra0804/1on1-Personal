@@ -1,0 +1,335 @@
+.placement-programs-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.placement-background-image-container {
+  background: url("../assets/Why\ student\ join\ us\ BG.png");
+  background-position: 0 bottom;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.placement-cards-container {
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 4rem;
+  grid-row-gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.program-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0px 0 4px #787878;
+  text-align: center;
+  width: 20vw;
+  height: 50vh;
+}
+
+.program-image-container {
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow-x: hidden;
+}
+
+.program-card-image {
+  width: 15vw;
+  object-fit: contain;
+}
+
+.program-card-details {
+  flex: 2;
+  background-color: #fff;
+  text-align: left;
+  padding: 1rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.rating-stars {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+
+.rating-stars > span {
+  color: #f7d74d;
+}
+
+.solid-star,
+.half-star {
+  color: #f7d74d;
+}
+
+.regular-star {
+  color: #ccc;
+}
+
+.program-card-title {
+  font-size: 19px;
+  color: #000;
+  font-weight: 600;
+  margin: 0;
+}
+
+.guarantee-text {
+  font-size: 12px;
+  padding: 0.5rem;
+  background-color: #fff0de;
+  color: #ff9d46;
+  font-weight: 600;
+}
+
+.program-card-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.program-card-buttons > button {
+  padding: 0.5rem 0.5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.ellipsis-button-programCard {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.program-card-period {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  gap: 1rem;
+  margin-left: 1%;
+}
+
+.program-card-buttons > button {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.view-more-button-container {
+  text-align: center;
+}
+
+.view-more-button {
+  margin: 0 auto;
+  font-size: 23px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #000;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  display: block;
+}
+
+@keyframes moveFromTopRight {
+  0% {
+    transform: translate(100%, -100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+.move-from-top-right {
+  animation: moveFromTopRight 0.5s ease-in-out;
+}
+
+.placement-cards-mobile {
+  display: none;
+}
+
+/* Mobile View */
+@media (max-width: 468px) {
+  .placement-programs-section{
+    margin-bottom: 0;
+  }
+  .placement-programs-section h1{
+    font-size:1.5em;
+  }
+  .placement-cards-desktop {
+    display: none;
+  }
+  .placement-cards-mobile {
+    display: flex;
+  }
+  .placement-background-image-container {
+    background: none;
+    padding-bottom: 0;
+  }
+  .placement-cards-container {
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+    margin-left: 2em;
+    margin-bottom: 2rem;
+  }
+  .program-cards-scroll {
+    display: flex;
+    overflow-x: scroll;
+    gap: 4em;
+    scroll-behavior: smooth;
+    padding: 1em;
+    padding-left: 0.2em;
+    padding-bottom: 0.2em;
+  }
+
+  .program-cards-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+  .program-card {
+    scroll-snap-align: start;
+    width: 90vw;
+    height: 55vh;
+    border-radius: 18px;
+    box-shadow: 0 0 4px #787878;
+  }
+
+  .program-card-image {
+    width: 80vw;
+    object-fit: contain;
+  }
+
+  .view-more-button-container {
+    display: none;
+  }
+
+  .pagination-dots {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dot {
+    width: 7px;
+    height: 7px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .active-dot {
+    width: 7px;
+    height: 7px;
+    background-color: #ff7a00;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+}
+
+/* For tablet view */
+@media (min-width: 469px) and (max-width: 679px) {
+  .placement-cards-container {
+    width: 60vw;
+    margin: 0 1em;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1em;
+    margin-top: 1rem;
+    height: 750vh;
+  }
+  .program-card {
+    width: 45vw;
+    height: 110vh;
+  }
+  .program-card-image {
+    width: 80vw;
+    object-fit: contain;
+  }
+}
+
+@media (min-width: 680px ) and (max-width: 760px) {
+  .placement-programs-section{
+    margin-bottom: 2rem;
+  }
+  .placement-cards-container{
+    height: 410vh;
+    width: 60vw;
+    margin: 0 1em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+    margin-top: 2rem;
+  }
+  .program-card{
+    height: 95vh;
+    width: 30vw;
+  }
+  .program-card-image{
+    width: 30vw;
+    object-fit: contain;
+  }
+  .program-card-title{
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 992px){
+  .placement-programs-section{
+    margin-bottom: 2rem;
+  }
+  .placement-cards-container {
+    width: 60vw;
+    margin: 0 1em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+    margin-top: 2rem;
+  }
+  .program-card {
+    width: 30vw;
+    height: 40vh;
+  }
+  .program-card-image {
+    width: 20vw;
+    object-fit: contain;
+  }
+  
+}
+
+
+@media (min-width:993px) and (max-width: 1024px) {
+  .placement-cards-container {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 3.5em;
+    margin-top: 3rem; 
+    width: 80vw;
+  }
+
+  .view-more-button-container{
+    margin-top: 2em;
+  }
+  .program-card {
+    width: 25vw;
+    height: 50vh;
+  }
+}
