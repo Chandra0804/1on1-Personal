@@ -308,7 +308,7 @@
 
   }
 
-  @media screen and (min-width: 321px) and (max-width: 375px){
+  @media screen and (min-width: 321px) and (max-width: 376px){
     .program-details-roadmap{
         margin-bottom: 5vh;
     }
@@ -402,7 +402,7 @@
     }
   }
 
-  @media screen and (min-width: 376px) and (max-width: 425px) {
+  @media screen and (min-width: 377px) and (max-width: 425px) {
     .program-details-roadmap{
         margin-bottom: 5vh;
     }
