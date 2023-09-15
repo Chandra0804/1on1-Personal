@@ -63,8 +63,12 @@
   margin-top: 8vh;
 }
 
-@media (max-width: 468px) {
-  .laptop {
+.skills-mobile{
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .skills-laptop {
     display: none;
   }
 
@@ -81,7 +85,74 @@
 
   .skills-column {
     display: grid;
-    grid-template-columns: (2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 3rem;
+    grid-column-gap: 2rem;
+
+  }
+}
+
+/* Small Tablets and Large Phones (portrait) */
+@media screen and (min-width: 481px) and (max-width: 736px) {
+  .skills-mobile {
+    display: none;
   }
 
+  .program-details-skills {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .program-details-skills>h1 {
+    font-size: 20px;
+    margin-bottom: 2rem;
+  }
+
+  .top-skills-row{
+    gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 737px) and (max-width: 768px){
+  .skills-mobile {
+    display: none;
+  }
+
+  .program-details-skills {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .program-details-skills>h1 {
+    font-size: 20px;
+    margin-bottom: 2rem;
+  }
+
+  .top-skills-row{
+    gap: 3rem;
+  }
+
+  .center>img{
+    width: 8vw;
+    height: 7vh;
+  }
+}
+
+/* iPads (portrait) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Your iPad-specific CSS here */
+  .top-skills-row{
+    gap: 5rem;
+  }
+  .bottom-skills-row{
+    margin-top: 5rem;
+  }
+
+  .skills-mobile{
+    display: none;
+  }
 }

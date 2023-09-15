@@ -1,3 +1,4 @@
+/* eslint-disable no-template-curly-in-string */
 import React from 'react'
 import '../styles/programDetailsRoadmap.css'
 import HtmlImage from '../assets/Introduction to HTML.png'
@@ -18,32 +19,31 @@ export default function ProgramDetailsRoadmap(props) {
     const roadmapCardData = [
         {
             imgsrc: HtmlImage,
-            bullets: props.roadmap.module1
+            bullets: props.roadmap[0]
         },
         {
             imgsrc: WorkingWithCss,
-            bullets: props.roadmap.module2
+            bullets: props.roadmap[1]
         },
         {
             imgsrc: WorkingWithBootstrap,
-            bullets: props.roadmap.module3
+            bullets: props.roadmap[2]
         },
         {
             imgsrc: HandlingJavascript,
-            bullets: props.roadmap.module4
+            bullets: props.roadmap[3]
         },
         {
             imgsrc: ReactDevelopment,
-            bullets: props.roadmap.module5
+            bullets: props.roadmap[4]
         },
         {
             imgsrc: PlacementWeek,
-            bullets: props.roadmap.module6
+            bullets: props.roadmap[5]
         }
     ]
 
-
-    const RoadMapCard = ({ imgsrc, bullets , Module }) => {
+    const RoadMapCard = ({ imgsrc, bullets, Module }) => {
         return (
             <div className='roadmap-card'>
                 {/* <div className='roadmap-card-img'>
@@ -59,7 +59,7 @@ export default function ProgramDetailsRoadmap(props) {
                 <p className='module-text'>{Module}</p>
                 <div className='roadmap-card-container'>
                     <div className='roadmap-card-img'>
-                        <img src={imgsrc} alt='roadmap-card'/>
+                        <img src={imgsrc} alt='roadmap-card' />
                     </div>
                     <div className='roadmap-bullets'>
                         <ul>
@@ -122,20 +122,25 @@ export default function ProgramDetailsRoadmap(props) {
             {/* mobile bg */}
 
             <div className='roadmap-container-mobile'>
+               
+                <div className='roadmap-modules-mobile'>
+                    {roadmapCardData.map((card , index) => (
+                        <div className='roadmap-module-card'>
+                            <p className='module-text'>{"Module "+(index+1)}</p>
+                            <div className='roadmap-bullets'>
+                                <ul>
+                                    {card.bullets.map((bullet) => (
+                                        <li>{bullet}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+                    ))}
+                </div>
                 <div className='road-img'>
                     <img src={RoadMapMobile} alt='Road' />
                 </div>
-                <div className='roadmap-columns'>
-                    
-                </div>
             </div>
-
-
-
-
-
-
-
 
         </div>
     )

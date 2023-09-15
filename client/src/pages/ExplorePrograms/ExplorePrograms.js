@@ -18,7 +18,7 @@ export default function ExplorePrograms() {
       <Services/>
       <Testimonials/>
       <Benefits/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

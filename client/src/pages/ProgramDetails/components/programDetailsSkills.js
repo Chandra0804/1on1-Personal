@@ -1,20 +1,24 @@
 import React from "react";
-import Visual from "../assets/VS Code Logo.png";
-import GitHub from "../assets/Git Logo.png";
-import Flycode from "../assets/Flycode Logo.png";
-import Grunt from "../assets/Grunt Logo.png";
-import Codepen from "../assets/Code Pen Logo.png";
-import HTML5 from "../assets/HTML Logo.png";
-import CSS3 from "../assets/CSS Logo.png";
-import Bootstrap5 from "../assets/Bootstrap Logo.png";
-import React1 from "../assets/React Logo.png";
+// import Visual from "../assets/Visual studio code.png";
+// import GitHub from "../assets/Git.png";
+// import Flycode from "../assets/Flycode.png";
+// import Grunt from "../assets/Grunt.png";
+// import Codepen from "../assets/Code pen.png";
+// import HTML5 from "../assets/Html5.png";
+// import CSS3 from "../assets/CSS3.png";
+// import Bootstrap5 from "../assets/Bootstrap 4.png";
+// import React1 from "../assets/react.png";
 import '../styles/programDetailsSkills.css'
 
 function ProgramDetailsSkills(props) {
-  console.log("props");
-  console.log(props);
   // console.log(props,' -> props')
+  // const images=[
+  //   Visual,GitHub,Flycode,Grunt,Codepen,HTML5,CSS3,Bootstrap5,React1
+  // ]
+
+  console.log(props)
   const items1 = props.skillsArr.slice(0,5);
+  console.log(items1)
   // [
   //   {
   //     image: Visual,
@@ -59,43 +63,43 @@ function ProgramDetailsSkills(props) {
   return (
     <div className="program-details-skills ">
       <h1>Skills You'll Learn</h1>
-      <div class="top-skills-row laptop">
+      <div class="top-skills-row skills-laptop">
         {items1.map((item) => {
           return (
             <div class="program-details-skill">
               <div>
                 <div class="center">
-                  <img className="program-details-skills-img" src={item.img}/>
+                  <img className="program-details-skills-img" src={item}/>
                 </div>
-                <div class="center name">{item.name}</div>
+                {/* <div class="center name">{item.name}</div> */}
               </div>
             </div>
           );
         })}
       </div>
-      <div class="top-skills-row bottom-skills-row laptop">
+      <div class="top-skills-row bottom-skills-row skills-laptop">
         {items2.map((item) => {
           return (
             <div class="program-details-skill">
               <div>
                 <div class="center">
-                  <img className="program-details-skills-img" src={item.img}/>
+                  <img className="program-details-skills-img" src={item}/>
                 </div>
-                <div class="center name">{item.name}</div>
+                {/* <div class="center name">{item.name}</div> */}
               </div>
             </div>
           );
         })}
       </div>
-      <div class="skills-column mobile">
+      <div class="skills-column skills-mobile">
         {props.skillsArr.map((item) => {
           return (
             <div class="program-details-skill">
               <div>
                 <div class="center">
-                  <img className="program-details-skills-img" src={item.img}/>
+                  <img className="program-details-skills-img" src={item}/>
                 </div>
-                <div class="center name">{item.name}</div>
+                {/* <div class="center name">{item.name}</div> */}
               </div>
             </div>
           );

@@ -37,15 +37,8 @@
     gap: 3em;
     margin: 0 auto;
 }
-@media (orientation:landscape){
-  .image-container{
-    
-    height: 70vh;
 
-  }
-}
-
-@media (max-width: 468px) {
+@media (max-width: 480px) {
   .card {
     display: block;
   }
@@ -119,5 +112,65 @@
     flex-wrap: wrap; /* Add flex-wrap to wrap cards */
     gap: 3em;
     margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 736px){
+  .CareerPathsDetail{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 2rem;
+    grid-column-gap: 3rem;
+  }
+
+  .CareerPathCard{
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .CareerPaths{
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (min-width: 737px) and (max-width: 768px){
+  .CareerPathsDetail{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 2rem;
+    grid-column-gap: 3rem;
+  }
+
+  .CareerPathCard{
+    width: 40vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .CareerPaths{
+    margin-bottom: 10vh;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .CareerPathsDetail{
+    width: 90vw;
+    gap: 2rem;
+  }
+  .CareerPathCard{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .CareerPathCard>p{
+    font-size: 15px;
   }
 }

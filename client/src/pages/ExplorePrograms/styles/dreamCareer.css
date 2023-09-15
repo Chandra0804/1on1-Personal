@@ -1,102 +1,144 @@
-.dreamCareer-section{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: 0 auto;
-    background-color: #fff;
-    border-radius: 30px;
-    padding: 3%;
-    margin-bottom: 10vh;
-    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+.dreamCareer-section {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 3%;
+  margin-bottom: 10vh;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
-.dream-career-bottom{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+.dream-career-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.dream-image-container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    width: 20%;
-    text-align: center;
+.dream-image-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  text-align: center;
 }
 
-.dream-image-container>img{
-    object-fit: contain;
-    height: 15vh;
-    width: 10vw;
+.dream-image-container > img {
+  object-fit: contain;
+  height: 15vh;
+  width: 10vw;
 }
 
-.dream-image-container>p{
-    font-size: 18px;
-    width: 80%;
-    flex-wrap: wrap;
-    color: #9e9d9d;
-    font-weight: 500;
-    margin: 0;
+.dream-image-container > p {
+  font-size: 18px;
+  width: 80%;
+  flex-wrap: wrap;
+  color: #9e9d9d;
+  font-weight: 500;
+  margin: 0;
 }
 
 .dreamCareer-section {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 3%;
+  margin-bottom: 10vh;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* For mobile devices (portrait) */
+@media (max-width: 426px) {
+  .dream-career-bottom {
+    flex-direction: column;
+  }
+  .dreamCareer-section {
+    font-size: small;
+    box-shadow: none;
+  }
+  .dream-image-container > img {
+    object-fit: contain;
+    height: 20vh;
+    width: 50%;
+  }
+
+  .dream-image-container {
+    width: 80vw;
+    margin-bottom: 20px;
+  }
+  .dream-image-container h3{
+    font-size: 1.5em;
+  }
+  .dream-image-container p{
+    font-size: 1.25em;
+  }
+  .dream-career-top {
+    font-size: 0.9em;
+  }
+  .dream-career-top h1 {
     display: flex;
     flex-direction: column;
-    width: 80%;
-    margin: 0 auto;
-    background-color: #fff;
-    border-radius: 30px;
-    padding: 3%;
-    margin-bottom: 10vh;
-    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
   }
-  
-  /* For mobile devices (portrait) */
-  @media (max-width: 767px) {
-    .dream-career-bottom {
-      flex-direction: column; /* Stack items vertically */
-      align-items: center;
-    }
-    .dreamCareer-section{
-      font-size: small;
-    }
-  
-    .dream-image-container {
-      width: 100%; /* Full width for mobile */
-      margin-bottom: 20px; /* Increase margin for spacing */
-    }
-    .dream-career-top{
-        font-size: medium;
-    }
+  .dream-career-top p {
+    text-align: center;
+    font-size: 1.2em;
   }
-  
-  /* For tablet devices (portrait) */
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .dream-career-bottom {
-      flex-direction: column; /* Stack items vertically */
-      align-items: center;
-    }
-  
-    .dream-image-container {
-      width: 100%; /* Full width for tablets in portrait mode */
-      margin-bottom: 20px; /* Increase margin for spacing */
-    }
-    
+}
+
+/* For tablet devices (portrait) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .dream-career-bottom {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
   }
-  
-  /* For landscape (wide) screens and tablets in landscape mode */
-  @media (min-width: 1024px) {
-    .dream-career-bottom {
-      flex-direction: row; /* Display three items in a row */
-      justify-content: space-evenly;
-    }
-  
-    .dream-image-container {
-      width: 50%; /* Display three items in landscape */
-      margin-bottom: 0; /* Reset margin */
-    }
+
+  .dream-image-container {
+    width: 100%; /* Full width for tablets in portrait mode */
+    margin-bottom: 20px; /* Increase margin for spacing */
   }
-  
+}
+@media (orientation: landscape) {
+  .dream-career-top h1{
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .dream-career-top p{
+    font-size: 0.9em;
+    text-align: center;
+  }
+  .dream-career-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .dream-career-bottom h3{
+    font-size: 0.9em;
+  }
+  .dream-career-bottom p{
+    font-size: 0.6em;
+    text-align: center;
+  }
+
+}
+
+/* For landscape (wide) screens and tablets in landscape mode */
+@media (min-width: 1024px) {
+  .dream-career-bottom {
+    flex-direction: row; /* Display three items in a row */
+    justify-content: space-evenly;
+  }
+
+  .dream-image-container {
+    width: 50%; /* Display three items in landscape */
+    margin-bottom: 0; /* Reset margin */
+  }
+}

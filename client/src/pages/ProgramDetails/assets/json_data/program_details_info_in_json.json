@@ -1,112 +1,1093 @@
-[
+{
+  "Front-End Development": [
     {
-        "title":"Full-Stack Development",
-        "imageSrc" : "../assets/program_card_images/fullstackp.png",
-        "period" :"24 weeks",
-        "rating" : "4.6",
-        "courseId" :"0",
-        "purchases":"1500+",
-        "gradientColors": "#FFC0CB"
-    },
-
-
-    {
-        "title":"Front-End Development",
-        "imageSrc" : "../assets/program_card_images/frontendp.png",
-        "period" :"24 weeks",
-        "rating" : "4.5",
-        "courseId" :"1",
-        "purchases":"1500+",
-        "gradientColors": "#FFD700"
-    },
-    {
-        "title":"Back-End Development",
-        "imageSrc" : "../assets/program_card_images/backendp.png",
-        "period" :"24 weeks",
-        "rating" : "4.7",
-        "courseId" :"2",
-        "purchases":"1500+",
-        "gradientColors": "#FFFFE0"
-    },
-    {
-        "title":"UI/UX Designer",
-        "imageSrc" : "../assets/program_card_images/uiuxp.png",
-        "period" :"24 weeks",
-        "rating" : "4.6",
-        "courseId" :"3",
-        "purchases":"1500+",
-        "gradientColors": "#90EE90"
-    },
-    {
-        "title":"AI Engineer",
-        "imageSrc" : "../assets/program_card_images/aip.png",
-        "period" :"24 weeks",
-        "rating" : "4.5",
-        "courseId" :"4",
-        "purchases":"1500+",
-        "gradientColors": "#ADD8E6"
-    },
-    {
-        "title":"Data Science",
-        "imageSrc" : "../assets/program_card_images/dsp.png",
-        "period" :"24 weeks",
-        "rating" : "4.7",
-        "courseId" :"5",
-        "purchases":"1500+",
-        "gradientColors": "#E6E6FA"
-    },
-    {
-        "title":"Python Developer",
-        "imageSrc" : "../assets/program_card_images/pythonp.png",
-        "period" :"24 weeks",
-        "rating" : "4.5",
-        "courseId" :"6",
-        "purchases":"1500+",
-        "gradientColors": "#FFB6C1"
-    },
-    {
-        "title":"Java Developer",
-        "imageSrc" : "../assets/program_card_images/javap.png",
-        "period" :"24 weeks",
-        "rating" : "4.6",
-        "courseId" :"7",
-        "purchases":"1500+",
-        "gradientColors": "#F8E6F8"
-    },
-    {
-        "title":"QA Automation",
-        "imageSrc" : "../assets/program_card_images/qap.png",
-        "period" :"24 weeks",
-        "rating" : "4.5",
-        "courseId" :"8",
-        "purchases":"1500+",
-        "gradientColors": "#D3D3D3"
-    },
-    {
-        "title":"DevOps Engineer",
-        "imageSrc" : "../assets/program_card_images/devopsp.png",
-        "period" :"24 weeks",
-        "rating" : "4.3",
-        "courseId" :"9",
-        "purchases":"1500+",
-        "gradientColors": "#F5F5DC"
-    },
-    {
-        "title":"App Development(Android)",
-        "imageSrc" : "../assets/program_card_images/mobile.png",
-        "period" :"24 weeks",
-        "rating" : "4.6",
-        "courseId" :"10",
-        "purchases":"1500+",
-        "gradientColors": "#FFE4B5"
-    },
-    {
-        "title":"App Development(iOS)",
-        "imageSrc" : "../assets/program_card_images/mobiosp.png",
-        "period" :"24 weeks",
-        "rating" : "4.5",
-        "courseId" :"11",
-        "purchases":"1500+",
-        "gradientColors": "#B0E0E6"
+      "program_card_image": "frontendp.png",
+      "program_banner_images": "backendimages/frontend.png",
+      "skills_images": [
+        "backendimages/Visual studio code.png",
+        "backendimages/Git.png",
+        "backendimages/Flycode.png",
+        "backendimages/Grunt.png",
+        "backendimages/Code pen.png",
+        "backendimages/Html5.png",
+        "backendimages/CSS3.png",
+        "backendimages/Bootstrap 4.png",
+        "backendimages/react.png"
+      ],
+      "career_options": [
+        {
+          "title": "Front-End Developement",
+          "img": "backendimages/Frontend Developer.png"
+        },
+        {
+          "title": "Front-End Architect",
+          "img": "backendimages/Frontend Architect.png"
+        },
+        {
+          "title": "React Developer",
+          "img": "backendimages/React Developer.png"
+        },
+        {
+          "title": "Angular Developer",
+          "img": "backendimages/Angular Developer.png"
+        }
+      ],
+      "modules": [
+        ["HTML", "CSS", "Responsive Web Design"],
+        ["Version Control", "JavaScript", "CSS Preprocessors"],
+        ["React/Angular", "State Management", "API Integration"],
+        ["Debugging", "Testing", "Web Performance Optimization"],
+        ["Accessibility", "Progressive Web Apps", "Security"],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Free Trail Available?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Change My Plan Later?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Ask my Doubts In Live Class?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Is this course valuable for Career",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "What are the modules covered in this course",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        }
+      ]
     }
-]
+  ],
+  "Back-End Development": [
+    {
+      "program_card_image": "backendp.png",
+      "program_banner_images": "backendimages/backend.png",
+      "skills_images": [
+        "backendimages/Visual studio code.png",
+        "backendimages/node js.png",
+        "backendimages/django.png",
+        "backendimages/my SQL.png",
+        "backendimages/Apache.png",
+        "backendimages/Laravel.png",
+        "backendimages/Ruby and rails.png",
+        "backendimages/Git.png",
+        "backendimages/Firebase.png"
+      ],
+      "career_options": [
+        {
+          "title": "Back-End Developer",
+          "img": "backendimages/Back-End Developer"
+        },
+        {
+          "title": "Database Administrator",
+          "img": "backednimages/Database Administrator.png"
+        },
+        {
+          "title": "Backend Architect",
+          "img": "backendimages/BackendArchitect.png"
+        },
+        {
+          "title": "ApI Developer",
+          "img": "backendimages/API Developer.png"
+        }
+      ],
+      "modules": [
+        ["Back-end programming language", "Basic Server Administration", "SSH"],
+        ["SQL", "NoSQL", "Database Design"],
+        [
+          "RESTful API Development",
+          "Authentication and Authorization",
+          "Security"
+        ],
+        ["Git and GitHub", "Cloud Platforms", "DevOps and Automation"],
+        ["Docker", "CI/CD", "API Documentation", "Webpack/Parcel"],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Free Trail Available?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Change My Plan Later?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Ask my Doubts In Live Class?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Is this course valuable for Career",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "What are the modules covered in this course",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        }
+      ]
+    }
+  ],
+  "Full-Stack Development": [
+    {
+      "program_card_image": "fullstackp.png",
+      "program_banner_images": "backendimages/fullstack.png",
+      "skills_images": [
+        "backendimages/Visual studio code.png",
+        "backendimages/Git.png",
+        "backendimages/Angular.png",
+        "backendimages/Grunt.png",
+        "backendimages/Vue.png",
+        "backendimages/HTML5.png",
+        "backendimages/CSS.png",
+        "backendimages/Bootstrap 4.png",
+        "backendimages/React.png"
+      ],
+      "career_options": [
+        {
+          "title": "Front-End Developement",
+          "img": "backendimages/Frontend Developer.png"
+        },
+        {
+          "title": "Back-End Developer",
+          "img": "backendimages/Backend Developer.png"
+        },
+        {
+          "title": "Full-Stack Developer",
+          "img": "backendimages/Full-Stack Developer.png"
+        },
+        {
+          "title": "Technical Lead/Architect",
+          "img": "backendimages/Frontend Architect.png"
+        }
+      ],
+      "modules": [
+        ["Web Fundamentals", "Responsive Web Design", "React/Angular"],
+        ["Node.js/Django", "MySQL", "MongoDB", "API Development"],
+        ["SQL", "NoSQL", "Database Design"],
+        ["Git and GitHub", "Cloud Platforms", "Heroku/Netlify"],
+        ["Authentication and Security", "Docker", "CI/CD", "Webpack/Parcel"],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Free Trail Available?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Change My Plan Later?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Ask my Doubts In Live Class?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Is this course valuable for Career",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "What are the modules covered in this course",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        }
+      ]
+    }
+  ],
+  "UI/UX Designer": [
+    {
+      "program_card_image": "uiuxp.png",
+      "program_banner_images": "backendimages/uiux.png",
+      "skills_images": [
+        "backendimages/Figma.png",
+        "backendimages/Adobe XD.png",
+        "backendimages/sketch.png",
+        "backendimages/Azure.png",
+        "backendimages/Invision.png",
+        "backendimages/Adobe creative suit.png",
+        "backendimages/Photoshop.png",
+        "backendimages/canva.png",
+        "backendimages/Adobe animate.png"
+      ],
+      "career_options":[
+        {
+            "title":"UI/UX Designer",
+            "img":"backendimages/Ux Designer.png"
+        },
+        {
+            "title":"Information Architect",
+            "img":"backednimages/Information Architect.png"
+        },
+        {
+            "title":"User Researcher",
+            "img":"User Reasercher.png"
+        },
+        {
+            "title":"Product Designer",
+            "img":"backendimages/Product Designer.png"
+        }
+      ],
+      "modules": [
+        ["UI/UX Fundamentals", "Design Principles"],
+        ["Typography", "Color Theory", "Grid Systems", "Figma"],
+        ["Adobe XD, Sketch", "User Research", "Wireframing", "Prototyping"],
+        [
+          "Information Architecture",
+          "Icon Design",
+          "Usability Testing",
+          "User Flows"
+        ],
+        [
+          "Mobile App Design",
+          "Web Design",
+          "Responsive Design",
+          "Design Systems"
+        ],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Free Trail Available?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Change My Plan Later?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Ask my Doubts In Live Class?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Is this course valuable for Career",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "What are the modules covered in this course",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        }
+      ]
+    }
+  ],
+  "Artificial Intelligence(AI) Engineer": [
+    {
+      "program_card_image": "aip.png",
+      "program_banner_images": "backendimages/aiengineer.png",
+      "skills_images": [
+        "backendimages/Visual studio code.png",
+        "backendimages/git.png",
+        "backendimages/Tensor flow.png",
+        "backendimages/py torch.png",
+        "backendimages/Keras.png",
+        "backendimages/azure.png",
+        "backendimages/scikit learn.png",
+        "backendimages/Google cloud.png"
+      ],
+      "career_options":[
+        {
+            "title":"AI Engineer",
+            "img":"backendimages/AI Engineer.png"
+        },
+        {
+            "title":"Machine Learning Engineer",
+            "img":"backendimages/ML Engineer.png"
+        },
+        {
+            "title":"Computer Vision Engineer",
+            "img":"backendimages/Computer Vision Engineer.png"
+        },
+        {
+            "title":"NLP Enginner",
+            "img":"backendimages/NLP Engineer.png"
+        }
+      ],
+      "modules": [
+        ["Statistics and Probability", "Python"],
+        [
+          "Introduction to Machine Learning",
+          "Python Libraries",
+          "Data Preprocessing"
+        ],
+        ["Deep Learning", "Model Evaluations", "Ensemble Methods"],
+        [
+          "Natural Language Processing (NLP)",
+          "Computer Vision",
+          "Reinforcement Learning"
+        ],
+        ["Generative AI", "Latest advancements in AI", "Kaggle Competitions"],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Free Trail Available?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Change My Plan Later?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Ask my Doubts In Live Class?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Is this course valuable for Career",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "What are the modules covered in this course",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        }
+      ]
+    }
+  ],
+  "Data Science": [
+    {
+      "program_card_image": "dsp.png",
+      "program_banner_images": "backendimages/ds.png",
+      "skills_images": [
+        "backendimages/Rapid miner.png",
+        "backendimages/Apache spark.png",
+        "backendimages/KNIME.png",
+        "backendimages/Grunt.png",
+        "backendimages/Tableau.png",
+        "backendimages/Matlab.png",
+        "backendimages/tensor flow.png",
+        "backendimages/matplotlib.png",
+        "backendimages/pandas.png"
+      ],
+      "career_options":[
+        {
+            "title":"Data Scientist",
+            "img":"backendimages/Data Scientist.png"
+        },
+        {
+            "title":"Data Analyst",
+            "img":"backendimages/Data Analyst.png"
+        },
+        {
+            "title":"Data Engineer",
+            "img":"backendimages/Data Engineer.png"
+        },
+        {
+            "title":"AI Research Scientist",
+            "img":"backendimages/AI Research Analyst.png"
+        }
+      ],
+      "modules": [
+        ["Statistics and Probability", "Python/R"],
+        [
+          "Data Wrangling and Cleaning",
+          "Exploratory Data Analysis (EDA)",
+          "Data Visualization"
+        ],
+        [
+          "Introduction to Machine Learning",
+          "Data Preprocessing",
+          "Feature Selection and Engineering"
+        ],
+        ["SQL", "Python Libraries", "Big Data"],
+        ["Deep Learning", "NLP/Computer Vision", "Specialization"],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Free Trail Available?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Change My Plan Later?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Ask my Doubts In Live Class?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Is this course valuable for Career",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "What are the modules covered in this course",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        }
+      ]
+    }
+  ],
+  "QA Automation": [
+    {
+      "program_card_image": "qap.png",
+      "program_banner_images": "backendimages/qa.png",
+      "skills_images": [
+        "backendimages/Selenium.png",
+        "backendimages/appium.png",
+        "backendimages/soap ui.png",
+        "backendimages/ranorex.png",
+        "backendimages/test complete.png",
+        "backendimages/micro focus.png",
+        "backendimages/katalon studio.png",
+        "backendimages/Watir.png",
+        "backendimages/telerik test studio.png"
+      ],
+      "career_options":[
+        {
+            "title":"QA Automation Engineer",
+            "img":"backendimages/QA Automation Engineer.png"
+        },
+        {
+            "title":"QA Analyst",
+            "img":"backendimages/QA Analyst.png"
+        },
+        {
+            "title":"Test Automation Architect",
+            "img":"backendimages/Test Automation Architect.png"
+        },
+        {
+            "title":"Performance Testing Engineer",
+            "img":"backendimages/Performance Tester.png"
+        }
+      ],
+      "modules": [
+        [
+          "Understanding of Software Development",
+          "Basic Testing Concepts",
+          "Python/Java"
+        ],
+        [
+          "Test Case Management",
+          "Introduction to Automation",
+          "Testing Libraries and Frameworks"
+        ],
+        ["Selenium WebDriver", "Appium", "PyTest(Python)/TestNG(Java)"],
+        ["Page Object Model (POM)", "Test Data Management", "CI/CD", "SQL"],
+        [
+          "API Testing",
+          "Performance Testing",
+          "Cloud Testing",
+          "Security Testing"
+        ],
+        ["Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Free Trail Available?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Change My Plan Later?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Ask my Doubts In Live Class?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Is this course valuable for Career",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "What are the modules covered in this course",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        }
+      ]
+    }
+  ],
+  "Python Developer": [
+    {
+      "program_card_image": "pythonp.png",
+      "program_banner_images": "backendimages/python.png",
+      "skills_images": [
+        "backendimages/Visual studio code.png",
+        "backendimages/Git.png",
+        "backendimages/Py charm.png",
+        "backendimages/Flask.png",
+        "backendimages/Scrapy.png",
+        "backendimages/Scipy.png",
+        "backendimages/beautiful soap.png",
+        "backendimages/selenium.png",
+        "backendimages/Spyder.png"
+      ],
+      "career_options":[
+        {
+            "title":"Python Developer",
+            "img":"backendimages/Python Developer.png"
+        },
+        {
+            "title":"QA Automation Engineer",
+            "img":"backendimages/QA Automation Engineer.png"
+        },
+        {
+            "title":"Software Engineer",
+            "img":"backendimages/Software Engineer.png"
+        },
+        {
+            "title":"Back-End Developer",
+            "img":"backendimages/Backend Developer-1.png"
+        }
+      ],
+      "modules": [
+        ["Basic Syntax", "Control Flow", "Functions"],
+        [
+          "Data Structures",
+          "Classes and Objects",
+          "OOPS concepts",
+          "Modules and Packages"
+        ],
+        [
+          "File Handling",
+          "Exception Handling",
+          "Decorators",
+          "Generators and Iterators"
+        ],
+        ["Flask/Django", "SQL", "Web Scraping", "Deployment"],
+        [
+          "Python scripting",
+          "Web Development with Python",
+          "Introduction to Data Science",
+          "Specialization"
+        ],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Free Trail Available?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Change My Plan Later?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Ask my Doubts In Live Class?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Is this course valuable for Career",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "What are the modules covered in this course",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        }
+      ]
+    }
+  ],
+  "Java Developer": [
+    {
+      "program_card_image": "javap.png",
+      "program_banner_images": "backendimages/java.png",
+      "skills_images": [
+        "backendimages/Apache maven.png",
+        "backendimages/Eclipse.png",
+        "backendimages/NetBeans.png",
+        "backendimages/Gradile.png",
+        "backendimages/JUnit.png",
+        "backendimages/Jenkins.png",
+        "backendimages/Docker.png",
+        "backendimages/Git.png"
+      ],
+      "career_options":[
+        {
+            "title":"Java Devloper",
+            "img":"backendimages/Java Developer.png"
+        },
+        {
+            "title":"Back-End Developer",
+            "img":"backendimages/Backend Development.png"
+        },
+        {
+            "title":"Java Architect",
+            "img":"backendimages/Java Architect.png"
+        },
+        {
+            "title":"Web Developer",
+            "img":"backendimages/Web Developer.png"
+        }
+      ],
+      "modules": [
+        ["Basic Syntax", "Control Flow", "Functions"],
+        ["Data Structures", "Classes and Objects", "OOPS concepts"],
+        ["File Handling", "Exception Handling", "SQL"],
+        [
+          "Java Standard Library",
+          "Database Connectivity",
+          "Java Web Development",
+          "Servlets and JSP (JavaServer Pages)"
+        ],
+        ["Advanced Java", "RESTful Services", "JUnit/TestNG"],
+        ["Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Free Trail Available?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Change My Plan Later?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Ask my Doubts In Live Class?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Is this course valuable for Career",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "What are the modules covered in this course",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        }
+      ]
+    }
+  ],
+  "DevOps Engineer": [
+    {
+      "program_card_image": "devopsp.png",
+      "program_banner_images": "backendimages/devops.png",
+      "skills_images": [
+        "backendimages/Jenkins.png",
+        "backendimages/Docker.png",
+        "backendimages/Ansible.png",
+        "backendimages/Puppet.png",
+        "backendimages/Progress chef.png",
+        "backendimages/Kubernets.png",
+        "backendimages/Terraform.png",
+        "backendimages/Prometheus.png",
+        "backendimages/Salt stack.png"
+      ],
+      "career_options":[
+        {
+            "title":"DevOps Engineer",
+            "img":"backendimages/Dev Ops Engineer.png"
+        },
+        {
+            "title":"Cloud Engineer",
+            "img":"backendimages/Cloud Engineer.png"
+        },
+        {
+            "title":"Infrastructure Engineer",
+            "img":"backendimages/Infrastructure Engineer.png"
+        },
+        {
+            "title":"Site Realibility Engineer",
+            "img":"backendimages/Site Reliability Engineer.png"
+        }
+      ],
+      "modules": [
+        ["Basic IT Knowledge", "Python/Ruby/Javascript", "Git"],
+        ["Linux Fundamentals", "Operating Systems", "CI/CD Concepts & tools"],
+        ["Docker", "Kubernetes", "AWS"],
+        ["Configuration Management", "Monitoring and Logging", "Security"],
+        [
+          "Scripting and Automation",
+          "Collaboration Tools",
+          "Agile and DevOps Culture"
+        ],
+        ["Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Free Trail Available?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Change My Plan Later?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Ask my Doubts In Live Class?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Is this course valuable for Career",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "What are the modules covered in this course",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        }
+      ]
+    }
+  ],
+  "Mobile App Development(Android)": [
+    {
+      "program_card_image": "mobile.png",
+      "program_banner_images": "backendimages/mobandroid.png",
+      "skills_images": [
+        "backendimages/Ionic.png",
+        "backendimages/xamarin.png",
+        "backendimages/redwerk.png",
+        "backendimages/flutter.png",
+        "backendimages/Android studio.png",
+        "backendimages/firebase.png",
+        "backendimages/Cordova.png"
+      ],
+      "career_options":[
+        {
+            "title":"Android Application Developer",
+            "img":"backendimages/Android Application Developer.png"
+        },
+        {
+            "title":"Mobile App Architect",
+            "img":"backendimages/Mobile App Architect.png"
+        },
+        {
+            "title":"Android App Security Analyst",
+            "img":"backendimages/Android App Security Analyst.png"
+        },
+        {
+            "title":"Freelance Android Developer",
+            "img":"backendimages/Freelance Android Developer.png"
+        }
+      ],
+      "modules": [
+        ["Java", "Kotlin", "IDE Familiarization"],
+        ["Android Fundamentals", "Event Handling", "UI Controls"],
+        ["Activities and Intents", "Shared Preferences", "SQLite Database"],
+        ["HTTP Requests", "JSON Parsing", "Unit Testing"],
+        ["Fragments and Navigation", "Permission Handling", "Publishing Apps"],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Free Trail Available?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Change My Plan Later?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Ask my Doubts In Live Class?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Is this course valuable for Career",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "What are the modules covered in this course",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        }
+      ]
+    }
+  ],
+  "Mobile App Development(IOS)": [
+    {
+      "program_card_image": "mobiosp.png",
+      "program_banner_images": "backendimages/mobios.png",
+      "skills_images": [
+        "backendimages/Xcode.png",
+        "backendimages/Cocoapods.png",
+        "backendimages/Swift.png",
+        "backendimages/Alamofire.png",
+        "backendimages/Firebase.png",
+        "backendimages/Realm.png",
+        "backendimages/Postman.png",
+        "backendimages/Stack Overflow.png",
+        "backendimages/Shake.png"
+      ],
+      "career_options":[
+        {
+            "title":"iOS Application Developer",
+            "img":"backendimages/Ios Application Developer.png"
+        },
+        {
+            "title":"iOS App Architect",
+            "img":"backendimages/IOS App Architect.png"
+        },
+        {
+            "title":"iOS App Security Analyst",
+            "img":"backendimages/IOS App Security Analyst.png"
+        },
+        {
+            "title":"Freelance iOS Developer",
+            "img":"backendimages/Freelance IOS Developer.png"
+        }
+      ],
+      "modules": [
+        ["Swift", "Xcode", "iOS App Fundamentals"],
+        ["UIKit Framework", "Views and View Controllers", "Interface Builder"],
+        [
+          "UI Elements",
+          "Table Views and Collection Views",
+          "Model-View-Controller"
+        ],
+        ["Dependency Injection", "Networking", "Unit Testing"],
+        [
+          "Advanced iOS App Development",
+          "Xcode Debugging Tools",
+          "App Deployment"
+        ],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Free Trail Available?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Change My Plan Later?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Can I Ask my Doubts In Live Class?",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "Is this course valuable for Career",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        },
+        {
+          "question": "What are the modules covered in this course",
+          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+        }
+      ]
+    }
+  ]
+}

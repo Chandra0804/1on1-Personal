@@ -22,6 +22,7 @@ export default function ExploreProgramsHero() {
         <p><span className='check-icon'><FontAwesomeIcon icon={faCheck}/></span> Guarantee Placement</p>
         <p><span className='check-icon'><FontAwesomeIcon icon={faCheck}/></span> Job ready</p>
         <p><span className='check-icon'><FontAwesomeIcon icon={faCheck}/></span> 1 on 1 Interaction</p>
+        <p><span className='check-icon'><FontAwesomeIcon icon={faCheck}/></span> Live Projects</p>
       </div>
     </div>
   )

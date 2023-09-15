@@ -6,7 +6,7 @@
         "rating" : "4.6",
         "courseId" :"0",
         "purchases":"1500+",
-        "gradientColors": "#FFC0CB"
+        "gradientColors": "#DAF1DA"
     },
 
 
@@ -17,7 +17,7 @@
         "rating" : "4.5",
         "courseId" :"1",
         "purchases":"1500+",
-        "gradientColors": "#FFD700"
+        "gradientColors": "#DEEFF9"
     },
     {
         "title":"Back-End Development",
@@ -26,7 +26,7 @@
         "rating" : "4.7",
         "courseId" :"2",
         "purchases":"1500+",
-        "gradientColors": "#FFFFE0"
+        "gradientColors": "#F4DEF9"
     },
     {
         "title":"UI/UX Designer",
@@ -35,7 +35,7 @@
         "rating" : "4.6",
         "courseId" :"3",
         "purchases":"1500+",
-        "gradientColors": "#90EE90"
+        "gradientColors": "#FDADBD"
     },
     {
         "title":"AI Engineer",
@@ -44,7 +44,7 @@
         "rating" : "4.5",
         "courseId" :"4",
         "purchases":"1500+",
-        "gradientColors": "#ADD8E6"
+        "gradientColors": "#FFB4AA"
     },
     {
         "title":"Data Science",
@@ -53,7 +53,7 @@
         "rating" : "4.7",
         "courseId" :"5",
         "purchases":"1500+",
-        "gradientColors": "#E6E6FA"
+        "gradientColors": "#DBEAFB"
     },
     {
         "title":"Python Developer",
@@ -62,7 +62,7 @@
         "rating" : "4.5",
         "courseId" :"6",
         "purchases":"1500+",
-        "gradientColors": "#FFB6C1"
+        "gradientColors": "#FFE07B"
     },
     {
         "title":"Java Developer",
@@ -71,7 +71,7 @@
         "rating" : "4.6",
         "courseId" :"7",
         "purchases":"1500+",
-        "gradientColors": "#F8E6F8"
+        "gradientColors": "#A4C7A9"
     },
     {
         "title":"QA Automation",
@@ -80,7 +80,7 @@
         "rating" : "4.5",
         "courseId" :"8",
         "purchases":"1500+",
-        "gradientColors": "#D3D3D3"
+        "gradientColors": "#B1F3F5"
     },
     {
         "title":"DevOps Engineer",
@@ -89,7 +89,7 @@
         "rating" : "4.3",
         "courseId" :"9",
         "purchases":"1500+",
-        "gradientColors": "#F5F5DC"
+        "gradientColors": "#FFC896"
     },
     {
         "title":"App Development(Android)",
@@ -98,7 +98,7 @@
         "rating" : "4.6",
         "courseId" :"10",
         "purchases":"1500+",
-        "gradientColors": "#FFE4B5"
+        "gradientColors": "#F8B5B5"
     },
     {
         "title":"App Development(iOS)",
@@ -107,6 +107,6 @@
         "rating" : "4.5",
         "courseId" :"11",
         "purchases":"1500+",
-        "gradientColors": "#B0E0E6"
+        "gradientColors": "#F8D5B5"
     }
 ]

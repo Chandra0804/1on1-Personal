@@ -73,7 +73,7 @@
     }
 }
 
-@media(max-width:468px){
+@media(max-width:480px){
     .certificate-bg{
         display: none;
     }
@@ -94,6 +94,7 @@
         position: relative;
         left: 2rem;
         top: 5rem;
+        width: 90%;
     }
 
     .Certificate-image{
@@ -107,3 +108,86 @@
         margin: 0 1rem;
     }
 }
+
+/* Small Tablets and Large Phones (portrait) */
+@media screen and (min-width: 481px) and (max-width: 736px) {
+    .certificate-bg{
+        display: none;
+    }
+
+    .Certificate-title{
+        font-size: 20px;
+        margin-top: 3rem;
+    }
+
+    .Certificate-content>p{
+        font-size: 13px;
+        text-align: left;
+        margin: 0 auto;
+        line-height: 2;
+        
+    }
+
+    .Certificate-image-wrapper{
+        position: relative;
+        left: 10rem;
+        top: 5rem;
+        width: 60%;
+    }
+
+    .Certificate-image{
+        width: 50vw;
+    }
+
+    .Certificate-content{
+        box-shadow: 0 0 2px #787878;
+        border-radius: 30px;
+        padding: 2rem;
+        margin: 0 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+
+  @media screen and (min-width: 737px) and (max-width: 768px) {
+    .Certified-Training{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .Certificate-title{
+        font-size: 25px;
+    }
+    .Certificate-content{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .Certificate-content>p{
+        font-size: 15px;
+    }
+  }
+  
+  /* iPads (portrait) */
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .Certified-Training{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .Certificate-title{
+        font-size: 28px;
+    }
+    .Certificate-content{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .Certificate-content>p{
+        font-size: 17px;
+    }
+  }

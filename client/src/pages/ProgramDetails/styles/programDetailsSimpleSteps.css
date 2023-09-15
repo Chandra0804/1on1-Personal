@@ -18,18 +18,6 @@
     margin-top: 5vh;
 }
 
-/* Responsive styles for screens less than 768px wide (typical mobile devices) */
-@media (max-width: 768px) {
-    .simple-steps-images {
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center-align items */
-    }
-    .program-details-simple-steps{
-        margin-bottom: 2vh;
-    }
-}
-
-
 .group-img-programDetails{
     margin-top: 5vh;
 }
@@ -38,4 +26,46 @@
     margin-left: 0%;
     top: 70%;
 }
+
+@media (max-width:480px){
+    .program-details-simple-steps>h1{
+        font-size: 20px;
+    }
+
+    .program-details-simple-steps{
+        margin-bottom: 20vh;
+    }
+
+    .orange-text{
+        color: #FE7903;
+    }
+
+    .simple-steps-images>img{
+        width: 55vw;
+    }
+
+    .group-img-programDetails{
+        display: none;
+    }
+
+    .simple-steps-images {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center-align items */
+    }
+
+}
+
+/* Responsive styles for screens less than 768px wide (typical mobile devices) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .program-details-simple-steps>h1{
+        font-size: 20px;
+    }
+    .simple-steps-images>img{
+        width: 20vw;
+    }
+    .request-call-button-program-details{
+        margin-top: 10% !important;
+    }
+}
+
 

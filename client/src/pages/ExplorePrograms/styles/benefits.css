@@ -113,21 +113,66 @@
     margin-right: 1vh;
 }
 
-@media (max-width: 768px){
+@media (max-width:480px){
     .highlight{
         display: none;
     }
 
-    .mobile-img-container{
+    .shootingstar-container{
         display: none;
+    }
+
+    .mobile-img-container{
+       display: none;
     }
 
     .left-benefits-container{
         text-align: center;
     }
 
-    .right-benefit-container{
+    .left-benefits-container>h1{
+        font-size: 18px;
+    }
+
+    .icon{
+        font-size: 13px;
+    }
+
+    .list-item>p{
+        font-size: 11px;
+    }
+
+    .white-dashes{
         display: none;
+    }
+}
+
+@media (min-width:481px) and (max-width: 768px){
+    .highlight{
+        display: none;
+    }
+
+    .shootingstar-container{
+        right: 20vw;
+        top: 10rem;
+        margin-top: 0;
+    }
+
+    .shootingstar-container>img{
+        width: 20vw;
+    }
+
+    .mobile-img-container{
+        margin: 0;
+        display: flex;
+    }
+
+    .mobile-img-container>img{
+        width: 20vw;
+    }
+
+    .left-benefits-container{
+        text-align: center;
     }
 
     .left-benefits-container>h1{
@@ -140,5 +185,58 @@
 
     .list-item>p{
         font-size: 11px;
+    }
+
+    .white-dashes{
+        display: none;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    .highlight{
+        font-size: 11px;
+        right: 2rem;
+        top: 0.5rem;
+        width: 8vw;
+    }
+
+    .shootingstar-container>img{
+        width: 20vw;
+    }
+
+    .shootingstar-container{
+        right: 20vw;
+        top: 15rem;
+        margin-top: 0;
+    }
+
+    .mobile-img-container{
+        margin: 0;
+        display: flex;
+    }
+
+    .mobile-img-container>img{
+        width: 20vw;
+    }
+
+    .left-benefits-container{
+        text-align: center;
+    }
+
+    .left-benefits-container>h1{
+        font-size: 23px;
+    }
+
+    .icon{
+        font-size: 13px;
+    }
+
+    .list-item>p{
+        font-size: 15px;
+    }
+
+    .white-dashes{
+        left: 26.5rem;
+        top: 0;
     }
 }
