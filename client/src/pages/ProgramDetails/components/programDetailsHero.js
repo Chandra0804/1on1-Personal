@@ -19,7 +19,7 @@ export default function ProgramDetailsHero(props) {
         </div>
       </div>
       <div className='program-details-heroRight laptop'>
-        <img src={ProgramHero} alt='program-hero' />
+        <img src={props.programimg} alt='program-hero' />
       </div>
       <div className='program-details-heroLeft mobile'>
         <p className='text1'>Placement Guarantee <span><FontAwesomeIcon icon={faCheckCircle} /></span></p>

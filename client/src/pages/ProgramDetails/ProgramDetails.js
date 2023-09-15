@@ -20,6 +20,7 @@ import ProgramDetailsRoadmap from './components/programDetailsRoadmap';
 // import axios from 'axios';
 // import RouteUrl from '../Routes/Routes';
 import data from './assets/json_data/program_details_info_in_json.json'
+import { program } from '@babel/types'
 
 
 export default function ProgramDetails() {
@@ -44,7 +45,7 @@ export default function ProgramDetails() {
       // ?
       <div className='program-details-page'>
        <Navbar/> 
-      <ProgramDetailsHero title={props.title} name={props.title} courseDuration={props.courseDuration} placementbgcolor={programDetails.bgcolor} />
+      <ProgramDetailsHero title={props.title} name={props.title} courseDuration={props.courseDuration} programimg={programDetails.program_banner_images}/>
       <ProgramDetailsCourseHighlights/> 
       <ProgramDetailsSkills skillsArr={programDetails.skills_images}/>
       <CareerPaths isCourseDetails={false} careeroptions = {programDetails.career_options}/>
