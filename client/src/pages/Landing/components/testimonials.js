@@ -33,15 +33,7 @@ const TestimonialCardData = [
     photo: Avatarg2,
     title: 'Aryan Sharma',
     subtitle: 'Student',
-    description: 'I ve completed most of the Data Science program and already got an internship offer. Now, I\'m super excited to work on real projects even before finishing the program. Huge thanks to my Teaching Friend, Rahul V!"'},
-];
-
-const MobileTestimonialCardData = [
-  {
-    photo: ProfileImg1,
-    title: 'Shreya Shrivastava',
-    subtitle: 'Lead Designer',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, necturpis orci lectus maecenas. Suspendissesed magna eget nibh in turpis. Consequatduis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim',
+    description: 'I ve completed most of the Data Science program and already got an internship offer. Now, I\'m super excited to work on real projects even before finishing the program. Huge thanks to my Teaching Friend, Rahul V!"'
   },
 ];
 
@@ -85,11 +77,9 @@ export default function Testimonials() {
     setWindowWidth(window.innerWidth);
   };
 
-  // Add a resize event listener when the component mounts
   useEffect(() => {
     window.addEventListener('resize', updateWindowWidth);
 
-    // Remove the event listener when the component unmounts to prevent memory leaks
     return () => {
       window.removeEventListener('resize', updateWindowWidth);
     };
@@ -122,6 +112,18 @@ export default function Testimonials() {
             />
           ))}
         </div>
+        <div className='testimonials-cards-mobile'>
+          {TestimonialCardData.map((card, index) => (
+            <TestimonialCard
+              key={index}
+              photo={card.photo}
+              title={card.title}
+              subtitle={card.subtitle}
+              description={card.description}
+              isActive={index === middleIndex}
+            />
+          ))}
+        </div>        
       </div>
     </div>
   );

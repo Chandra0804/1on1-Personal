@@ -7,6 +7,7 @@ import ExploreProgramsHero from './components/exploreProgramsHero'
 import DreamCareer from './components/dreamCareer'
 import Services from './components/services'
 import Benefits from './components/benefits'
+import FloatingButton from '../CommonComponents/components/floatingButton';
 
 export default function ExplorePrograms() {
   return (
@@ -18,7 +19,8 @@ export default function ExplorePrograms() {
       <Services/>
       <Testimonials/>
       <Benefits/>
-      {/* <Footer/> */}
+      <FloatingButton/>
+      <Footer/>
     </div>
   )
 }

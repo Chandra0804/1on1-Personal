@@ -339,7 +339,7 @@
     left: 38rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .home-section {
         height: auto;
         padding: 2rem;
@@ -359,6 +359,10 @@
 
     .text-wrapper>h1 {
         font-size: 30px;
+    }
+
+    .animated-text {
+        display: block; /* Display as a block element, creating a line break */
     }
 
     .bottom-text>p {
@@ -409,14 +413,159 @@
     }
 }
 @media (max-width: 768px) and (orientation: landscape) {
-    .half-circle {
+    .home-section {
+        height: auto;
+        padding: 2rem;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .left-content {
+        text-align: center;
+        gap: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .text-wrapper>p {
+        font-size: 15px;
+    }
+
+    .text-wrapper>h1 {
+        font-size: 30px;
+    }
+
+    .animated-text {
+        display: block; /* Display as a block element, creating a line break */
+    }
+
+    .bottom-text>p {
+        font-size: 15px;
+    }
+
+    .right-content {
         display: none;
     }
-    .top-left{
-        z-index: -1;
 
+    .circle-shape.half-circle {
+        display: none;
     }
-    .buttons-wrapper{
+
+    .circle-shape.middle {
+        display: none;
+    }
+
+    .circle-shape.top-left {
+        height: 100px;
+        width: 100px;
+        top: 10rem;
+        left: -1rem;
+    }
+
+    .circle-shape.top-right {
+        height: 100px;
+        width: 100px;
+        top: -2rem;
+        right: 1rem;
+    }
+
+    .course-button {
+        font-size: 18px;
+        padding: 1.5% 2.5%;
+    }
+
+    .navigation-arrow-wrapper>img {
+        width: 25vw;
+        top: 27rem;
+    }
+}
+
+@media (max-width: 768px) and (orientation: portrait){
+    .home-section {
+        height: auto;
+        padding: 2rem;
+        flex-direction: column-reverse;
         align-items: center;
+    }
+
+    .left-content {
+        text-align: center;
+        gap: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .text-wrapper>p {
+        font-size: 15px;
+    }
+
+    .text-wrapper>h1 {
+        font-size: 30px;
+    }
+
+    .animated-text {
+        display: block; /* Display as a block element, creating a line break */
+    }
+
+    .bottom-text>p {
+        font-size: 15px;
+    }
+
+    .right-content {
+        display: none;
+    }
+
+    .circle-shape.half-circle {
+        display: none;
+    }
+
+    .circle-shape.middle {
+        display: none;
+    }
+
+    .circle-shape.top-left {
+        height: 100px;
+        width: 100px;
+        top: 10rem;
+        left: -1rem;
+    }
+
+    .circle-shape.top-right {
+        height: 100px;
+        width: 100px;
+        top: -2rem;
+        right: 1rem;
+    }
+
+    .course-button {
+        font-size: 18px;
+        padding: 1.5% 2.5%;
+    }
+
+    .navigation-arrow-wrapper>img {
+        width: 25vw;
+        top: 33rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .text-wrapper>p{
+        font-size: 15px;
+    }
+    .text-wrapper>h1{
+        font-size: 25px;
+    }
+    .bottom-text>p{
+        font-size: 15px;
+    }
+    .course-button{
+        font-size: 18px;
+    }
+    .half-circle{
+        display: none;
+    }
+    .hero2-image{
+        left: 15rem;
+    }
+    .navigation-arrow-wrapper>img{
+        top: 35rem;
     }
 }

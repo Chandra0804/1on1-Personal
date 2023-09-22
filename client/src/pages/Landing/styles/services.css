@@ -117,7 +117,7 @@
 
 
 
-   /* Default styles for .services-section */
+/* Default styles for .services-section */
 .services-section {
   display: flex;
   align-items: center;
@@ -198,65 +198,65 @@
 /* Media query for tablet devices */
 @media (max-width: 768px) {
   .services-section {
-      flex-direction: column;
-      text-align: center;
-      margin-bottom: 2rem;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2rem;
   }
 
   .table {
-      width: 100%;
-      border-radius: 20px;
+    width: 100%;
+    border-radius: 20px;
   }
 
   .custom-table {
-      border-radius: 20px;
+    border-radius: 20px;
   }
 
   .custom-table th,
   .custom-table td {
-      padding: 1rem;
-      text-align: left;
+    padding: 1rem;
+    text-align: left;
   }
 
-  
+
 
   .custom-table th {
-      padding: 0.5rem;
-      font-size: 10px;
+    padding: 0.5rem;
+    font-size: 10px;
   }
 
   .first-column {
-      font-size: 10px;
+    font-size: 10px;
   }
 
   .services-check-icon {
-      font-size: 20px;
+    font-size: 20px;
   }
 }
 
 /* Media query for mobile devices */
 @media (max-width: 480px) {
   .table {
-      width: 95%;
-      border-radius: 15px;
+    width: 95%;
+    border-radius: 15px;
   }
 
   .custom-table {
-      border-radius: 15px;
+    border-radius: 15px;
   }
 
   .custom-table th,
   .custom-table td {
-      padding: 1rem;
-      text-align: left;
+    padding: 1rem;
+    text-align: left;
   }
 
   .first-column {
-      font-size: 11px;
+    font-size: 11px;
   }
 
   .services-check-icon {
-      font-size: 18px;
+    font-size: 18px;
   }
 }
 
@@ -266,9 +266,16 @@
   .table {
     width: 90%;
     border-radius: 20px;
+  }
+
+  .custom-table th {
+    padding: 0.5rem;
+    font-size: 12px;
+  }
 }
-.custom-table th {
-  padding: 0.5rem;
-  font-size: 12px;
-}
+
+@media (min-width:767px) and (max-width:1025px){
+  .table{
+    width: 90% !important;
+  }
 }

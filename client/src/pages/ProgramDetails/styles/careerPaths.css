@@ -39,63 +39,11 @@
 }
 
 @media (max-width: 480px) {
-  .card {
-    display: block;
-  }
-
-  .image-container {
-    width: 80vw;
-  }
-
-  .card-image {
-    width: 100%;
-    object-fit: cover;
-  }
 
   .CareerPathCard{
     width: 55vw;
   }
 
-  .icons-container {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .card-details {
-    border-radius: 0;
-    padding: 1rem;
-  }
-
-  .course-card-title {
-    font-size: 16px;
-    margin-top: 0.5rem;
-  }
-
-  .count-details {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .star-count {
-    margin-top: 0.5rem;
-  }
-
-  .star-count > p,
-  .count-details > p {
-    font-size: 14px;
-  }
-
-  .gray-dash {
-    display: none;
-  }
-
-  .knowMore-button {
-    font-size: 16px;
-  }
-
-  .ellipsis-icon {
-    font-size: 24px;
-  }
   .PromisingCareerPaths{
     font-size: 20px;
   }

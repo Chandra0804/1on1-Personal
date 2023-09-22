@@ -188,7 +188,7 @@ export default function PlacementPrograms() {
           </div>
           <div className='program-card-buttons'>
             <button className='ellipsis-button-programCard'><span><FontAwesomeIcon icon={faEllipsis} /></span></button>
-            <Link to='/program-details' state={{ title, courseDuration: period }}>
+            <Link to='/programdetails' state={{ title, courseDuration: period }}>
               <button>Know More</button>
             </Link>
           </div>

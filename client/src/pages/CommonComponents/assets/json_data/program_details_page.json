@@ -1,0 +1,122 @@
+{
+    "0": {
+        "title": "Front End Development",
+        "imgSrc":"../assets/Hero Image.png",
+        "courseDuration": "6 months",
+        "skills": [
+          {
+            "name": "Visual studio code",
+            "img": "a"
+          },
+          {
+            "name": "Git+Hub",
+            "img": "a"
+          },
+          {
+            "name": "Flycode",
+            "img": "a"
+          },
+          {
+            "name": "Grunt",
+            "img": "a"
+          },
+          {
+            "name": "Codepen",
+            "img": "a"
+          },
+          {
+            "name": "HTML 5",
+            "img": "a"
+          },
+          {
+            "name": "CSS 3",
+            "img": "a"
+          },
+          {
+            "name": "Bootstrap 4",
+            "img": "a"
+          },
+          {
+            "name": "React",
+            "img": "a"
+          }
+        ],
+        "roadmap": {
+          "module1": [
+            "Introduction to Web Development",
+            "HTML",
+            "CSS",
+            "Bootstrap"
+          ],
+          "module2": [
+            "Javascript",
+            "JQuery",
+            "React JS",
+            "Angular"
+          ],
+          "module3": [
+            "JAVA/Python/C++ Programming",
+            "Agile Methodology"
+          ],
+          "module4": [
+            "MongoDB",
+            "ExpressJS",
+            "NodeJS"
+          ],
+          "module5": [
+            "Authentication",
+            "JUnit Testing",
+            "Debugging",
+            "Deployment"
+          ],
+          "module6": [
+            "Projects",
+            "Job Ready Portfolio",
+            "Mock Interview"
+          ]
+        },
+        "testimonials": [
+          {
+            "name": "Marry Welsom",
+            "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+            "stars": "4",
+            "img": "userImage.png"
+          },
+          {
+            "name": "Henry Bard",
+            "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+            "stars": "4",
+            "img": "userImage.png"
+          },
+          {
+            "name": "John Schemdt",
+            "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+            "stars": "4",
+            "img": "userImage.png"
+          }
+        ],
+        "faq": [
+          {
+            "question": "Is Free Trail Available?",
+            "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+          },
+          {
+            "question": "Can I Change My Plan Later?",
+            "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+          },
+          {
+            "question": "Can I Ask my Doubts In Live Class?",
+            "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+          },
+          {
+            "question": "Is this course valuable for Career",
+            "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+          },
+          {
+            "question": "What are the modules covered in this course",
+            "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+          }
+        ]
+      }
+}
+    

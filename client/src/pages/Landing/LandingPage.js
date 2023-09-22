@@ -11,7 +11,7 @@ import Benefits from './components/benefits';
 import Faq from './components/faq';
 import Testimonials from './components/testimonials';
 import SimpleStepsSection from './components/simpleStepsSection';
-import FloatingButton from './components/floatingButton';
+import FloatingButton from '../CommonComponents/components/floatingButton';
 import PopularPrograms from './components/popularPrograms'
 
 export default function LandingPage() {

@@ -4,9 +4,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './pages/Landing/LandingPage';
 import ExplorePrograms from './pages/ExplorePrograms/ExplorePrograms';
 import ProgramDetails from './pages/ProgramDetails/ProgramDetails';
-// import HireTalent from './pages/HireTalent';
+import HireTalent from './pages/HireTalent/HireTalent';
 // import CourseDetails from './pages/CourseDetails'
-// import BecomeATutor from './pages/BecomeATutor';
+import BecomeATutor from './pages/BecomeATutor/BecomeATutor';
+import ContactUs from './pages/ContactUs/ContactUs'
+import AboutUs from './pages/AboutUs/AboutUs';
 
 function App() {
   return (
@@ -17,9 +19,11 @@ function App() {
           {/* <Route path="/explorecourses" element={<ExploreCourses />} /> */}
           <Route path="/exploreprograms" element={<ExplorePrograms />} />
           <Route path='/programdetails' element={<ProgramDetails/>} />
-          {/* <Route path='/hiretalent' element={<HireTalent/>}/> */}
+          <Route path='/hiretalent' element={<HireTalent/>}/>
           {/* <Route path='/coursedetails/:search' element={<CourseDetails/>}/> */}
-          {/* <Route path='/becomeATutor' element={<BecomeATutor />} /> */}
+          <Route path='/becomeATutor' element={<BecomeATutor />} />
+          <Route path='/contactus' element={<ContactUs/>} />
+          <Route path='/aboutus' element={<AboutUs/>} />
         </Routes>
       </div>
     </Router>

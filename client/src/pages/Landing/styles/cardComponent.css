@@ -5,26 +5,26 @@
   margin: 0 1rem;
   box-shadow: 0px 4px 4px #c8c8c8;
   text-align: center;
-  /* width: 20vw; */
+  width: 20vw;
+  height: 47vh;
 }
 
-.image-container {
+.image-container-p {
   flex: 1;
-  /* position: relative; */
+  position: relative;
   background-color: #ffe4cc;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  width: 372px;
-  height: 216px;
   align-items:center;
 }
 
 .card-image {
-  /* width: 15vw; */
-  object-fit: cover;
+  width: 15vw;
+  height: 18vh;
+  object-fit: contain;
 }
 
 .icons-container{
@@ -59,7 +59,7 @@
 }
 
 .course-card-title {
-  font-size: 20px;
+  font-size: 1.2em;
   font-weight: 700;
   margin: 0;
   margin-top: 1rem;
@@ -90,7 +90,7 @@
 }
 
 .count-details>p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -119,26 +119,189 @@
 }
 
 
-@media (max-width: 768px) {
-
-.card {
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  margin: 0 1rem;
-  box-shadow: 0px 4px 4px #c8c8c8;
-  text-align: center;
-  width: 80vw;
-  height: fit-content;
+@media screen and (max-width: 487px){
+  .card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #c8c8c8;
+    text-align: center;
+    width: 65vw;
+    height: 45vh;
+  }
+  .card-image {
+    width: 40vw;
+    object-fit: contain;
+  }
+  .course-card-title, .star-count{
+    font-size: 1.1em;
+  }
+  .count-details>p, .star-count>p{
+    font-size: 0.7em;
+    font-weight: 800;
+  }
+  .knowMore-button {
+    padding: 0.5rem 0.7rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+  }
+}
+/* @media (min-width: 488px) and (max-width: 786px){
+  .card {
+    height: 80vh;
+  }
+  .card-image {
+    height: 30vh;
+    width: 30vw;
+    object-fit: contain;
+  }
+  .course-card-title, .star-count{
+    font-size: 1.1em;
+  }
+  .count-details>p, .star-count>p{
+    font-size: 0.7em;
+    font-weight: 800;
+  }
+  .knowMore-button {
+    padding: 0.5rem 0.7rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+  }
+} */
+@media (min-width: 487px) and (max-width: 679px){
+  .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 0 1.5rem;
+    box-shadow: 0px 4px 4px #c8c8c8;
+    text-align: center;
+    width: 30vw;
+    height: 90vh;
+  }
+  .card-image {
+    width: 30vw;
+    object-fit: contain;
+    height: 30vh;
+  }
+  .course-card-title, .star-count{
+    font-size: 0.85em;
+  }
+  .count-details>p, .star-count>p{
+    font-size: 0.65em;
+    font-weight: 800;
+  }
+  .knowMore-button {
+    padding: 0.5rem 0.7rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+  }
 }
 
-.star-count{
-  display: none;
+@media (min-width: 680px) and (max-width: 767px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 0 1.5rem;
+    box-shadow: 0px 4px 4px #c8c8c8;
+    text-align: center;
+    width: 32vw;
+    height: 80vh;
+  }
+  .card-image {
+    width: 30vw;
+    object-fit: contain;
+    height: 30vh;
+  }
+  .course-card-title, .star-count{
+    font-size: 1em;
+  }
+  .count-details>p, .star-count>p{
+    font-size: 0.65em;
+    font-weight: 800;
+  }
+  .knowMore-button {
+    padding: 0.5rem 0.7rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+  }
 }
-.purchases{
-  display: none;
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 0 1.5rem;
+    box-shadow: 0px 4px 4px #c8c8c8;
+    text-align: center;
+    width: 30vw;
+    height: 33vh;
+  }
+  .card-image {
+    width: 20vw;
+    object-fit: contain;
+  }
+  .course-card-title, .star-count{
+    font-size: 1em;
+  }
+  .count-details>p, .star-count>p{
+    font-size: 0.65em;
+    font-weight: 800;
+  }
+  .knowMore-button {
+    padding: 0.5rem 0.7rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+  }
 }
-.course-card-field{
-  display: none;
+@media (min-width:993px) and (max-width: 1024px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 0 1rem;
+    box-shadow: 0px 4px 4px #c8c8c8;
+    text-align: center;
+    width: 22vw;
+    height: 43vh;
+  }
+  .card-image {
+    width: 20vw;
+    object-fit: contain;
+  }
+  .course-card-title, .star-count{
+    font-size: 1em;
+  }
+  .count-details>p, .star-count>p{
+    font-size: 0.7em;
+    font-weight: 800;
+  }
+  .knowMore-button {
+    padding: 0.5rem 0.7rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+  }
 }
-}
+
+

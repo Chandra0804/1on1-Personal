@@ -1,11 +1,7 @@
-import React , { useState, useEffect }from 'react';
+import React, { useState, useEffect } from 'react';
 
 import CardComponent from './cardComponent';
 import '../styles/popularPrograms.css';
-// import CardImg from '../assets/image 113.png'
-// import icon1 from '../assets/Group 190.png'
-// import icon2 from '../assets/Group 191.png'
-// import icon3 from '../assets/Group 192.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import RoadMapBG from '../assets/Roadmap BG.png'
@@ -39,143 +35,28 @@ let imgdata = {
   "11": card_img_11
 }
 
+const cardData1 = data.slice(0, 6);
+const cardData2 = data.slice(6, 12);
 
-
-const cardData1 = data.slice(0,6);
-const cardData2 = data.slice(6,12);
-
-// const cardData1 = [
-//   {
-//     title: 'Web Development0',
-//     imageSrc: CardImg,
-//     purchases: '2167',
-//     star: '4.7',
-//     icons: [icon3, icon2, icon1],
-//     field: 'CSE and IT Field',
-//     period: '9 weeks'
-//   },
-//   {
-//     title: 'Web Development1',
-//     imageSrc: CardImg,
-//     purchases: '2167',
-//     star: '4.7',
-//     icons: [icon3, icon2, icon1],
-//     field: 'CSE and IT Field',
-//     period: '9 weeks'
-//   },
-//   {
-//     title: 'Web Development2',
-//     imageSrc: CardImg,
-//     purchases: '2167',
-//     star: '4.7',
-//     icons: [icon3, icon2, icon1],
-//     field: 'CSE and IT Field',
-//     period: '9 weeks'
-//   },
-//   {
-//     title: 'Web Development3',
-//     imageSrc: CardImg,
-//     purchases: '2167',
-//     star: '4.7',
-//     icons: [icon3, icon2, icon1],
-//     field: 'CSE and IT Field',
-//     period: '9 weeks'
-//   },
-//   {
-//     title: 'Web Development4',
-//     imageSrc: CardImg,
-//     purchases: '2167',
-//     star: '4.7',
-//     icons: [icon3, icon2, icon1],
-//     field: 'CSE and IT Field',
-//     period: '9 weeks'
-//   },
-//   {
-//     title: 'Web Development5',
-//     imageSrc: CardImg,
-//     purchases: '2167',
-//     star: '4.7',
-//     icons: [icon3, icon2, icon1],
-//     field: 'CSE and IT Field',
-//     period: '9 weeks'
-//   },
-// ];
-
-// const cardData2 = [
-//   {
-//     title: 'Web Development0',
-//     imageSrc: CardImg,
-//     purchases: '2167',
-//     star: '4.7',
-//     icons: [icon3, icon2, icon1],
-//     field: 'CSE and IT Field',
-//     period: '9 weeks'
-//   },
-//   {
-//     title: 'Web Development1',
-//     imageSrc: CardImg,
-//     purchases: '2167',
-//     star: '4.7',
-//     icons: [icon3, icon2, icon1],
-//     field: 'CSE and IT Field',
-//     period: '9 weeks'
-//   },
-//   {
-//     title: 'Web Development2',
-//     imageSrc: CardImg,
-//     purchases: '2167',
-//     star: '4.7',
-//     icons: [icon3, icon2, icon1],
-//     field: 'CSE and IT Field',
-//     period: '9 weeks'
-//   },
-//   {
-//     title: 'Web Development3',
-//     imageSrc: CardImg,
-//     purchases: '2167',
-//     star: '4.7',
-//     icons: [icon3, icon2, icon1],
-//     field: 'CSE and IT Field',
-//     period: '9 weeks'
-//   },
-//   {
-//     title: 'Web Development4',
-//     imageSrc: CardImg,
-//     purchases: '2167',
-//     star: '4.7',
-//     icons: [icon3, icon2, icon1],
-//     field: 'CSE and IT Field',
-//     period: '9 weeks'
-//   },
-//   {
-//     title: 'Web Development5',
-//     imageSrc: CardImg,
-//     purchases: '2167',
-//     star: '4.7',
-//     icons: [icon3, icon2, icon1],
-//     field: 'CSE and IT Field',
-//     period: '9 weeks'
-//   },
-// ];
-
-const cardWidth = 21;
+const cardWidth = 18;
 
 export default function PopularCourses() {
   const [currentIndex1, setCurrentIndex1] = useState(0);
-  const [CurrentTile1,setCurrentTile1] = useState(cardData1[0]);
+  const [CurrentTile1, setCurrentTile1] = useState(cardData1[0]);
   const [currentIndex2, setCurrentIndex2] = useState(0);
-  const [CurrentTile2,setCurrentTile2] = useState(cardData2[0]);
+  const [CurrentTile2, setCurrentTile2] = useState(cardData2[0]);
+
   const handleLeftArrowClick1 = () => {
     setCurrentIndex1((prevIndex) => (prevIndex === 0 ? cardData1.length - 1 : prevIndex - 1));
   };
 
   const handleRightArrowClick1 = () => {
-    if(currentIndex1 == cardData1.length - 3){
+    if (currentIndex1 == cardData1.length -1) {
       setCurrentIndex1(0);
-  }
-  else{
-    setCurrentIndex1((prevIndex) => (prevIndex === cardData1.length - 1 ? 0 : prevIndex + 1));
-  }
+    }
+    else {
+      setCurrentIndex1((prevIndex) => (prevIndex === cardData1.length - 1 ? 0 : prevIndex + 1));
+    }
   };
 
   const handleLeftArrowClick2 = () => {
@@ -183,43 +64,44 @@ export default function PopularCourses() {
   };
 
   const handleRightArrowClick2 = () => {
-    if(currentIndex2 == cardData2.length - 3){
-        setCurrentIndex2(0);
+    if (currentIndex2 == cardData2.length - 2) {
+      setCurrentIndex2(0);
     }
-    else{
-    setCurrentIndex2((prevIndex) => (prevIndex === cardData2.length - 1 ? 0 : prevIndex + 1));
+    else {
+      setCurrentIndex2((prevIndex) => (prevIndex === cardData2.length - 1 ? 0 : prevIndex + 1));
     }
   };
 
   const transformValue1 = `translateX(-${currentIndex1 * cardWidth}rem)`;
   const transformValue2 = `translateX(-${currentIndex2 * cardWidth}rem)`;
-  
+
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const updateWindowWidth = () => {
-      setWindowWidth(window.innerWidth);
+    setWindowWidth(window.innerWidth);
+  };
+
+  // Add a resize event listener when the component mounts
+  useEffect(() => {
+    window.addEventListener('resize', updateWindowWidth);
+
+    // Remove the event listener when the component unmounts to prevent memory leaks
+    return () => {
+      window.removeEventListener('resize', updateWindowWidth);
     };
-  
-    // Add a resize event listener when the component mounts
-    useEffect(() => {
-      window.addEventListener('resize', updateWindowWidth);
-  
-      // Remove the event listener when the component unmounts to prevent memory leaks
-      return () => {
-        window.removeEventListener('resize', updateWindowWidth);
-      };
-    }, []);
+  }, []);
 
 
-    // Add a resize event listener when the component mounts
-    useEffect(() => {
-      console.log('Index updated!!!');
-      setCurrentTile1(cardData1[currentIndex1]); 
-    }, [currentIndex1]);
+  // Add a resize event listener when the component mounts
+  useEffect(() => {
+    console.log('Index updated!!!');
+    console.log(currentIndex1);
+    setCurrentTile1(cardData1[currentIndex1]);
+  }, [currentIndex1]);
 
-    useEffect(() => {
-      console.log('Index updated!!!');
-      setCurrentTile2(cardData2[currentIndex2]); 
-    }, [currentIndex2]);
+  useEffect(() => {
+    console.log('Index updated!!!');
+    setCurrentTile2(cardData2[currentIndex2]);
+  }, [currentIndex2]);
 
   return (
     <div className='popular-programs-section'>
@@ -230,142 +112,109 @@ export default function PopularCourses() {
         <div className='course-list'>
           <h1>Popular Programs</h1>
 
-          { windowWidth <= 768 ?
+          {windowWidth <= 468 ?
 
-<>
-<div className="arrow left-arrow" onClick={handleLeftArrowClick1}>
-          <FontAwesomeIcon icon={faChevronLeft} />
-        </div>
-          <CardComponent
+            <>
+              <div className="arrow left-arrow" onClick={handleLeftArrowClick1}>
+                <FontAwesomeIcon icon={faChevronLeft} />
+              </div>
+              <CardComponent
                 key={currentIndex1}
                 title={CurrentTile1.title}
-                imageSrc={ imgdata[CurrentTile1.courseId]  }
+                imageSrc={imgdata[CurrentTile1.courseId]}
                 purchases={0}
                 star={CurrentTile1.rating}
-                // icons={CurrentTile1.icons}
                 period={CurrentTile1.period}
-                // field={CurrentTile1.field}
               />
-                      <div className="arrow right-arrow" onClick={handleRightArrowClick1}>
-          <FontAwesomeIcon icon={faChevronRight} />
-        </div>
-</>
+              <div className="arrow right-arrow" onClick={handleRightArrowClick1}>
+                <FontAwesomeIcon icon={faChevronRight} />
+              </div>
+            </>
 
             :
             <>
-            <div className="arrow left-arrow" onClick={handleLeftArrowClick1}>
-          <FontAwesomeIcon icon={faChevronLeft} />
-        </div>
-          <div className="cards-container" style={{ transform: transformValue1 }}>
-            
-           {cardData1.map((card, index) => (
-            <>    
-            <CardComponent
-                key={index}
-                title={card.title}
-                imageSrc={imgdata[card.courseId]}
-                purchases={0}
-                star={card.rating}
-                // icons={card.icons}
-                period={card.period}
-                // field={card.field}
-              />
-              </>
-            ))}
-                       {/* {
-            currentIndex1 === cardData1.length - 2 && (
-              <div className="explore-card">
-                <h2>Explore More</h2>
-                <p>Discover a world of exciting programs tailored just for you.</p>
-                <button className="explore-button">
-                  Explore Now <FontAwesomeIcon icon={faChevronRight} />
-                </button>
+              <div className="arrow left-arrow" onClick={handleLeftArrowClick1}>
+                <FontAwesomeIcon icon={faChevronLeft} />
               </div>
-            )
-            } */}
-           </div>
-           
-        <div className="arrow right-arrow" onClick={handleRightArrowClick1}>
-          <FontAwesomeIcon icon={faChevronRight} />
+              <div className="cards-container" style={{ transform: transformValue1 }}>
+
+                {cardData1.map((card, index) => (
+                  <>
+                    <CardComponent
+                      key={index}
+                      title={card.title}
+                      imageSrc={imgdata[card.courseId]}
+                      purchases={0}
+                      star={card.rating}
+                      period={card.period}
+                    />
+                  </>
+                ))}
+              </div>
+
+              <div className="arrow right-arrow" onClick={handleRightArrowClick1}>
+                <FontAwesomeIcon icon={faChevronRight} />
+              </div>
+            </>
+          }
         </div>
-          </>
-}
-        </div>
-        </div>
+      </div>
 
 
 
-{/* Second one */}
+      {/* Second one */}
 
-<div className="popular-course-container">
+      <div className="popular-course-container">
         <div className='course-list'>
 
-          { windowWidth <= 768 ?
+          {windowWidth <= 468 ?
 
-<>
-<div className="arrow left-arrow" onClick={handleLeftArrowClick2}>
-          <FontAwesomeIcon icon={faChevronLeft} />
-        </div>
-          <CardComponent
+            <>
+              <div className="arrow left-arrow" onClick={handleLeftArrowClick2}>
+                <FontAwesomeIcon icon={faChevronLeft} />
+              </div>
+              <CardComponent
                 key={currentIndex2}
                 title={CurrentTile2.title}
                 imageSrc={imgdata[CurrentTile2.courseId]}
                 purchases={"1000+"}
                 star={CurrentTile2.rating}
-                // icons={CurrentTile2.icons}
                 period={CurrentTile2.period}
-                // field={CurrentTile2.field}
               />
-                      <div className="arrow right-arrow" onClick={handleRightArrowClick2}>
-          <FontAwesomeIcon icon={faChevronRight} />
-        </div>
-</>
+              <div className="arrow right-arrow" onClick={handleRightArrowClick2}>
+                <FontAwesomeIcon icon={faChevronRight} />
+              </div>
+            </>
 
             :
             <>
-            <div className="arrow left-arrow" onClick={handleLeftArrowClick2}>
-          <FontAwesomeIcon icon={faChevronLeft} />
-        </div>
-          <div className="cards-container" style={{ transform: transformValue2 }}>
-            
-           {cardData2.map((card, index) => (
-            <>    
-            <CardComponent
-                key={index}
-                title={card.title}
-                imageSrc={ imgdata[card.courseId]}
-                purchases={0}
-                star={card.rating}
-                // icons={card.icons}
-                period={card.period}
-                // field={card.field}
-              />
-              </>
-            ))}
-                       {/* {
-            currentIndex2 === cardData2.length - 2 && (
-              <div className="explore-card">
-                <h2>Explore More</h2>
-                <p>Discover a world of exciting programs tailored just for you.</p>
-                <button className="explore-button">
-                  Explore Now <FontAwesomeIcon icon={faChevronRight} />
-                </button>
+              <div className="arrow left-arrow" onClick={handleLeftArrowClick2}>
+                <FontAwesomeIcon icon={faChevronLeft} />
               </div>
-            )
-            } */}
-           </div>
-           
-        <div className="arrow right-arrow" onClick={handleRightArrowClick2} >
-          <FontAwesomeIcon icon={faChevronRight} />
+              <div className="cards-container" style={{ transform: transformValue2 }}>
+
+                {cardData2.map((card, index) => (
+                  <>
+                    <CardComponent
+                      key={index}
+                      title={card.title}
+                      imageSrc={imgdata[card.courseId]}
+                      purchases={0}
+                      star={card.rating}
+                      period={card.period}
+                    />
+                  </>
+                ))}
+              </div>
+
+              <div className="arrow right-arrow" onClick={handleRightArrowClick2} >
+                <FontAwesomeIcon icon={faChevronRight} />
+              </div>
+            </>
+          }
         </div>
-          </>
-}
-</div>
-</div>
+      </div>
 
-</div>
-);
-
-
-
+    </div>
+  );
 };

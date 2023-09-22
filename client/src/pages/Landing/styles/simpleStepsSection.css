@@ -96,27 +96,8 @@
 }
 
 
-
-@media (max-width: 768px) {
-    .pendulum-images {
-        flex-direction: row;
-        justify-content: center;
-    }
-    
-    
-
-    .pendulum-image1,
-    .pendulum-image2 {
-        width: 15%;
-    }
-
-    /* .request-call-button {
-        top: 25rem;
-    } */
-
-    /* Add styles for the two containers in landscape mode */
-    .container1,
-    .container2 {
-        width: 50%;
+@media screen and (max-width: 768px){
+    .svg-container{
+        display: none;
     }
 }

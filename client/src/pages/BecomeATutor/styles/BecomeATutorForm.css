@@ -1,0 +1,482 @@
+.tutor-right-container {
+    margin-left: 2rem;
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #ececec;
+}
+
+.tutor-right-container h1 {
+    font-size: 1.8em; 
+    margin-bottom: 10vh;
+}
+
+.country-phone{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+}
+.country-input, .phno-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.country-input input{
+    margin-left: 8.2vw;
+    width: 6vw;
+}
+.phno-input input{
+    margin-left: 1vw;
+    width: 10vw;
+}
+
+
+.tutor-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+}
+.tutor-form span{
+    color: red;
+    font-size: 1.3em;
+}
+.tutor-field{
+    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+.tutor-field label{
+    font-size: 1.2em;
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+}
+.tutor-field input,select{
+    height: 4.5vh;
+    border-radius: 5px;
+}
+.tutor-field input,select,textarea{
+    border: 1px solid #ccc;
+}
+.tutor-name input{
+    width: 28vw;
+    margin-left: 7.5vw;
+}
+
+
+.program-input select{
+    margin-left: 6vw;
+    width: 28.2vw;
+    height: 5vh;
+}
+.tutor-course select{
+    margin-left: 6.8vw;
+    width: 28vw;
+    height: 5vh;
+}
+.mail-input input{
+    width: 28vw;
+    margin-left: 8.8vw;
+}
+
+
+.tutor-phonerequires span{
+    font-size: 0.8em;
+    margin-top: 0.5vh;
+    margin-left: -0.1vw;
+    color:#737373;
+}
+.tutor-residence select{
+    margin-left: 1.5vw;
+    height: 5vh;
+    width: 28.3vw;
+}
+.tutor-linkedin input{
+    margin-left: 5.8vw;
+    width: 28vw
+}
+.tutor-experience input{
+    margin-left: 1.1vw;
+    width: 28vw
+}
+.tutor-salary input{
+    width: 28vw;
+    margin-left: 3.5vw;
+}
+.tutor-letter textarea{
+    margin-left: 4vw;
+    border-radius: 5px;
+    width: 28vw;
+    height: 9vh;
+    margin-bottom: -1vh;
+}
+.tutor-resume input{
+    margin-left: 6.5vw;
+    width: 7.8vw;
+}
+.resume-requires{
+    color: #737373;
+    font-size: 0.9em;
+}
+.tutor-form button{
+    width: 10vw;
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    padding: 1.25vh 1.5vw;
+    background-color: #000;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+    box-shadow: 1px 3px 1px #ffac7e;
+}
+
+@media screen and (max-width: 486px) {
+    .tutor-right-container{
+        margin-top: 1em;
+        margin-left: 0;
+        width: 100vw;
+        border-top: none;
+    }
+    .tutor-right-container h1{
+        font-size: 1.3em;
+        margin-bottom: 2em;
+    }
+    .tutor-form{
+        margin-left: 2em;
+        gap: 0;
+    }
+    .tutor-field{
+        width: 97vw;
+    }
+    .tutor-field label{
+        font-size: 1em;
+    }
+    .tutor-name input{
+        margin-left: 18vw;
+        width: 47vw;
+    }
+    .program-input select{
+        margin-left: 13vw;
+        width: 48.5vw;
+    }
+    .tutor-course select{
+        margin-left: 15vw;
+        width: 49vw;
+    }
+    .country-phone{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .country-input input{
+        width: 48vw;
+        margin-left: 20vw;
+    }
+    .phno-input input{
+        width: 48vw;
+        margin-left: 4.5vw ;
+    }
+    .mail-input input{
+        width: 48vw;
+        margin-left: 21vw;
+    }
+    .tutor-residence select{
+        width: 49vw;
+        margin-left: -2vw;
+    }
+    .tutor-linkedin input{
+        width:47vw;
+        margin-left: 13vw;
+    }
+    .tutor-experience input{
+        width: 47vw;
+        margin-left: -1vw;
+    }
+    .tutor-salary input{
+        width: 47vw;
+        margin-left: 6vw;
+    }
+    .tutor-letter textarea{
+        height: 10vh;
+        width: 47vw;
+        margin-left: 7vw;
+    }
+    .tutor-resume input{
+        width: 20vw !important;
+        margin-left: 15vw;
+        font-size: 0.55em;
+    }
+    .resume-requires{
+        width: 20vw;
+        font-size: 0.5em;
+    }
+    .tutor-form button{
+        width: 30vw;
+        font-size: 1em;
+        padding: 0.8vh 1vw;
+    }
+}
+
+@media (min-width: 487px) and (max-width: 767px){
+    .tutor-right-container{
+        margin-left: 0;
+        width: 50vw;
+    }
+    .tutor-right-container h1{
+        font-size: 1.3em;
+        margin-bottom: 2em;
+    }
+    .tutor-form{
+        margin-left: 1.5em;
+        gap: 1rem;
+    }
+    .tutor-field{
+        width: 45vw;
+    }
+    .tutor-field label{
+        font-size: 0.95em;
+    }
+    input, select{
+        height: 8vh !important;
+    }
+    .tutor-name input{
+        margin-left: 11vw;
+        width: 19vw;
+    }
+    .program-input select{
+        margin-left: 8vw;
+        width: 20vw;
+    }
+    .tutor-course select{
+        margin-left: 9vw;
+        width: 21vw;
+    }
+    .country-phone{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2em;
+    }
+    .country-input input{
+        width: 20vw;
+        margin-left: 12vw;
+    }
+    .phno-input input{
+        width: 20vw;
+        margin-left: 4vw ;
+    }
+    .mail-input input{
+        width: 20vw;
+        margin-left: 13vw;
+    }
+    .tutor-residence select{
+        width: 21vw;
+        height: 6vh;
+        margin-left: 1vw;
+    }
+    .tutor-linkedin input{
+        width:20vw;
+        margin-left: 8vw;
+    }
+    .tutor-experience input{
+        width: 20.5vw;
+        margin-left: 0vw;
+    }
+    .tutor-salary input{
+        width: 20.5vw;
+        margin-left: 4vw;
+    }
+    .tutor-letter textarea{
+        height: 15vh;
+        width: 20vw;
+        margin-left: 5vw;
+    }
+    .tutor-resume input{
+        width: 20vw !important;
+        flex-direction: column;
+        margin-left: 9.5vw;
+        font-size: 0.55em;
+    }
+    .resume-requires{
+        display: none;
+    }
+    .tutor-form button{
+        width: 20vw;
+        font-size: 1.1em;
+        padding: 1vh 1.25vw;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .tutor-right-container{
+        margin-left: 0;
+        width: 50vw;
+    }
+    .tutor-right-container h1{
+        font-size: 1.3em;
+        margin-bottom: 1em;
+    }
+    .tutor-form{
+        margin-left: 1.5em;
+        gap:0;
+    }
+    .tutor-field{
+        width: 45vw;
+    }
+    .tutor-field label{
+        font-size: 0.95em;
+    }
+    .tutor-name input{
+        margin-left: 11vw;
+        width: 19vw;
+    }
+    .program-input select{
+        margin-left: 8vw;
+        width: 20vw;
+    }
+    .tutor-course select{
+        margin-left: 9vw;
+        width: 21vw;
+    }
+    .country-phone{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2em;
+    }
+    .country-input input{
+        width: 20vw;
+        margin-left: 12vw;
+    }
+    .phno-input input{
+        width: 20vw;
+        margin-left: 4vw ;
+    }
+    .mail-input input{
+        width: 20vw;
+        margin-left: 13vw;
+    }
+    .tutor-residence select{
+        width: 21vw;
+        margin-left: 1vw;
+    }
+    .tutor-linkedin input{
+        width:20vw;
+        margin-left: 8vw;
+    }
+    .tutor-experience input{
+        width: 20.5vw;
+        margin-left: 0vw;
+    }
+    .tutor-salary input{
+        width: 20.5vw;
+        margin-left: 4vw;
+    }
+    .tutor-letter textarea{
+        height: 8vh;
+        width: 20vw;
+        margin-left: 5vw;
+    }
+    .tutor-resume input{
+        width: 20vw !important;
+        flex-direction: column;
+        margin-left: 9.5vw;
+        font-size: 0.55em;
+    }
+    .resume-requires{
+        display: none;
+    }
+    .tutor-form button{
+        width: 20vw;
+        font-size: 1.1em;
+        padding: 1vh 1.25vw;
+    }
+}
+@media (min-width: 993px) and (max-width:1024px){
+    .tutor-right-container{
+        margin-left: 1.5rem;
+        width: 50vw;
+    }
+    .tutor-right-container h1{
+        margin-top: 2em;
+        font-size: 1.3em;
+        margin-bottom: 2em;
+    }
+    .tutor-form{
+        margin-left: 1.5em;
+        gap: 0;
+    }
+    .tutor-field{
+        width: 45vw;
+    }
+    input, select{
+        height: 6vh !important;
+    }
+    .tutor-name input{
+        margin-left: 10vw;
+        width: 22vw;
+    }
+    .program-input select{
+        margin-left: 7.5vw;
+        width: 22.5vw;
+    }
+    .tutor-course select{
+        margin-left: 8.5vw;
+        width: 22.5vw;
+    }
+    .country-phone{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2em;
+    }
+    .country-input input{
+        width: 22vw;
+        margin-left: 10.5vw;
+    }
+    .phno-input input{
+        width: 22vw;
+        margin-left: 3.5vw ;
+    }
+    .mail-input input{
+        width: 22vw;
+        margin-left: 11.5vw;
+    }
+    .tutor-residence select{
+        width: 22.5vw;
+        margin-left: 0.5vw;
+    }
+    .tutor-linkedin input{
+        width:22vw;
+        margin-left: 7vw;
+    }
+    .tutor-experience input{
+        width: 22vw;
+        margin-left: 0vw;
+    }
+    .tutor-salary input{
+        width: 22.5vw;
+        margin-left: 3vw;
+    }
+    .tutor-letter textarea{
+        height: 15vh;
+        width: 21.5vw;
+        margin-left: 4vw;
+    }
+    .tutor-resume input{
+        width: 21.5vw !important;
+        flex-direction: column;
+        margin-left: 8vw;
+        font-size: 0.55em;
+    }
+    .resume-requires{
+        display: none;
+    }
+    .tutor-form button{
+        width: 20vw;
+        font-size: 1.1em;
+        padding: 1vh 1.25vw;
+    }
+}
