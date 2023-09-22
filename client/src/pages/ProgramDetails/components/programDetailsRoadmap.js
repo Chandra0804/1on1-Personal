@@ -11,7 +11,7 @@ import HandlingJavascript from '../assets/Handling Javascript Functions.png'
 import RoadImg from '../assets/Roadmap.png'
 import RoadMapBG from '../assets/Roadmap BG.png'
 
-import RoadMapMobile from '../assets/Roadmapmobile.png'
+import RoadMapMobile from '../assets/ProgramDetailsRoadmapMobile.png'
 
 export default function ProgramDetailsRoadmap(props) {
 
@@ -122,11 +122,14 @@ export default function ProgramDetailsRoadmap(props) {
             {/* mobile bg */}
 
             <div className='roadmap-container-mobile'>
-               
+
                 <div className='roadmap-modules-mobile'>
-                    {roadmapCardData.map((card , index) => (
+                    {roadmapCardData.map((card, index) => (
                         <div className='roadmap-module-card'>
-                            <p className='module-text'>{"Module "+(index+1)}</p>
+                            <p className='module-text'>{"Module " + (index + 1)}</p>
+                            <div className='roadmap-card-img-mobile'>
+                                <img src={card.imgsrc} alt='roadmap-card' />
+                            </div>
                             <div className='roadmap-bullets'>
                                 <ul>
                                     {card.bullets.map((bullet) => (
@@ -137,7 +140,7 @@ export default function ProgramDetailsRoadmap(props) {
                         </div>
                     ))}
                 </div>
-                <div className='road-img'>
+                <div className='road-img-mobile'>
                     <img src={RoadMapMobile} alt='Road' />
                 </div>
             </div>

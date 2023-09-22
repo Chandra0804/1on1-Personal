@@ -11,6 +11,7 @@
   position: relative;
   flex-direction: row;
   margin-bottom: 50px;
+  z-index: 2;
 }
 
 .course-list {

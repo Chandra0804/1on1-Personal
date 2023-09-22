@@ -409,7 +409,6 @@
 
     .navigation-arrow-wrapper>img {
         width: 25vw;
-        top: 33rem;
     }
 }
 @media (max-width: 768px) and (orientation: landscape) {
@@ -475,7 +474,7 @@
 
     .navigation-arrow-wrapper>img {
         width: 25vw;
-        top: 27rem;
+        top: 33rem;
     }
 }
 
@@ -541,8 +540,7 @@
     }
 
     .navigation-arrow-wrapper>img {
-        width: 25vw;
-        top: 33rem;
+        display: none;
     }
 }
 

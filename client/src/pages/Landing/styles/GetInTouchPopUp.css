@@ -45,7 +45,7 @@
 }
 hr{
   border: 3px solid #d9d9d9;
-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .popup-input {
@@ -85,4 +85,145 @@ border-radius: 5px;
   color: white;
   cursor: pointer;
   font-size: 20px;
+}
+
+@media (max-width: 486px) {
+  .getInTouchPopup-content{
+    min-width: 80vw;
+    padding-top: 1rem !important;
+  }
+  .popup-input {
+    min-width: 50vw;
+  }
+  .popup-heading {
+    font-size: 20px !important;
+    margin-bottom: 0.8rem !important;
+  }
+  .popup-cancel-button, .popup-connect-button {
+    padding: 0.5rem 1.5rem !important;
+    font-size: 18px !important;
+  }
+  .popup-buttons{
+    flex-direction: row;
+    gap: 1em;
+    justify-content:space-around !important;
+  }
+}
+@media (min-width: 487px) and (max-width: 736px){
+  .getInTouchPopup-content{
+    min-width: 70vw;
+    padding-top: 0 !important;
+    max-height: 90vh;
+  }
+  .popup-para{
+    font-size: 0.8em !important;
+  }
+  .popup-input {
+    min-width: 35vw;
+    margin: 1rem !important;
+    padding-bottom: 0 !important;
+  }
+  .popup-label{
+    font-size: 15px !important;
+  }
+  .popup-heading {
+    font-size: 20px !important;
+    margin-bottom: 0.8rem !important;
+  }
+  .popup-cancel-button, .popup-connect-button {
+    padding: 0.5rem 1.5rem !important;
+    font-size: 18px !important;
+  }
+  .form-pop-up{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .popup-buttons{
+    flex-direction: row;
+    gap: 1em;
+    justify-content:space-around !important;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 992px){
+  .getInTouchPopup-content{
+    min-width:50vw !important;
+    padding-top: 1rem !important;
+    max-height: 90vh;
+  }
+  .popup-heading {
+    font-size: 23px !important;
+  }
+  .form-pop-up{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .popup-input {
+    min-width: 30vw;
+    margin-bottom: 0.5rem !important;
+  }  
+  .popup-buttons{
+    flex-direction: row;
+    justify-content:space-around !important;
+  }
+  .getInTouchPopup-content{
+    min-width: 70vw;
+    padding-top: 0 !important;
+    max-height: 90vh;
+  }
+  .popup-para{
+    font-size: 0.8em !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .popup-input {
+    min-width: 35vw;
+    margin: 0rem !important;
+    padding-bottom: 0 !important;
+  }
+  .popup-label{
+    font-size: 15px !important;
+  }
+  .popup-heading {
+    font-size: 20px !important;
+    margin-bottom: 0rem !important;
+  }
+  .popup-cancel-button, .popup-connect-button {
+    padding: 0.5rem 1.5rem !important;
+    font-size: 18px !important;
+  }
+  .form-pop-up{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .popup-buttons{
+    flex-direction: row;
+    gap: 1em;
+    margin-top: 1rem;
+    justify-content:space-around !important;
+  }
+}
+@media (min-width: 993px) and (max-width: 1024px){
+  .getInTouchPopup-content{
+    min-width: 40vw;
+    padding-top: 1rem !important;
+  }
+  .popup-heading {
+    font-size: 24px !important;
+  }
+  .popup-input {
+    min-width: 25vw;
+  }  
+  .popup-buttons{
+    flex-direction: row;
+    justify-content:space-around !important;
+  }
 }

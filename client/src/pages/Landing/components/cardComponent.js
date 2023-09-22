@@ -44,7 +44,9 @@ const CardComponent = ({key,courseId,objectId, title, imageSrc, purchases, star,
         </div>
         <div className='card-buttons'>
           <FontAwesomeIcon icon={faEllipsis} className='ellipsis-icon' />
-          <button className="knowMore-button" >Know More</button>
+          <Link to='/programdetails' state={{ title, courseDuration: period }}>
+            <button className="knowMore-button" >Know More</button>
+          </Link>
         </div>
       </div>
     {showPopup && <GetInTouchPopUp onClose={togglePopup} />}

@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 10vh;
+  position: relative;
+  z-index: 4;
 }
 
 .pricing-cards {

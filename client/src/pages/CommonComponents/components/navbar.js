@@ -27,7 +27,7 @@
 
 import React, { useState } from 'react';
 import '../styles/navbar.css';
-import Logo from '../assets/Final Logo1.jpeg';
+import Logo from '../assets/Final logo33.png';
 import GetInTouchPopUp from '../components/getInTouchPopUp';
 import {Routes, Route, useNavigate} from 'react-router-dom';
 

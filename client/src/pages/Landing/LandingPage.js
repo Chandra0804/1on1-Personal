@@ -15,19 +15,11 @@ import FloatingButton from '../CommonComponents/components/floatingButton';
 import PopularPrograms from './components/popularPrograms'
 
 export default function LandingPage() {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const updateWindowWidth = () => {
-      setWindowWidth(window.innerWidth);
-    };
 
   return (
     <div className='Landing-Page'>
-    {
-      windowWidth >= 768 ?
       <Navbar/>
-      :
-      <></>
-    }
+
       <HeroSection/>
       <MissionSection/>
       <WhyJoinUsSection/>
