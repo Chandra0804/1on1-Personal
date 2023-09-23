@@ -51,6 +51,9 @@ const FooterPartOne = () => {
 
 
 export default function Footer({ isFooterPart1 }) {
+  {data.map((dataelement)=>(
+    console.log(dataelement.title)
+  ))}
 
   return (
     <div className='footer-section'>

@@ -92,7 +92,7 @@
         "gradientColors": "#FFC896"
     },
     {
-        "title":"App Development (Android)",
+        "title":"App Development(Android)",
         "imageSrc" : "../assets/program_card_images/mobile.png",
         "period" :"24 weeks",
         "rating" : "4.6",
@@ -101,7 +101,7 @@
         "gradientColors": "#F8B5B5"
     },
     {
-        "title":"App Development (iOS)",
+        "title":"App Development(iOS)",
         "imageSrc" : "../assets/program_card_images/mobiosp.png",
         "period" :"24 weeks",
         "rating" : "4.5",

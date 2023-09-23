@@ -29,6 +29,7 @@ export default function ProgramDetails() {
   const location = useLocation();
   const { title, courseDuration } = location.state;
   console.log("programs"+title+courseDuration);
+  console.log(data)
   // console.log(window.location.search.substring(1),' -> title')
 
   const [programDetails,setProgramDetails] = useState(data[title][0]);

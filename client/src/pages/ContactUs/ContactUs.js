@@ -1,26 +1,25 @@
-import React from 'react'
-import './styles/contactus.css'
-import Navbar from '../CommonComponents/components/navbar'
-import Footer from '../CommonComponents/components/footer'
-import ContactHeroImg from './assets/contactusHeroImage.png'
-import ContactUsphone from './assets/ContactUsPagephone.png'
-import ContactCard1 from './assets/ContactCard1.png'
-import ContactCard2 from './assets/ContactCard2.png'
-import ContactCard3 from './assets/ContactCard3.png'
-import ContactUsimage from './assets/Contactusimage.png'
-import userName from './assets/image-removebg-preview (4).png'
-import purpose from './assets/image-removebg-preview (1).png'
-import registeredUserName from './assets/image-removebg-preview (2).png'
-import comments from './assets/image-removebg-preview (3).png'
-import phonenumber from './assets/image-removebg-preview (5).png'
+import React, { useState } from 'react';
+import './styles/contactus.css';
+import Navbar from '../CommonComponents/components/navbar';
+import Footer from '../CommonComponents/components/footer';
+import ContactHeroImg from './assets/contactusHeroImage.png';
+import ContactUsphone from './assets/ContactUsPagephone.png';
+import ContactCard1 from './assets/ContactCard1.png';
+import ContactCard2 from './assets/ContactCard2.png';
+import ContactCard3 from './assets/ContactCard3.png';
+import ContactUsimage from './assets/Contactusimage.png';
+import userName from './assets/image-removebg-preview (4).png';
+import purpose from './assets/image-removebg-preview (1).png';
+import registeredUserName from './assets/image-removebg-preview (2).png';
+import comments from './assets/image-removebg-preview (3).png';
+import phonenumber from './assets/image-removebg-preview (5).png';
 import FloatingButton from '../CommonComponents/components/floatingButton';
-
 
 const contactusCardData = [
     {
         img: ContactCard1,
         title: "Getting Started",
-        description: "Start of the right foot, not left or wrong foot"
+        description: "Start on the right foot, not the left or wrong foot"
     },
     {
         img: ContactCard2,
@@ -30,17 +29,87 @@ const contactusCardData = [
     {
         img: ContactCard3,
         title: "FAQ's Made Simpler",
-        description: "All you can-eat self serve problem solving"
+        description: "All you can-eat self-serve problem-solving"
     },
     {
         img: ContactCard3,
         title: "FAQ's Made Simpler",
-        description: "All you can-eat self serve problem solving"
+        description: "All you can-eat self-serve problem-solving"
     }
-]
-
+];
 
 export default function ContactUs() {
+    // Step 2: Create state variables
+    const [purposeValue, setPurposeValue] = useState('');
+    const [userNameValue, setUserNameValue] = useState('');
+    const [registeredUserNameValue, setRegisteredUserNameValue] = useState('');
+    const [phoneNumberValue, setPhoneNumberValue] = useState('');
+    const [commentsValue, setCommentsValue] = useState('');
+
+    // Step 4: Create a submit handler function
+    const handleSubmit = async (e) => {
+        e.preventDefault(); // Prevent the default form submission behavior
+        try {
+            // const response = await axios.post('/api/submitForm', {
+            //   name: name.current.value,
+            //   phone: phone.current.value,
+            // });
+      
+            const response = await fetch("https://v1.nocodeapi.com/chandra/google_sheets/tFxcQEOnfQbnrjgP?tabId=ContactForm",{
+              method:'POST',
+              headers:{
+                'Content-Type':'application/json'
+              },
+              body: JSON.stringify([
+                [
+                  userNameValue, // Get the value from the ref
+                  purposeValue,
+                  registeredUserNameValue,
+                  phoneNumberValue,
+                  commentsValue,
+                  new Date().toLocaleString()
+                ]
+              ])
+              
+            });
+            await response.json();
+      
+            // Handle success, you can display a success message or perform other actions
+            console.log('Form submitted successfully', response.data);
+            setCommentsValue('');
+            setPhoneNumberValue('');
+            setRegisteredUserNameValue('');
+            setPurposeValue('');
+            setUserNameValue('');
+          } catch (error) {
+            // Handle errors, you can display an error message or perform other error handling
+            console.error('Error submitting form', error);
+          }
+
+
+        // Add your logic for handling the form data (e.g., sending it to a server)
+    };
+
+    // Step 3: Add onChange event handlers to update state
+    const handlePurposeChange = (e) => {
+        setPurposeValue(e.target.value);
+    };
+
+    const handleUserNameChange = (e) => {
+        setUserNameValue(e.target.value);
+    };
+
+    const handleRegisteredUserNameChange = (e) => {
+        setRegisteredUserNameValue(e.target.value);
+    };
+
+    const handlePhoneNumberChange = (e) => {
+        setPhoneNumberValue(e.target.value);
+    };
+
+    const handleCommentsChange = (e) => {
+        setCommentsValue(e.target.value);
+    };
 
     return (
         <div className='contact-us-page'>
@@ -71,8 +140,8 @@ export default function ContactUs() {
                     </div>
                 </div>
                 <div className='contact-us-cards-bottom'>
-                    {contactusCardData.map((card) => (
-                        <div className='contact-us-card'>
+                    {contactusCardData.map((card, index) => (
+                        <div className='contact-us-card' key={index}>
                             <img src={card.img} alt='contact-us-card-banner' />
                             <h3>{card.title}</h3>
                             <p>{card.description}</p>
@@ -87,22 +156,32 @@ export default function ContactUs() {
                 <div className='write-to-us-right'>
                     <h1>Write to us</h1>
                     <div className='write-to-us-form-container'>
-                        <form className='contactus-form'>
+                        <form className='contactus-form' onSubmit={handleSubmit}>
                             <div className='contactus-row1'>
                                 <div className='contactus-purpose'>
                                     <label>Purpose</label>
                                     <div className='contactus-input'>
-                                        <img src={purpose} />
-                                        <select placeholder='Choose'>
-                                            <option selected="selected">Choose Purpose</option>
+                                        <img src={purpose} alt="Purpose" />
+                                        <select
+                                            placeholder='Choose'
+                                            value={purposeValue}
+                                            onChange={handlePurposeChange}
+                                        >
+                                            <option value=''>Choose Purpose</option>
+                                            <option value='General Inquiry'>General Inquiry</option>
+                                            {/* Add other options here */}
                                         </select>
                                     </div>
                                 </div>
                                 <div className='contactus-name'>
                                     <label>Name</label>
                                     <div className='contactus-input'>
-                                        <img src={userName} />
-                                        <input placeholder='Enter User Name'></input>
+                                        <img src={userName} alt="User Name" />
+                                        <input
+                                            placeholder='Enter User Name'
+                                            value={userNameValue}
+                                            onChange={handleUserNameChange}
+                                        />
                                     </div>
                                 </div>
                             </div>
@@ -110,27 +189,41 @@ export default function ContactUs() {
                                 <div className='contactus-username'>
                                     <label>Registered Username</label>
                                     <div className='contactus-input'>
-                                        <img src={registeredUserName} />
-                                        <input placeholder='Entered Registered user name'></input>
+                                        <img src={registeredUserName} alt="Registered Username" />
+                                        <input
+                                            placeholder='Enter Registered Username'
+                                            value={registeredUserNameValue}
+                                            onChange={handleRegisteredUserNameChange}
+                                        />
                                     </div>
                                 </div>
                                 <div className='contactus-phno'>
                                     <label>Phone number</label>
                                     <div className='contactus-input'>
-                                        <img src={phonenumber} />
-                                        <input placeholder='Enter phone number'></input>
+                                        <img src={phonenumber} alt="Phone Number" />
+                                        <input
+                                            placeholder='Enter Phone Number'
+                                            value={phoneNumberValue}
+                                            onChange={handlePhoneNumberChange}
+                                        />
                                     </div>
                                 </div>
                             </div>
                             <div className='contactus-comments'>
                                 <label>Comments/Details</label>
                                 <div className='contactus-input'>
-                                    <img src={comments} />
-                                    <textarea placeholder='Write Something here'></textarea>
+                                    <img src={comments} alt="Comments" />
+                                    <textarea
+                                        placeholder='Write Something here'
+                                        value={commentsValue}
+                                        onChange={handleCommentsChange}
+                                    />
                                 </div>
                             </div>
                             <div className='contactus-button-container'>
-                                <button className='contactus-button'>Submit</button>
+                                <button className='contactus-button' type='submit'>
+                                    Submit
+                                </button>
                             </div>
                         </form>
                     </div>
@@ -139,5 +232,5 @@ export default function ContactUs() {
             <FloatingButton/>
             <Footer />
         </div>
-    )
+    );
 }

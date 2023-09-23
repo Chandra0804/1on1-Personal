@@ -174,16 +174,6 @@
   display: none;
 }
 
-/* Tablet (768px - 1024px) */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .navbar {
-    /* Adjust your styles for tablets here */
-    /* For example, you can decrease padding, font sizes, or change the layout */
-  }
-
-  /* Add any other styles specific to tablets here */
-}
-
 /* Mobile (up to 768px) */
 @media (max-width: 768px) {
   .navbar {
@@ -234,5 +224,11 @@
   .black-button {
     margin: 10px;
     padding: 10px 15px;
+  }
+}
+
+@media screen and (min-width:993px) and (max-width:1024px){
+  .navbar-button{
+    font-size: 16px;
   }
 }
