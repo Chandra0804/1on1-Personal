@@ -10,19 +10,31 @@ export default function ExploreProgramsHero() {
       <div className='explore-programs-heroTop'>
         <div className='explore-programs-heroLeft'>
           <p className='placement-guarantee-blackText'>Placement Guarantee Courses</p>
-          <h1>Unlocking your Dream Job:<br/><span className='orange-text'>Expert Placement Training</span></h1>
+          <h1>Unlocking your Dream Job:<br /><span className='orange-text'>Expert Placement Training</span></h1>
           <p className='placement-grey-text'>Unleash Your Potential, Build Interview Confidence, and Secure Your Dream Job with Our Proven Strategies and Interview Mastery Program</p>
           <button>Explore Programs</button>
         </div>
         <div className='explore-programs-heroRight'>
-          <img src={exploreProgramsHero} alt='explore programs hero'/>
+          <img src={exploreProgramsHero} alt='explore programs hero' />
         </div>
       </div>
       <div className='explore-programs-heroBottom'>
-        <p><span className='check-icon'><FontAwesomeIcon icon={faCheck}/></span> Guarantee Placement</p>
-        <p><span className='check-icon'><FontAwesomeIcon icon={faCheck}/></span> Job ready</p>
-        <p><span className='check-icon'><FontAwesomeIcon icon={faCheck}/></span> 1 on 1 Interaction</p>
-        <p><span className='check-icon'><FontAwesomeIcon icon={faCheck}/></span> Live Projects</p>
+        <div className='herobottom-highlights'>
+          <span className='check-icon'><FontAwesomeIcon icon={faCheck} /></span>
+          <p>Guarantee Placement</p>
+        </div>
+        <div className='herobottom-highlights'>
+          <span className='check-icon'><FontAwesomeIcon icon={faCheck} /></span>
+          <p>Job ready</p>
+        </div >
+        <div className='herobottom-highlights'>
+          <span className='check-icon'><FontAwesomeIcon icon={faCheck} /></span>
+          <p>1 on 1 Interaction</p>
+        </div>
+        <div className='herobottom-highlights'>
+          <span className='check-icon'><FontAwesomeIcon icon={faCheck} /></span>
+          <p> Live Projects</p>
+        </div>
       </div>
     </div>
   )

@@ -77,7 +77,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     background-color: #ffe4cc;
-    padding: 0;
+    padding: 0.5em;
     align-items: center;
 }
 .orange-text{
@@ -89,9 +89,15 @@
     color: #ff7a01;
 }
 
-.explore-programs-heroBottom > p{
+.herobottom-highlights > p{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 20px !important;
+}
+.herobottom-highlights{
+    display: flex;
+    gap: 0.6em;
+    flex-direction: row;
+    align-items: center;
 }
 
 
@@ -222,6 +228,3 @@
         width: 30vw;
     }
 }
-
-
-

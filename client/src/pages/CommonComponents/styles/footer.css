@@ -81,7 +81,7 @@
   align-items: flex-start;
   justify-content: center;
 }
-.social-icons {
+.social-icons{
   display: flex;
   flex-direction: row;
   font-size: 25px;
@@ -90,6 +90,9 @@
   gap: 2rem;
   color: #fff;
   margin-top: 1rem;
+}
+.social-icons>a{
+  color: #fff;
 }
 .footer-part2-right>h2,.footer-part2-left>h1{
   color: #ff7a01;

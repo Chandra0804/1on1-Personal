@@ -126,7 +126,7 @@
     justify-content: center;
     z-index: 2;
     bottom: -33vh;
-    left: 4rem;
+    left: 4vw;
     width: 90vw;
     height: 158vh;
 }
@@ -164,7 +164,7 @@
 
 .roadmap-column3 {
     top: 3rem;
-    right: 8rem;
+    right: 8vw;
 }
 
 .roadmap-column2>.roadmap-card-container2 img {
@@ -181,6 +181,7 @@
     justify-content: center;
     align-items: center;
     width: 30vw;
+    height: 28vh;
 }
 
 .roadmap-card-container {

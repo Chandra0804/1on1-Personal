@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState , useEffect} from 'react'
 import { useLocation } from 'react-router-dom';
 // import { useParams } from 'react-router-dom';
 
@@ -25,6 +25,9 @@ import data from './assets/json_data/program_details_info_in_json.json'
 
 
 export default function ProgramDetails() {
+  useEffect(() => {
+  window.scrollTo(0, 0)
+}, [])
   // const { title } = useParams();
   const location = useLocation();
   const { title, courseDuration } = location.state;

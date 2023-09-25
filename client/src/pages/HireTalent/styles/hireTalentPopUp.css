@@ -60,25 +60,35 @@
   font-size: 20px;
   font-weight: 600;
 }
-.required-class, .required-position-input{
-  width: 30vw;
-}
+ .required-position-input{
+  width: 27.5vw;
+ }
+ .required-class{
+  width: 27.5vw;
+ }
 
 .popup-form label select,
 .popup-form label input {
   padding: 1vh;
+  color: #818181;
   border: 1px solid #ccc;
   border-radius: 5px;
+  font-size: 0.69em;
+  font-weight: 400;
+}
+.popup-form label select option{
+  font-weight: 400;
 }
 
-.popup-form label select{
+
+/* .popup-form label select{
   flex: 1;
   margin-left: 6rem;
-}
+} */
 
 .required-class{
   flex: 1;
-  margin-left: 5rem !important;
+  margin-left: 6rem !important;
 }
 
 .company-name{

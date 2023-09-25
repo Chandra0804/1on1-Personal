@@ -120,7 +120,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 5px;
   background-color: #ffffff;
   margin-top: 10px;
   border-bottom: solid 1px #ebebeb;
@@ -129,7 +129,9 @@
 
 .navbar-logo {
   margin-left: 40px;
-  height: 65px;
+  height: 55px;
+  align-items: center;
+  display: flex;
 }
 
 .navbar-buttons {
@@ -144,7 +146,7 @@
   background-color: #ffffff;
   color: #060606;
   border: none;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   border-radius: 20px;
 }
@@ -163,6 +165,7 @@
 .navbar-button:hover {
   color: #fff7f0;
   background-color: #ff7f06;
+  box-shadow: 0 0 10px #ff7f06;
 }
 
 .black-button:hover {

@@ -35,4 +35,8 @@
     padding: 10px;
     font-size: 55px;
   }
+
+  .hovered-icons img{
+    width: 10vw;
+  }
   

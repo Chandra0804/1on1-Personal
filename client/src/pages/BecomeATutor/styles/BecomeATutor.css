@@ -9,19 +9,22 @@
 .background-doodle {
     position: absolute;
     z-index: 1;
-    bottom: 0vh;
+    bottom: -0.5vh;
 }
 
 .background-doodle>img{
     width: 45vw;
+    bottom: 0vh;
 }
 
 .become-tutor-heroImg {
     margin-left: 8rem;
     margin-right: 4rem;
+    margin-bottom: -0.2rem;
 }
 
 .become-tutor-heroImg>img{
+    margin-bottom: 0vh;
     width: 22vw;
 }
 
@@ -116,6 +119,13 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+}
+.tutor-exp{
+    font-size: 1.5em !important;
+}
+.tutor-exp span{
+    margin-left: 0.2em;
+    color: #ff7a00;
 }
 
 .leaf-background {

@@ -23,13 +23,9 @@
     flex-direction: row;
     align-items: center;
 }
-.country-input input{
-    margin-left: 8.2vw;
-    width: 6vw;
-}
-.phno-input input{
-    margin-left: 1vw;
-    width: 10vw;
+.country-phone input{
+    margin-left: 2vw;
+    width: 28vw;
 }
 
 
@@ -100,9 +96,10 @@
     margin-left: 5.8vw;
     width: 28vw
 }
-.tutor-experience input{
+.tutor-experience select{
     margin-left: 1.1vw;
-    width: 28vw
+    width: 28.5vw;
+    height: 5vh;
 }
 .tutor-salary input{
     width: 28vw;
@@ -112,12 +109,13 @@
     margin-left: 4vw;
     border-radius: 5px;
     width: 28vw;
-    height: 9vh;
+    height: 14vh;
     margin-bottom: -1vh;
 }
 .tutor-resume input{
     margin-left: 6.5vw;
     width: 7.8vw;
+    border: none;
 }
 .resume-requires{
     color: #737373;
@@ -134,7 +132,7 @@
     text-align: center;
     border-radius: 30px;
     margin-bottom: 2rem;
-    box-shadow: 1px 3px 1px #ffac7e;
+    /* box-shadow: 0 0 3px #ffac7e; */
 }
 
 @media screen and (max-width: 486px) {

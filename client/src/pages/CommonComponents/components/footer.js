@@ -1,4 +1,4 @@
-import React , {useState} from 'react'
+import React, { useState } from 'react'
 import '../styles/footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin, faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
@@ -11,13 +11,13 @@ const FooterPartOne = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    try{
-      const response = await fetch("https://v1.nocodeapi.com/chandra/google_sheets/tFxcQEOnfQbnrjgP?tabId=SubscribeForm",{
-        method:'POST',
-        headers:{
-          'Content-Type':'application/json'
+    try {
+      const response = await fetch("https://v1.nocodeapi.com/chandra/google_sheets/tFxcQEOnfQbnrjgP?tabId=SubscribeForm", {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
         },
-        body:JSON.stringify([
+        body: JSON.stringify([
           [
             email,
             new Date().toLocaleString()
@@ -25,11 +25,11 @@ const FooterPartOne = () => {
         ])
       })
       await response.json();
-      console.log("Form Submitted succesfully",response.data);
+      console.log("Form Submitted succesfully", response.data);
       setEmail('');
     }
-    catch(error){
-      console.error("Error submitting form",error);
+    catch (error) {
+      console.error("Error submitting form", error);
     }
   };
 
@@ -51,9 +51,11 @@ const FooterPartOne = () => {
 
 
 export default function Footer({ isFooterPart1 }) {
-  {data.map((dataelement)=>(
-    console.log(dataelement.title)
-  ))}
+  {
+    data.map((dataelement) => (
+      console.log(dataelement.title)
+    ))
+  }
 
   return (
     <div className='footer-section'>
@@ -80,12 +82,11 @@ export default function Footer({ isFooterPart1 }) {
           </div>
         </div>
         <div className='social-icons'>
-                <FontAwesomeIcon icon={faLinkedin}/>
-                <FontAwesomeIcon icon={faFacebook}/>
-                <FontAwesomeIcon icon={faInstagram}/>
-                <FontAwesomeIcon icon={faTwitter}/>
-                <FontAwesomeIcon icon={faYoutube}/>
-              </div>
+          <a href='https://www.linkedin.com/company/1-on-1-teaching-friend/about/'><FontAwesomeIcon icon={faLinkedin} /></a>
+          {/* <a href=''><FontAwesomeIcon icon={faFacebook} /></a> */}
+          <a href='https://instagram.com/1on1teachingfriend?igshid=MzRlODBiNWFlZA=='><FontAwesomeIcon icon={faInstagram} /></a>
+          {/* <a href=''><FontAwesomeIcon icon={faTwitter} /></a> */}
+        </div>
       </div>
       <div className='footer-part3'>
         <p>Copyright 2023 1 on 1 Teaching Friend Technologies Theme | All Rights Reserved</p>

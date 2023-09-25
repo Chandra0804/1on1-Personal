@@ -14,6 +14,10 @@ import registeredUserName from './assets/image-removebg-preview (2).png';
 import comments from './assets/image-removebg-preview (3).png';
 import phonenumber from './assets/image-removebg-preview (5).png';
 import FloatingButton from '../CommonComponents/components/floatingButton';
+import GetInTouchPopUp from './components/getInTouchPopUp';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
+
 
 const contactusCardData = [
     {
@@ -38,7 +42,18 @@ const contactusCardData = [
     }
 ];
 
+const programs = ["Full Stack Developer", "Front-End Developer", "Back-End Developer", "UI/UX Designer", "AI Engineer", "Data Science Engineer", "Python Developer", "Java Developer", "QA Automation Enginner", "DevOps Enginner", "App Developer(Android)", "App Developer(iOS)"]
+
 export default function ContactUs() {
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const updateWindowWidth = () => {
+        setWindowWidth(window.innerWidth);
+      };
+
+    const [showPopup, setShowPopup] = useState(false);
+    const togglePopup = () => {
+        setShowPopup(!showPopup);
+    };
     // Step 2: Create state variables
     const [purposeValue, setPurposeValue] = useState('');
     const [userNameValue, setUserNameValue] = useState('');
@@ -54,26 +69,26 @@ export default function ContactUs() {
             //   name: name.current.value,
             //   phone: phone.current.value,
             // });
-      
-            const response = await fetch("https://v1.nocodeapi.com/chandra/google_sheets/tFxcQEOnfQbnrjgP?tabId=ContactForm",{
-              method:'POST',
-              headers:{
-                'Content-Type':'application/json'
-              },
-              body: JSON.stringify([
-                [
-                  userNameValue, // Get the value from the ref
-                  purposeValue,
-                  registeredUserNameValue,
-                  phoneNumberValue,
-                  commentsValue,
-                  new Date().toLocaleString()
-                ]
-              ])
-              
+
+            const response = await fetch("https://v1.nocodeapi.com/chandra/google_sheets/tFxcQEOnfQbnrjgP?tabId=ContactForm", {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify([
+                    [
+                        userNameValue, // Get the value from the ref
+                        purposeValue,
+                        registeredUserNameValue,
+                        phoneNumberValue,
+                        commentsValue,
+                        new Date().toLocaleString()
+                    ]
+                ])
+
             });
             await response.json();
-      
+
             // Handle success, you can display a success message or perform other actions
             console.log('Form submitted successfully', response.data);
             setCommentsValue('');
@@ -81,10 +96,10 @@ export default function ContactUs() {
             setRegisteredUserNameValue('');
             setPurposeValue('');
             setUserNameValue('');
-          } catch (error) {
+        } catch (error) {
             // Handle errors, you can display an error message or perform other error handling
             console.error('Error submitting form', error);
-          }
+        }
 
 
         // Add your logic for handling the form data (e.g., sending it to a server)
@@ -112,18 +127,22 @@ export default function ContactUs() {
     };
 
     return (
+        <>
         <div className='contact-us-page'>
             <Navbar />
             <div className='contact-us-hero-section'>
                 <div className='contact-us-heroleft'>
                     <p>Help & Support</p>
                     <h1>How can we help?</h1>
-                    <div class="contactus-input-container">
+                    <h1 className='quote'><span><FontAwesomeIcon icon={faQuoteLeft}/></span> One Child, One Teacher, One Pen And One Book Can Change The World <span><FontAwesomeIcon icon={faQuoteRight}/></span></h1>
+                    <p className='author'>-----Malala Yousafzai</p>
+                    {/* <div class="contactus-input-container">
                         <input required="" placeholder="search for answers..." type="text" />
                         <button class="search-btn" type="button">
                             Search
                         </button>
-                    </div>
+                        
+                    </div> */}
                 </div>
                 <div className='contact-us-heroright'>
                     <img src={ContactHeroImg} alt='contact-hero' />
@@ -136,7 +155,7 @@ export default function ContactUs() {
                         <p>Perhaps you can find answers in our collections</p>
                     </div>
                     <div className='card-topright'>
-                        <button>Request a Call Back <span><img src={ContactUsphone} alt='contact-us-phone' /></span></button>
+                        <button style={{marginTop: windowWidth <=768 ? "70%" : "10%", padding: "10px"}} onClick={togglePopup} >Request a Call Back <span><img src={ContactUsphone} alt='contact-us-phone' /></span></button>
                     </div>
                 </div>
                 <div className='contact-us-cards-bottom'>
@@ -159,17 +178,18 @@ export default function ContactUs() {
                         <form className='contactus-form' onSubmit={handleSubmit}>
                             <div className='contactus-row1'>
                                 <div className='contactus-purpose'>
-                                    <label>Purpose</label>
+                                    <label>Programs</label>
                                     <div className='contactus-input'>
                                         <img src={purpose} alt="Purpose" />
                                         <select
-                                            placeholder='Choose'
+                                            type="select"
                                             value={purposeValue}
                                             onChange={handlePurposeChange}
                                         >
-                                            <option value=''>Choose Purpose</option>
-                                            <option value='General Inquiry'>General Inquiry</option>
-                                            {/* Add other options here */}
+                                            <option value=''>Choose Program</option>
+                                            {programs.map((program)=>(
+                                                <option value={program}>{program}</option>
+                                            ))}
                                         </select>
                                     </div>
                                 </div>
@@ -187,11 +207,11 @@ export default function ContactUs() {
                             </div>
                             <div className='contactus-row2'>
                                 <div className='contactus-username'>
-                                    <label>Registered Username</label>
+                                    <label>Email ID</label>
                                     <div className='contactus-input'>
                                         <img src={registeredUserName} alt="Registered Username" />
                                         <input
-                                            placeholder='Enter Registered Username'
+                                            placeholder='Enter your email'
                                             value={registeredUserNameValue}
                                             onChange={handleRegisteredUserNameChange}
                                         />
@@ -229,8 +249,10 @@ export default function ContactUs() {
                     </div>
                 </div>
             </div>
-            <FloatingButton/>
+            <FloatingButton />
             <Footer />
         </div>
+        {showPopup && <GetInTouchPopUp onClose={togglePopup} />}
+        </>
     );
 }

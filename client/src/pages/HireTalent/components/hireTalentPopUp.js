@@ -1,8 +1,6 @@
 import React, { useRef } from 'react';
 import '../styles/hireTalentPopUp.css';
 
-
-
 const Popup = ({ onClose }) => {
     // const [companyName, setCompanyName] = useState('');
     // const [position, setPosition] = useState('');
@@ -47,7 +45,7 @@ const Popup = ({ onClose }) => {
                     [
                         companyName.current.value, // Get the value from the ref
                         requiredPosition.current.value,
-                        requiredType.current.value, 
+                        requiredType.current.value,
                         new Date().toLocaleString()
                     ]
                 ])
@@ -64,6 +62,8 @@ const Popup = ({ onClose }) => {
         }
 
     }
+    const programs = ["Full Stack Developer", "Front-End Developer", "Back-End Developer", "UI/UX Designer", "AI Engineer", "Data Science Engineer", "Python Developer", "Java Developer", "QA Automation Enginner", "DevOps Enginner", "App Developer(Android)", "App Developer(iOS)"]
+
 
 
 
@@ -81,6 +81,7 @@ const Popup = ({ onClose }) => {
                             type='text'
                             ref={companyName}
                             className='company-name'
+                            placeholder='Enter your company name'
                         // onChange={(e) => setCompanyName(e.target.value)}
                         />
                     </label>
@@ -90,8 +91,10 @@ const Popup = ({ onClose }) => {
                         // value={positionType}
                         // onChange={(e) => setPositionType(e.target.value)}
                         >
-                            <option value=''>SELECT</option>
-                            {/* <HireTalentPopUpPositions /> */}
+                            <option value=''>Choose program</option>
+                            {programs.map((program) => (
+                                <option value={program}>{program}</option>
+                            ))}
 
                         </select>
                         {/* <input
@@ -108,7 +111,7 @@ const Popup = ({ onClose }) => {
                             ref={requiredType}
                         // onChange={(e) => setPositionType(e.target.value)}
                         >
-                            <option value=''>SELECT</option>
+                            <option value=''>Select</option>
                             <option value='full-time'>Full Time</option>
                             <option value='part-time'>Part Time</option>
                             <option value='contract'>Contract</option>

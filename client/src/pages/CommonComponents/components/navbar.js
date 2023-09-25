@@ -28,7 +28,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/navbar.css';
-import Logo from '../assets/Final logo33.png';
+import Logo from '../assets/Navbar Logo.png';
 import GetInTouchPopUp from '../components/getInTouchPopUp';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 
@@ -63,6 +63,9 @@ export default function Navbar() {
         <img src={Logo} alt='Logo' className='navbar-logo' />
       </Link>
       <div className={`navbar-buttons ${mobileMenuOpen ? 'mobile-menu' : ''}`}>
+        <Link to='/'>
+          <button className='navbar-button'>Home</button>
+        </Link>
         <Link to='/exploreprograms'>
           <button className="navbar-button" >Explore</button>
         </Link>
@@ -75,9 +78,9 @@ export default function Navbar() {
         <Link to='/contactus'>
           <button className="navbar-button" >Contact Us</button>
         </Link>
-        <Link to='/aboutus'>
+        {/* <Link to='/aboutus'>
           <button className="navbar-button" >About Us</button>
-        </Link>
+        </Link> */}
 
         {/* <button className='navbar-button'  > <FontAwesomeIcon style={{ color: '#060606' }} icon={faPhone} className='phone-icon' /> +91 8688 283 415</button> */}
         {/* <button className='navbar-button' onClick={navigateToHome}>Home</button>

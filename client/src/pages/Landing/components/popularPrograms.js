@@ -38,7 +38,7 @@ let imgdata = {
 const cardData1 = data.slice(0, 6);
 const cardData2 = data.slice(6, 12);
 
-const cardWidth = 18;
+const cardWidth = 16;
 
 export default function PopularCourses() {
   const [currentIndex1, setCurrentIndex1] = useState(0);
@@ -51,7 +51,7 @@ export default function PopularCourses() {
   };
 
   const handleRightArrowClick1 = () => {
-    if (currentIndex1 == cardData1.length -1) {
+    if (currentIndex1 == cardData1.length -2) {
       setCurrentIndex1(0);
     }
     else {
@@ -194,7 +194,6 @@ export default function PopularCourses() {
               <div className="cards-container" style={{ transform: transformValue2 }}>
 
                 {cardData2.map((card, index) => (
-                  <>
                     <CardComponent
                       key={index}
                       title={card.title}
@@ -203,7 +202,6 @@ export default function PopularCourses() {
                       star={card.rating}
                       period={card.period}
                     />
-                  </>
                 ))}
               </div>
 

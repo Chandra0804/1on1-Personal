@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import '../styles/floatingButton.css';
 import CallCenterOperator from '../assets/Call center operator.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp , faTelegram } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp, faTelegram } from '@fortawesome/free-brands-svg-icons';
+import WhatsappIcon from '../assets/WhatsappIcon.png'
 
 export default function FloatingButton() {
   // const [hovered, setHovered] = useState(false);
@@ -24,17 +25,18 @@ export default function FloatingButton() {
   return (
     <div className="floating-button-container">
       <div
-        // className={`floating-button${hovered ? ' hovered' : ''}`}
-        // onMouseEnter={toggleHover}
-        // onMouseLeave={toggleHover}
+      // className={`floating-button${hovered ? ' hovered' : ''}`}
+      // onMouseEnter={toggleHover}
+      // onMouseLeave={toggleHover}
       >
         {
           <div className="hovered-icons">
             < a href={url}
-                target="_blank">
-                  {/* <i class="fab fa-whatsapp fa-7x"></i>  */}
+              target="_blank">
+              {/* <i class="fab fa-whatsapp fa-7x"></i>  */}
 
-            <FontAwesomeIcon icon={faWhatsapp} className='whatsapp-icon' style={{color:'green'}}/>
+              {/* <FontAwesomeIcon icon={faWhatsapp} className='whatsapp-icon' style={{color:'green'}}/> */}
+              <img src={WhatsappIcon} alt='whatsapp' />
             </a>
           </div>
         }

@@ -3,6 +3,7 @@ import '../styles/heroSection.css';
 import Hero1 from '../assets/Home-Hero (1).png';
 import Hero2 from '../assets/Home-Hero (2).png';
 import NavigationArrow from '../assets/Navigating Arrow.png'
+import { Link } from 'react-router-dom';
 
 export default function HeroSection() {
     const animatedTextRef = useRef();
@@ -52,7 +53,10 @@ export default function HeroSection() {
                         </p>
                     </div>
                     <div className='buttons-wrapper'>
-                        <button className='course-button'>Exclusive Programs</button>
+                        <Link to="/exploreprograms">
+                            <button className='course-button'>Exclusive Programs</button>
+                        </Link>
+                        
                         {/* <button className='course-button'>Placement Courses</button> */}
                     </div>
                 </div>

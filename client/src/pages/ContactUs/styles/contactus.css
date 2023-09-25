@@ -17,6 +17,24 @@
     font-size: 18px;
     margin: 0;
 }
+.quote{
+    font-size: 27px !important;
+    color: black !important;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    font-weight: 600;
+    text-shadow: 0 0 2px #ff3e6d;
+}
+.quote span{
+    font-size: 12px;
+}
+.quote svg{
+    vertical-align: 1em;
+}
+.author{
+    font-size: 19px !important;
+    margin-left: 55vw !important;
+}
 
 .contact-us-heroleft>h1{
     color: #fff;
@@ -171,7 +189,7 @@
     display: flex;
     flex-direction: column;
 }
-.contactus-form select,.contactus-form input{
+.contactus-form input{
     border-radius: 10px;
     border: none;
     height: 1vh;
@@ -179,6 +197,24 @@
     padding: 1em;
     font-size: 0.7em;
 }
+.contactus-form input:focus{
+    outline: none;
+}
+.contactus-form select{
+    border-radius: 10px;
+    padding-left: 0.5em;
+    color: #818181;
+    border: none;
+    font-size: 0.7em;
+}
+.contactus-form select:focus{
+    outline: none;
+}
+.contactus-input select option {
+    /* Add your CSS properties here */
+    line-height: 1em;
+    padding: 5px 10px;
+  }
 .contactus-form label{
     font-size: 0.7em;
 }
