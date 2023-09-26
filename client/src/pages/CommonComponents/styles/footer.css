@@ -87,9 +87,9 @@
   font-size: 25px;
   align-items: center;
   justify-content: left;
-  gap: 2rem;
+  gap: 1rem;
   color: #fff;
-  margin-top: 1rem;
+  margin-top: 0.25rem;
 }
 .social-icons>a{
   color: #fff;
@@ -110,6 +110,18 @@
   font-size: 15px;
 }
 
+.social-icons>p{
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+}
+.social-icons>p>span{
+  font-size: 25px;
+}
+
 
 
 /* Footer Part 3 */
@@ -124,6 +136,14 @@
 
 .footer-part3 p {
   font-weight: 500;
+}
+
+.footer-part2-left>p>span{
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-top: 0.25rem;
 }
 
 

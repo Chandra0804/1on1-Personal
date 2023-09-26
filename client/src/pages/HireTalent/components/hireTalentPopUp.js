@@ -62,7 +62,7 @@ const Popup = ({ onClose }) => {
         }
 
     }
-    const programs = ["Full Stack Developer", "Front-End Developer", "Back-End Developer", "UI/UX Designer", "AI Engineer", "Data Science Engineer", "Python Developer", "Java Developer", "QA Automation Enginner", "DevOps Enginner", "App Developer(Android)", "App Developer(iOS)"]
+    const programs = ["Full Stack Developer", "Front-End Developer", "Back-End Developer", "UI/UX Designer", "AI Engineer", "Data Science Engineer", "Python Developer", "Java Developer", "QA Automation Enginner", "DevOps Enginner", "App Developer(Android)", "App Developer(iOS)" , "Other"]
 
 
 
@@ -125,7 +125,7 @@ const Popup = ({ onClose }) => {
                             // onChange={(e) => setReview(e.target.value)}
                         /> */}
                     </label>
-                    <button type='submit' onClick={submitHandler}>Submit Application</button>
+                    <button type='submit' onClick={submitHandler}>Submit</button>
                 </div>
             </div>
         </div>

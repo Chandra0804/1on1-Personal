@@ -8,7 +8,7 @@ import ProfileImg2 from '../assets/Ellipse 18.png';
 import Avatarb from '../assets/Avatarb.png'
 import Avatarb2 from '../assets/Avatarb2.png'
 import Avatarg1 from '../assets/Avatarg1.png'
-import Avatarg2 from '../assets/Avatarg2.png'
+import Avatarg2 from '../assets/Avatar2.png'
 
 const TestimonialCardData = [
   {

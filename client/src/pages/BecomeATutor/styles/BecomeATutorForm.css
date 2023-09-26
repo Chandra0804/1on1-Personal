@@ -113,7 +113,7 @@
     margin-bottom: -1vh;
 }
 .tutor-resume input{
-    width: 7.8vw;
+    width: 75% !important;
     border: none;
     height: auto;
 }
@@ -144,6 +144,10 @@
     margin-left: 6.5vw;
 }
 
+.resume-input{
+    border: none;
+    padding: 0.25rem;
+}
 @media screen and (max-width: 486px) {
     .tutor-right-container{
         margin-top: 1em;

@@ -75,7 +75,7 @@ export default function BecomeATutor() {
                 <div className="tutor-left-container">
                     <div className="tutor-left-top-container">
                         <p>Submit your application and open doors to your dream Career</p>
-                        <p className="tutor-exp">Must have experience of <span> 2+ years </span></p>
+                        <p className="tutor-exp">Must have <span> 2+ years </span> of experience</p>
                         <div className="tutor-left-list">
                             {dreamCareerList.map((listText) => (
                                 <div className="tutor-list-item">

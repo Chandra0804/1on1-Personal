@@ -203,6 +203,11 @@
     object-fit: cover;
 }
 
+.roadmap-image-tagline{
+    font-weight: 500;
+    font-size: 20px;
+}
+
 .module-text {
     font-size: 18px;
     font-weight: 800;
@@ -212,6 +217,7 @@
 .roadmap-bullets>ul {
     font-size: 15px;
     line-height: 1.75;
+    font-weight: 500;
 }
 
 .roadmap-final-card {

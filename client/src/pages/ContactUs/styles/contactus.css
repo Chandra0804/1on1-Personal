@@ -94,13 +94,14 @@
     justify-content: space-between;
 }
 .cards-topleft>h3{
-    font-size: 20px;
+    font-size: 24px;
     color: #ff7a01;
     font-weight: 600;
     margin-bottom: 0;
 }
 .cards-topleft>p{
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 500;
 }
 .card-topright>button{
     border: solid 0.75px #ff7a01;

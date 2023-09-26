@@ -42,7 +42,7 @@ const contactusCardData = [
     }
 ];
 
-const programs = ["Full Stack Developer", "Front-End Developer", "Back-End Developer", "UI/UX Designer", "AI Engineer", "Data Science Engineer", "Python Developer", "Java Developer", "QA Automation Enginner", "DevOps Enginner", "App Developer(Android)", "App Developer(iOS)"]
+const programs = ["Full Stack Developer", "Front-End Developer", "Back-End Developer", "UI/UX Designer", "AI Engineer", "Data Science Engineer", "Python Developer", "Java Developer", "QA Automation Enginner", "DevOps Enginner", "App Developer(Android)", "App Developer(iOS)", "Other"]
 
 export default function ContactUs() {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -151,8 +151,8 @@ export default function ContactUs() {
             <div className='contact-us-cards-section'>
                 <div className='contact-us-cards-top'>
                     <div className='cards-topleft'>
-                        <h3>Need help? We've got your back</h3>
-                        <p>Perhaps you can find answers in our collections</p>
+                        <h3>We make you use your wings!</h3>
+                        <p>Need help? We've got your back</p>
                     </div>
                     <div className='card-topright'>
                         <button onClick={togglePopup} >Request a Call Back <span><img src={ContactUsphone} alt='contact-us-phone' /></span></button>

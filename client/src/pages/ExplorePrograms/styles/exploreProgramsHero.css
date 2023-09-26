@@ -51,7 +51,7 @@
 .explore-programs-heroLeft>button{
     margin-top: 3rem;
     margin-bottom: 2rem;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     padding: 1rem 2rem;
     border: none;
@@ -59,6 +59,12 @@
     background-color: #000;
     color: #fff;
     width: fit-content;
+}
+
+.explore-programs-heroLeft>button:hover{
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px #ff7f06;
 }
 
 .explore-programs-heroRight {

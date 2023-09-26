@@ -1,10 +1,43 @@
 import React, { useRef } from 'react';
 import '../styles/BecomeATutorForm.css';
 
-const programs = ["Full Stack Developer", "Front-End Developer", "Back-End Developer", "UI/UX Designer", "AI Engineer", "Data Science Engineer", "Python Developer", "Java Developer", "QA Automation Enginner", "DevOps Enginner", "App Developer(Android)", "App Developer(iOS)"]
+const programs = ["Full Stack Developer", "Front-End Developer", "Back-End Developer", "UI/UX Designer", "AI Engineer", "Data Science Engineer", "Python Developer", "Java Developer", "QA Automation Enginner", "DevOps Enginner", "App Developer(Android)", "App Developer(iOS)","Other"]
 
 
 export default function BecomeATutorForm() {
+
+    const states = [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh",
+        "Goa",
+        "Gujarat",
+        "Haryana",
+        "Himachal Pradesh",
+        "Jharkhand",
+        "Karnataka",
+        "Kerala",
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Manipur",
+        "Meghalaya",
+        "Mizoram",
+        "Nagaland",
+        "Odisha",
+        "Punjab",
+        "Rajasthan",
+        "Sikkim",
+        "Tamil Nadu",
+        "Telangana",
+        "Tripura",
+        "Uttar Pradesh",
+        "Uttarakhand",
+        "West Bengal",
+        "Other"
+    ];
+
     const fullName = useRef();
     const course = useRef();
     const program = useRef();
@@ -134,8 +167,9 @@ export default function BecomeATutorForm() {
                 <div className="tutor-field tutor-residence">
                     <label>Residence State<span>*</span></label>
                     <select ref={state}><option></option>
-                        <option>Andhra Pradesh</option>
-                        <option>Hyderabad</option>
+                        {states.map((state)=>(
+                            <option value={state}>{state}</option>
+                        ))}
                     </select>
                 </div>
                 <div className="tutor-field tutor-linkedin">
@@ -146,9 +180,9 @@ export default function BecomeATutorForm() {
                     <label>Work Experience<span>*</span></label>
                     <select id="dropdown" ref={workExperience} type="select">
                         <option vlaue=''></option>
-                        <option vlaue=''>2+ years</option>
-                        <option vlaue=''>3+ years</option>
-                        <option vlaue=''>4+ years</option>
+                        <option vlaue=''>2 years</option>
+                        <option vlaue=''>3 years</option>
+                        <option vlaue=''>4 years</option>
                         <option vlaue=''>5+ years</option>
                     </select>
                 </div>
@@ -163,8 +197,8 @@ export default function BecomeATutorForm() {
                 <div className="tutor-field tutor-resume" style={{ zIndex: 1 }}>
                     <label>Resume<span>*</span></label>
                     <div className='resume-input-div'>
-                        <input type="file" ref={resumeFileInput} accept=".jpg, .png, .pdf" style={{ width: "50%" }} />
-                        <p className="resume-requires">Supported Formats only .jpg, .png, .pdf less than 1MB</p>
+                        <input  className='resume-input' type="file" ref={resumeFileInput} accept=".jpg, .png, .pdf" style={{ width: "50%" }} />
+                        <p className="resume-requires">Supported Formats only .jpg, .png, .pdf</p>
                     </div>
 
                 </div>

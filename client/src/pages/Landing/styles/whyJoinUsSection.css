@@ -121,7 +121,7 @@
     background: linear-gradient(135deg, transparent 0%, white 100%);
     transform: rotate(-30deg);
     /* Adjust slant angle as needed */
-    animation: shining 1s linear infinite;
+    animation: shining 1.5s linear infinite;
 }
 
 @keyframes shining {

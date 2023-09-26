@@ -43,7 +43,7 @@ export default function HireTalent() {
             <img src={FrameImg} alt='Frame'/>
           </div>
           <div className='why-platform-right-container'>
-            <p>Discover a competitve edge in your recruitment process with our platform. At 1 on 1 Teaching Friend Technologies , we specialize in connecting employers with the finest, skillfully trained students. Our mission is to simplify and enhance your hiring experiences, ensuring that you receive top-tier-talent to meet your organization's needs. Through our platform, you'll gain access to a pool of exceptiona students who have undergone vigorous training and are well-prepared to excel in your industry. Join us today and let us help you find the perfect match for your company's success.</p>
+            <p>Discover a competitve edge in your recruitment process with our platform. At 1 on 1 Teaching Friend Technologies , we specialize in connecting employers with the finest, skillfully trained students. Our mission is to simplify and enhance your hiring experiences, ensuring that you receive top-tier-talent to meet your organization's needs. Through our platform, you'll gain access to a pool of exceptional students who have undergone vigorous training and are well-prepared to excel in your industry. Join us today and let us help you find the perfect match for your company's success.</p>
           </div>
         </div>
       </div>

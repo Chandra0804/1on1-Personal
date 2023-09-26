@@ -63,24 +63,24 @@
       ],
       "faq": [
         {
-          "question": "Is Free Trail Available?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
         },
         {
-          "question": "Can I Change My Plan Later?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
         },
         {
-          "question": "Can I Ask my Doubts In Live Class?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
         },
         {
-          "question": "Is this course valuable for Career",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
         },
         {
-          "question": "What are the modules covered in this course",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
         }
       ]
     }
@@ -153,24 +153,24 @@
       ],
       "faq": [
         {
-          "question": "Is Free Trail Available?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
         },
         {
-          "question": "Can I Change My Plan Later?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
         },
         {
-          "question": "Can I Ask my Doubts In Live Class?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
         },
         {
-          "question": "Is this course valuable for Career",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
         },
         {
-          "question": "What are the modules covered in this course",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
         }
       ]
     }
@@ -211,8 +211,8 @@
       ],
       "modules": [
         ["Web Fundamentals", "Responsive Web Design", "React/Angular"],
-        ["Node.js/Django", "MySQL", "MongoDB", "API Development"],
-        ["SQL", "NoSQL", "Database Design"],
+        ["Node.js/Django", "MySQL", "MongoDB"],
+        ["API Development", "SQL, NoSQL", "Database Design"],
         ["Git and GitHub", "Cloud Platforms", "Heroku/Netlify"],
         ["Authentication and Security", "Docker", "CI/CD", "Webpack/Parcel"],
         ["Projects", "Job-ready portfolio", "Mock Interviews"]
@@ -239,24 +239,24 @@
       ],
       "faq": [
         {
-          "question": "Is Free Trail Available?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
         },
         {
-          "question": "Can I Change My Plan Later?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
         },
         {
-          "question": "Can I Ask my Doubts In Live Class?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
         },
         {
-          "question": "Is this course valuable for Career",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
         },
         {
-          "question": "What are the modules covered in this course",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
         }
       ]
     }
@@ -296,8 +296,8 @@
         }
       ],
       "modules": [
-        ["UI/UX Fundamentals", "Design Principles"],
-        ["Typography", "Color Theory", "Grid Systems", "Figma"],
+        ["UI/UX Fundamentals", "Design Principles","Typography"],
+        ["Color Theory", "Grid Systems", "Figma"],
         ["Adobe XD, Sketch", "User Research", "Wireframing", "Prototyping"],
         [
           "Information Architecture",
@@ -335,24 +335,24 @@
       ],
       "faq": [
         {
-          "question": "Is Free Trail Available?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
         },
         {
-          "question": "Can I Change My Plan Later?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
         },
         {
-          "question": "Can I Ask my Doubts In Live Class?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
         },
         {
-          "question": "Is this course valuable for Career",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
         },
         {
-          "question": "What are the modules covered in this course",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
         }
       ]
     }
@@ -393,13 +393,13 @@
       "modules": [
         ["Statistics and Probability", "Python"],
         [
-          "Introduction to Machine Learning",
+          "Machine Learning",
           "Python Libraries",
           "Data Preprocessing"
         ],
         ["Deep Learning", "Model Evaluations", "Ensemble Methods"],
         [
-          "Natural Language Processing (NLP)",
+          "NLP",
           "Computer Vision",
           "Reinforcement Learning"
         ],
@@ -428,24 +428,24 @@
       ],
       "faq": [
         {
-          "question": "Is Free Trail Available?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
         },
         {
-          "question": "Can I Change My Plan Later?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
         },
         {
-          "question": "Can I Ask my Doubts In Live Class?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
         },
         {
-          "question": "Is this course valuable for Career",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
         },
         {
-          "question": "What are the modules covered in this course",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
         }
       ]
     }
@@ -488,13 +488,13 @@
         ["Statistics and Probability", "Python/R"],
         [
           "Data Wrangling and Cleaning",
-          "Exploratory Data Analysis (EDA)",
+          "Exploratory Data Analysis",
           "Data Visualization"
         ],
         [
-          "Introduction to Machine Learning",
+          "Machine Learning",
           "Data Preprocessing",
-          "Feature Selection and Engineering"
+          "Feature Engineering"
         ],
         ["SQL", "Python Libraries", "Big Data"],
         ["Deep Learning", "NLP/Computer Vision", "Specialization"],
@@ -522,24 +522,24 @@
       ],
       "faq": [
         {
-          "question": "Is Free Trail Available?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
         },
         {
-          "question": "Can I Change My Plan Later?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
         },
         {
-          "question": "Can I Ask my Doubts In Live Class?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
         },
         {
-          "question": "Is this course valuable for Career",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
         },
         {
-          "question": "What are the modules covered in this course",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
         }
       ]
     }
@@ -581,23 +581,22 @@
       "modules": [
         [
           "Understanding of Software Development",
-          "Basic Testing Concepts",
-          "Python/Java"
+          "Basic Testing Concepts"
         ],
         [
+          "Python/Java",
           "Test Case Management",
-          "Introduction to Automation",
-          "Testing Libraries and Frameworks"
+          "Introduction to Automation"          
         ],
         ["Selenium WebDriver", "Appium", "PyTest(Python)/TestNG(Java)"],
-        ["Page Object Model (POM)", "Test Data Management", "CI/CD", "SQL"],
+        ["Testing Libraries and Frameworks", "Page Object Model (POM)", "Test Data Management"],
         [
           "API Testing",
           "Performance Testing",
           "Cloud Testing",
           "Security Testing"
         ],
-        ["Job-ready portfolio", "Mock Interviews"]
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
       ],
       "testimonials": [
         {
@@ -621,24 +620,24 @@
       ],
       "faq": [
         {
-          "question": "Is Free Trail Available?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
         },
         {
-          "question": "Can I Change My Plan Later?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
         },
         {
-          "question": "Can I Ask my Doubts In Live Class?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
         },
         {
-          "question": "Is this course valuable for Career",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
         },
         {
-          "question": "What are the modules covered in this course",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
         }
       ]
     }
@@ -678,9 +677,8 @@
         }
       ],
       "modules": [
-        ["Basic Syntax", "Control Flow", "Functions"],
+        ["Basics","Functions", "Data Structures"],
         [
-          "Data Structures",
           "Classes and Objects",
           "OOPS concepts",
           "Modules and Packages"
@@ -691,7 +689,7 @@
           "Decorators",
           "Generators and Iterators"
         ],
-        ["Flask/Django", "SQL", "Web Scraping", "Deployment"],
+        ["SQL, Flask/Django", "Web Scraping", "Deployment"],
         [
           "Python scripting",
           "Web Development with Python",
@@ -722,24 +720,24 @@
       ],
       "faq": [
         {
-          "question": "Is Free Trail Available?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
         },
         {
-          "question": "Can I Change My Plan Later?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
         },
         {
-          "question": "Can I Ask my Doubts In Live Class?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
         },
         {
-          "question": "Is this course valuable for Career",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
         },
         {
-          "question": "What are the modules covered in this course",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
         }
       ]
     }
@@ -785,10 +783,10 @@
           "Java Standard Library",
           "Database Connectivity",
           "Java Web Development",
-          "Servlets and JSP (JavaServer Pages)"
+          "Servlets and JSP"
         ],
         ["Advanced Java", "RESTful Services", "JUnit/TestNG"],
-        ["Job-ready portfolio", "Mock Interviews"]
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
       ],
       "testimonials": [
         {
@@ -812,24 +810,24 @@
       ],
       "faq": [
         {
-          "question": "Is Free Trail Available?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
         },
         {
-          "question": "Can I Change My Plan Later?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
         },
         {
-          "question": "Can I Ask my Doubts In Live Class?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
         },
         {
-          "question": "Is this course valuable for Career",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
         },
         {
-          "question": "What are the modules covered in this course",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
         }
       ]
     }
@@ -902,24 +900,24 @@
       ],
       "faq": [
         {
-          "question": "Is Free Trail Available?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
         },
         {
-          "question": "Can I Change My Plan Later?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
         },
         {
-          "question": "Can I Ask my Doubts In Live Class?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
         },
         {
-          "question": "Is this course valuable for Career",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
         },
         {
-          "question": "What are the modules covered in this course",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
         }
       ]
     }
@@ -986,24 +984,24 @@
       ],
       "faq": [
         {
-          "question": "Is Free Trail Available?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
         },
         {
-          "question": "Can I Change My Plan Later?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
         },
         {
-          "question": "Can I Ask my Doubts In Live Class?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
         },
         {
-          "question": "Is this course valuable for Career",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
         },
         {
-          "question": "What are the modules covered in this course",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
         }
       ]
     }
@@ -1044,7 +1042,7 @@
       ],
       "modules": [
         ["Swift", "Xcode", "iOS App Fundamentals"],
-        ["UIKit Framework", "Views and View Controllers", "Interface Builder"],
+        ["UIKit Framework", "View Controllers", "Interface Builder"],
         [
           "UI Elements",
           "Table Views and Collection Views",
@@ -1080,24 +1078,24 @@
       ],
       "faq": [
         {
-          "question": "Is Free Trail Available?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
         },
         {
-          "question": "Can I Change My Plan Later?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
         },
         {
-          "question": "Can I Ask my Doubts In Live Class?",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
         },
         {
-          "question": "Is this course valuable for Career",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
         },
         {
-          "question": "What are the modules covered in this course",
-          "answer": "There is only Buy and Learn Option in our Offerings as this is a Live Interactive classes.Thank You."
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
         }
       ]
     }
