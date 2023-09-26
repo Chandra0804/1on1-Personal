@@ -39,4 +39,10 @@
   .hovered-icons img{
     width: 10vw;
   }
+
+  @media screen and (max-width:480px){
+    .hovered-icons img{
+      width: 20vw;
+    }
+  }
   

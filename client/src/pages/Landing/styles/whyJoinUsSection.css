@@ -91,6 +91,8 @@
     padding-bottom: 15vh;
     background: url('../assets/Why\ student\ join\ us\ BG.png') no-repeat;
     background-size: cover;
+    position: relative;
+    z-index: 3;
 }
 
 .shining-text {

@@ -188,7 +188,7 @@
 @media (min-width: 487px) and (max-width: 736px){
   .popup-content {
     align-items: center;
-    width: 50vw; 
+    width: 55vw; 
     padding: 1rem 2rem; 
   }
   .popup-header{
@@ -205,19 +205,22 @@
     font-size: 0.74em;
   }
   .company-name{
-    margin-left: 1.2rem !important;
+    margin-left: 1.8rem !important;
   }
   .required-class{
-    margin-left: 2rem !important;
+    margin-left: 2.3rem !important;
   }  
   .required-position-input{
-    margin-left: 0.5rem !important;
+    margin-left: 1rem !important;
   }
   .popup-form label input[type='text']{
-    width: 27vw;
+    width: 30vw;
   }
-  .required-class, .required-position-input{
-    width: 34vw;
+  .required-class{
+    width: 32vw;
+  } 
+  .required-position-input{
+    width: 31.5vw;
   }
   .popup-form button[type='submit'] {
     font-weight: 600;
@@ -229,7 +232,7 @@
 @media (min-width: 737px) and (max-width: 992px){
   .popup-content {
     align-items: center;
-    width: 50vw; 
+    width: 55vw; 
     padding: 2rem; 
   }
   .popup-header{
@@ -242,19 +245,22 @@
     font-size: 0.74em;
   }
   .company-name{
-    margin-left: 1.2rem !important;
+    margin-left: 1.4rem !important;
   }
   .required-class{
     margin-left: 2rem !important;
   }  
   .required-position-input{
-    margin-left: 0.5rem !important;
+    margin-left: 0.8rem !important;
   }
   .popup-form label input[type='text']{
-    width: 28vw;
+    width: 31vw;
   }
-  .required-class, .required-position-input{
+  .required-class{
     width: 34vw;
+  }
+  .required-position-input{
+    width: 33vw;
   }
   .popup-form button[type='submit'] {
     font-weight: 600;
@@ -266,7 +272,7 @@
 @media (min-width: 993px) and (max-width: 1024px){
   .popup-content {
     align-items: center;
-    width: 45vw; 
+    width: 50vw; 
     padding: 2rem; 
   }
   .popup-header{
@@ -288,10 +294,14 @@
     margin-left: 0.5rem !important;
   }
   .popup-form label input[type='text']{
-    width: 28vw;
+    height: 4vh !important;
+    width: 32vw;
   }
-  .required-class, .required-position-input{
+  .required-class{
     width: 34vw;
+  }
+  .required-position-input{
+    width: 34vw
   }
   .popup-form button[type='submit'] {
     font-weight: 600;

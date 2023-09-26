@@ -31,8 +31,6 @@ export default function ProgramDetails() {
   // const { title } = useParams();
   const location = useLocation();
   const { title, courseDuration } = location.state;
-  console.log("programs"+title+courseDuration);
-  console.log(data)
   // console.log(window.location.search.substring(1),' -> title')
 
   const [programDetails,setProgramDetails] = useState(data[title][0]);
@@ -55,7 +53,7 @@ export default function ProgramDetails() {
       <CareerPaths isCourseDetails={false} careeroptions = {programDetails.career_options}/>
       <CertifiedTraining/>
       <ProgramDetailsRoadmap roadmap={programDetails.modules}/>
-      <ProgramDetailsPricing/>
+      {/* <ProgramDetailsPricing/> */}
        <ProgramDetailsSimpleSteps/>
       <WhyJoinUsSection/>
       {/* <PorgramDetailsTestimonials testimonials={programDetails.testimonials}/> */}

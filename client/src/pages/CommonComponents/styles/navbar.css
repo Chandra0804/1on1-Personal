@@ -188,8 +188,13 @@
     display: none;
   }
 
+  .navbar-logo{
+    margin-left: 1rem;
+  }
+
   .mobile-menu-icon {
     display: block;
+    margin-right: 1rem;
     /* Add your mobile menu icon styles here */
   }
 

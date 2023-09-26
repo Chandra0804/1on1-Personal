@@ -16,9 +16,7 @@ function ProgramDetailsSkills(props) {
   //   Visual,GitHub,Flycode,Grunt,Codepen,HTML5,CSS3,Bootstrap5,React1
   // ]
 
-  console.log(props)
   const items1 = props.skillsArr.slice(0,5);
-  console.log(items1)
   // [
   //   {
   //     image: Visual,

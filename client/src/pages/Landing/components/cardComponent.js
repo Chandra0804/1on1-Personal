@@ -15,8 +15,6 @@ const CardComponent = ({key,courseId,objectId, title, imageSrc, purchases, star,
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   const onbId = queryParams.get('objectId');
-  console.log("getting id");
-  console.log("cid:" + onbId);
   const [showPopup, setShowPopup] = useState(false);
   const togglePopup = () => {
     setShowPopup(!showPopup);

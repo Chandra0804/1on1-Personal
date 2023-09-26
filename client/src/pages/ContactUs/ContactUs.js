@@ -155,7 +155,7 @@ export default function ContactUs() {
                         <p>Perhaps you can find answers in our collections</p>
                     </div>
                     <div className='card-topright'>
-                        <button style={{marginTop: windowWidth <=768 ? "70%" : "10%", padding: "10px"}} onClick={togglePopup} >Request a Call Back <span><img src={ContactUsphone} alt='contact-us-phone' /></span></button>
+                        <button onClick={togglePopup} >Request a Call Back <span><img src={ContactUsphone} alt='contact-us-phone' /></span></button>
                     </div>
                 </div>
                 <div className='contact-us-cards-bottom'>

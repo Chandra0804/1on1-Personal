@@ -93,13 +93,10 @@ export default function PopularCourses() {
 
   // Add a resize event listener when the component mounts
   useEffect(() => {
-    console.log('Index updated!!!');
-    console.log(currentIndex1);
     setCurrentTile1(cardData1[currentIndex1]);
   }, [currentIndex1]);
 
   useEffect(() => {
-    console.log('Index updated!!!');
     setCurrentTile2(cardData2[currentIndex2]);
   }, [currentIndex2]);
 
@@ -115,9 +112,6 @@ export default function PopularCourses() {
           {windowWidth <= 468 ?
 
             <>
-              <div className="arrow left-arrow" onClick={handleLeftArrowClick1}>
-                <FontAwesomeIcon icon={faChevronLeft} />
-              </div>
               <CardComponent
                 key={currentIndex1}
                 title={CurrentTile1.title}
@@ -126,9 +120,6 @@ export default function PopularCourses() {
                 star={CurrentTile1.rating}
                 period={CurrentTile1.period}
               />
-              <div className="arrow right-arrow" onClick={handleRightArrowClick1}>
-                <FontAwesomeIcon icon={faChevronRight} />
-              </div>
             </>
 
             :
@@ -170,9 +161,6 @@ export default function PopularCourses() {
           {windowWidth <= 468 ?
 
             <>
-              <div className="arrow left-arrow" onClick={handleLeftArrowClick2}>
-                <FontAwesomeIcon icon={faChevronLeft} />
-              </div>
               <CardComponent
                 key={currentIndex2}
                 title={CurrentTile2.title}
@@ -181,14 +169,11 @@ export default function PopularCourses() {
                 star={CurrentTile2.rating}
                 period={CurrentTile2.period}
               />
-              <div className="arrow right-arrow" onClick={handleRightArrowClick2}>
-                <FontAwesomeIcon icon={faChevronRight} />
-              </div>
             </>
 
             :
             <>
-              <div className="arrow left-arrow" onClick={handleLeftArrowClick2}>
+              <div className="arrow left-arrow arrow-container2" onClick={handleLeftArrowClick2}>
                 <FontAwesomeIcon icon={faChevronLeft} />
               </div>
               <div className="cards-container" style={{ transform: transformValue2 }}>
@@ -205,7 +190,7 @@ export default function PopularCourses() {
                 ))}
               </div>
 
-              <div className="arrow right-arrow" onClick={handleRightArrowClick2} >
+              <div className="arrow right-arrow arrow-container2" onClick={handleRightArrowClick2} >
                 <FontAwesomeIcon icon={faChevronRight} />
               </div>
             </>

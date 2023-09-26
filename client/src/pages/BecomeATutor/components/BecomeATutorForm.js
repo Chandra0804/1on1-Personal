@@ -162,8 +162,11 @@ export default function BecomeATutorForm() {
                 </div>
                 <div className="tutor-field tutor-resume" style={{ zIndex: 1 }}>
                     <label>Resume<span>*</span></label>
-                    <input type="file" ref={resumeFileInput} accept=".jpg, .png, .pdf" style={{ width: "50%" }} />
-                    <p className="resume-requires">Supported Formats only .jpg, .png, .pdf less than 1MB</p>
+                    <div className='resume-input-div'>
+                        <input type="file" ref={resumeFileInput} accept=".jpg, .png, .pdf" style={{ width: "50%" }} />
+                        <p className="resume-requires">Supported Formats only .jpg, .png, .pdf less than 1MB</p>
+                    </div>
+
                 </div>
                 <button onClick={submitHandler} id="submit" value="Submit">Submit</button>
             </div>

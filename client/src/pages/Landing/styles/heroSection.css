@@ -282,21 +282,17 @@
 }
 
 .buttons-wrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
     width: 100%;
 }
 
 .course-button {
-    padding: 3% 3%;
+    padding: 1% 2%;
     border-radius: 50px;
     font-size: 21px;
     font-weight: 600;
     color: #ffffff;
     background-color: #000000;
     border: none;
-    width: 16vw;
 }
 
 .circle-shape {

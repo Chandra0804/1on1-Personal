@@ -10,6 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 0.5rem;
 }
 
 .contact-us-heroleft>p{
@@ -272,6 +273,14 @@
     .contact-us-heroright{
         display: none;
     }
+    .quote{
+        font-size: 18px !important;
+        text-align: center;
+    }
+    .author{
+        font-size: 13px !important;
+        margin-left: 40vw !important;
+    }
     .contact-us-heroleft{
         width: 100%;
         align-items: center;
@@ -338,6 +347,14 @@
     .contact-us-hero-section{
         padding: 1rem 0;
     }
+    .quote{
+        font-size: 18px !important;
+        text-align: center;
+    }
+    .author{
+        font-size: 13px !important;
+        margin-left: 35vw !important;
+    }
     .contact-us-heroright{
         width: 40%;
         margin-right: 0;
@@ -399,6 +416,14 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .contact-us-hero-section{
         padding: 1rem 0;
+    }
+    .quote{
+        font-size: 19px !important;
+        text-align: center;
+    }
+    .author{
+        font-size: 13px !important;
+        margin-left: 42vw !important;
     }
     .contact-us-heroright{
         width: 40%;
@@ -463,6 +488,14 @@
     .contact-us-hero-section{
         padding: 1rem 0;
         margin-bottom: 1rem;
+    }
+    .quote{
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .author{
+        font-size: 15px !important;
+        margin-left: 42vw !important;
     }
     .contact-us-heroright{
         width: 40%;

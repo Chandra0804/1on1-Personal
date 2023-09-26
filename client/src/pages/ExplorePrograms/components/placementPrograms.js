@@ -136,7 +136,6 @@ export default function PlacementPrograms() {
 
   const ProgramCard = ({ title, imageSrc, period, rating, gradientColors, className, courseId }) => {
 
-    console.log(courseId);
     const maxRating = 5;
     const solidStars = Math.floor(rating);
     const hasHalfStar = rating % 1 !== 0;
