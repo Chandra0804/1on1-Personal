@@ -146,7 +146,7 @@
   }
 }
 
-@media screen and (min-width: 427px) and (max-width: 768px) {
+@media screen and (min-width: 427px) and (max-width: 767px) {
   .testimonials-nav>p {
     font-size: 1.3em;
   }
@@ -160,7 +160,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 850px) {
   .testimonials-cards {
     display: none;
   }
@@ -210,7 +210,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 851px) and (max-width: 1024px) {
 
   .testimonials-nav>p,
   .testimonial-arrow-left,

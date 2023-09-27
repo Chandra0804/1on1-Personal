@@ -178,7 +178,7 @@
 }
 
 /* Mobile (up to 768px) */
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .navbar {
     /* Adjust your styles for mobile here */
     /* You may want to change the flex direction, padding, etc. */

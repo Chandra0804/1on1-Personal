@@ -349,6 +349,7 @@
         padding: 2rem;
         flex-direction: column-reverse;
         align-items: center;
+        margin-bottom: 0;
     }
 
     .left-content {
@@ -417,13 +418,15 @@
     }
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 824px) and (orientation: landscape) {
     .home-section {
         height: auto;
         padding: 2rem;
         flex-direction: column-reverse;
         align-items: center;
+        margin-bottom: 0;
     }
+    .navigation-arrow-wrapper{display: none;}
 
     .left-content {
         text-align: center;
@@ -485,7 +488,7 @@
     }
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
+@media (max-width: 825px) and (orientation: portrait) {
     .home-section {
         height: auto;
         padding: 2rem;

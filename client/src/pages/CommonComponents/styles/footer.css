@@ -189,7 +189,7 @@
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px){
+@media screen and (min-width: 481px) and (max-width: 824px){
   .footer-part1{
     flex-direction: column;
     gap: 0;

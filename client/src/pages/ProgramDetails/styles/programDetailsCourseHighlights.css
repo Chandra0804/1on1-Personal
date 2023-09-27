@@ -70,7 +70,7 @@
 }
 
 /* Small Tablets and Large Phones (portrait) */
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 825px) {
     .program-highlights{
         margin-top: 4vh;
     }
@@ -89,7 +89,7 @@
     }
   }
   
-  @media screen and (min-width: 769px) and (max-width: 1024px){
+  @media screen and (min-width: 826px) and (max-width: 1024px){
     .highlight-details-container>h3{
         font-size: 15px;
     }

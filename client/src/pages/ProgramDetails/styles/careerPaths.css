@@ -85,7 +85,7 @@
   }
 }
 
-@media screen and (min-width: 737px) and (max-width: 768px){
+@media screen and (min-width: 737px) and (max-width: 825px){
   .CareerPathsDetail{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -106,7 +106,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (min-width: 826px) and (max-width: 1024px){
   .CareerPathsDetail{
     width: 90vw;
     gap: 2rem;

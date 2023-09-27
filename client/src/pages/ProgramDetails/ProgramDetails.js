@@ -25,20 +25,26 @@ import data from './assets/json_data/program_details_info_in_json.json'
 
 
 export default function ProgramDetails() {
-  useEffect(() => {
-  window.scrollTo(0, 0)
-}, [])
-  // const { title } = useParams();
   const location = useLocation();
   const { title, courseDuration } = location.state;
-  // console.log(window.location.search.substring(1),' -> title')
+  const [programDetails, setProgramDetails] = useState(data[title][0]);
 
-  const [programDetails,setProgramDetails] = useState(data[title][0]);
-  // const [validate,setValidate] = useState(0);
-  // console.log("Data[0]" );
-  // console.log(data['0'])
+  // Function to fetch program details based on title
+  const fetchProgramDetails = (programTitle) => {
+    setProgramDetails(data[programTitle][0]);
+  };
 
-  // console.log(programDetails);
+  // useEffect to scroll to top when the component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  // Handle link click to update program details
+  useEffect(() => {
+    // Call the function to fetch program details when title changes
+    fetchProgramDetails(title);
+    window.scrollTo(0, 0);
+  }, [title]);
 
   return (
     <>

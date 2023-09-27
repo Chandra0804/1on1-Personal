@@ -272,6 +272,38 @@
     font-size: 1em;
   }
 }
+
+@media (min-width: 768px) and (max-width: 992px) and (max-height: 500px){
+  .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 0 1.5rem;
+    box-shadow: 0px 4px 4px #c8c8c8;
+    text-align: center;
+    width: 30vw;
+    height: 75vh;
+  }
+  .card-image {
+    width: 20vw;
+    height: 25vh;
+  }
+  .course-card-title, .star-count{
+    font-size: 1em;
+  }
+  .count-details>p, .star-count>p{
+    font-size: 0.65em;
+    font-weight: 800;
+  }
+  .knowMore-button {
+    padding: 0.5rem 0.7rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+  }
+}
 @media (min-width:993px) and (max-width: 1024px) {
   .card {
     display: flex;

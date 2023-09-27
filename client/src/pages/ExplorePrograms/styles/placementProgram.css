@@ -316,6 +316,29 @@
   
 }
 
+@media (min-width: 761px) and (max-width: 992px) and (max-height:550px){
+  .placement-programs-section{
+    margin-bottom: 2rem;
+  }
+  .placement-cards-container {
+    width: 60vw;
+    height: 480vh;
+    margin: 0 1em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+    margin-top: 2rem;
+  }
+  .program-card {
+    width: 30vw;
+    height: 110vh;
+  }
+  .program-card-image {
+    width: 20vw;
+    object-fit: contain;
+  }
+  
+}
+
 
 @media (min-width:993px) and (max-width: 1024px) {
   .placement-cards-container {

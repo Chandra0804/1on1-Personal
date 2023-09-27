@@ -51,7 +51,7 @@ export default function PopularCourses() {
   };
 
   const handleRightArrowClick1 = () => {
-    if (currentIndex1 == cardData1.length -2) {
+    if (currentIndex1 == cardData1.length - 2) {
       setCurrentIndex1(0);
     }
     else {
@@ -112,6 +112,9 @@ export default function PopularCourses() {
           {windowWidth <= 468 ?
 
             <>
+              <div className="arrow left-arrow" onClick={handleLeftArrowClick1}>
+                <FontAwesomeIcon icon={faChevronLeft} />
+              </div>
               <CardComponent
                 key={currentIndex1}
                 title={CurrentTile1.title}
@@ -120,6 +123,9 @@ export default function PopularCourses() {
                 star={CurrentTile1.rating}
                 period={CurrentTile1.period}
               />
+              <div className="arrow right-arrow" onClick={handleRightArrowClick1}>
+                <FontAwesomeIcon icon={faChevronRight} />
+              </div>
             </>
 
             :
@@ -161,6 +167,9 @@ export default function PopularCourses() {
           {windowWidth <= 468 ?
 
             <>
+              <div className="arrow left-arrow arrow-container2" onClick={handleLeftArrowClick2}>
+                <FontAwesomeIcon icon={faChevronLeft} />
+              </div>
               <CardComponent
                 key={currentIndex2}
                 title={CurrentTile2.title}
@@ -169,6 +178,9 @@ export default function PopularCourses() {
                 star={CurrentTile2.rating}
                 period={CurrentTile2.period}
               />
+              <div className="arrow right-arrow arrow-container2" onClick={handleRightArrowClick2} >
+                <FontAwesomeIcon icon={faChevronRight} />
+              </div>
             </>
 
             :
@@ -179,14 +191,14 @@ export default function PopularCourses() {
               <div className="cards-container" style={{ transform: transformValue2 }}>
 
                 {cardData2.map((card, index) => (
-                    <CardComponent
-                      key={index}
-                      title={card.title}
-                      imageSrc={imgdata[card.courseId]}
-                      purchases={0}
-                      star={card.rating}
-                      period={card.period}
-                    />
+                  <CardComponent
+                    key={index}
+                    title={card.title}
+                    imageSrc={imgdata[card.courseId]}
+                    purchases={0}
+                    star={card.rating}
+                    period={card.period}
+                  />
                 ))}
               </div>
 

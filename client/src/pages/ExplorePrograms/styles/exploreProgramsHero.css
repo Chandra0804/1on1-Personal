@@ -110,7 +110,7 @@
 
 /* Mobile view */
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 468px) {
     .explore-programs-heroTop{
         width:95vw;
         padding:0;
@@ -120,19 +120,19 @@
         text-align: center;
     }
     .explore-programs-heroBottom{
-        padding-left:3em;
+        padding-left:2em;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 1em;
         grid-row-gap: -1em;
     }
-    .explore-programs-heroBottom p{
+    .herobottom-highlights p{
         display: flex;
         width: fit-content;
         flex-direction: row;
         gap: 0.7em;
         align-items: center;
-        font-size: 0.8em;
+        font-size: 0.9em !important;
     }
     .explore-programs-heroRight{
         display: none;
@@ -165,7 +165,8 @@
         padding: 1rem 2rem;
     }
     .explore-programs-heroLeft>button{
-        margin-left: 4.5em;
+        margin-left: 3em;
+        font-size: 0.9em;
     }
 }
 
@@ -186,8 +187,24 @@
         width: 90%;
     }
     .explore-programs-heroLeft h1{
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
+    .explore-programs-heroBottom{
+        padding-left:2em;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 0.5em;
+        grid-row-gap: -1em;
+    }
+    .herobottom-highlights p{
+        display: flex;
+        width: fit-content;
+        flex-direction: row;
+        gap: 0.5em;
+        align-items: center;
+        font-size: 0.9em !important;
+    }
+
 
 }
 
