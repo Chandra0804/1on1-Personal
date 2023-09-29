@@ -179,7 +179,7 @@
     width: 30vw;
   }
   .phone-input{
-    width: 28vw;
+    width: 30vw;
     margin-left: 1.7rem;
   }
   .required-class, .required-position-input{
@@ -196,7 +196,7 @@
 @media (min-width: 487px) and (max-width: 736px){
   .popup-content {
     align-items: center;
-    width: 55vw; 
+    width: 60vw; 
     padding: 1rem 2rem; 
   }
   .popup-header{
@@ -283,6 +283,14 @@
     font-size: 0.9em;
     padding: 0.7rem 0.7rem;
   }
+  .email-input{
+    margin-left: 6.5rem;
+    width: 30vw;
+  }
+  .phone-input{
+    width: 30vw;
+    margin-left: 2.3rem;
+  }
 
 }
 @media (min-width: 993px) and (max-width: 1024px){
@@ -323,5 +331,15 @@
     font-weight: 600;
     font-size: 0.95em;
     padding: 0.8rem 0.8rem;
+  }
+  .email-input{
+    margin-left: 6rem;
+    width: 32.5vw;
+    height: 4vh !important;
+  }
+  .phone-input{
+    width: 32.5vw;
+    margin-left: 1.75rem;
+    height: 4vh !important;
   }
 }
