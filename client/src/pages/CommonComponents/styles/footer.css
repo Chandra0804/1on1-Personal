@@ -90,6 +90,7 @@
   gap: 1rem;
   color: #fff;
   margin-top: 0.25rem;
+  flex-wrap: wrap;
 }
 .social-icons>a{
   color: #fff;

@@ -10,6 +10,8 @@ import WorkingWithBootstrap from '../assets/Working with Bootstrap.png'
 import HandlingJavascript from '../assets/Handling Javascript Functions.png'
 import RoadImg from '../assets/Roadmap.png'
 import RoadMapBG from '../assets/Roadmap BG.png'
+import RoadmapPoint from '../assets/Roadmap Point.png'
+import RoadmapFinalPoint from '../assets/Roadmap Final Point.png'
 
 import RoadMapMobile from '../assets/ProgramDetailsRoadmapMobile.png'
 
@@ -123,7 +125,7 @@ export default function ProgramDetailsRoadmap(props) {
 
             <div className='roadmap-container-mobile'>
 
-                <div className='roadmap-modules-mobile'>
+                {/* <div className='roadmap-modules-mobile'>
                     {roadmapCardData.map((card, index) => (
                         <div className='roadmap-module-card'>
                             <p className='module-text'>{"Module " + (index + 1)}</p>
@@ -142,6 +144,42 @@ export default function ProgramDetailsRoadmap(props) {
                 </div>
                 <div className='road-img-mobile'>
                     <img src={RoadMapMobile} alt='Road' />
+                </div> */}
+                <div className='roadmap-modules-mobile'>
+                    {
+                        roadmapCardData.map((card, index) => (
+                            <div className='roadmap-module-card'>
+                                <div className='roadmap-point-mobile'>
+                                    <img src={RoadmapPoint} alt='roadmap-point' />
+                                </div>
+                                <div className='roadmap-module-content'>
+                                    <p className='module-text'>{"Module " + (index + 1)}</p>
+                                    <div className='roadmap-card-img-mobile'>
+                                        <img src={card.imgsrc} alt='roadmap-card' />
+                                    </div>
+                                    <div className='roadmap-bullets'>
+                                        <ul>
+                                            {card.bullets.map((bullet) => (
+                                                <li>{bullet}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        ))
+                    }
+                    <div className='roadmap-final-card-mobile'>
+                        <div className='roadmap-final-point-mobile'>
+                            <img src={RoadmapFinalPoint} alt='roadmap-point' />
+                        </div>
+                        <div className='roadmap-module-content'>
+                            <p className='roadmap-image-tagline'>Get <span className='orange-text'>Placed</span></p>
+                            <div className='roadmap-card-img-mobile'>
+                                <img src={Goal} alt='roadmap-card' />
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
 

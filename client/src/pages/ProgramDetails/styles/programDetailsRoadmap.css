@@ -206,6 +206,7 @@
 .roadmap-image-tagline{
     font-weight: 500;
     font-size: 20px;
+    margin: 0;
 }
 
 .module-text {
@@ -238,333 +239,96 @@
 
 
 /* Apply styles for tablets */
-@media screen and (max-width: 320px) {
-    .program-details-roadmap {
-        margin-bottom: 5vh;
+@media screen and (max-width : 480px){
+    .program-details-roadmap{
+        margin-bottom: 0;
     }
-
-    .roadmap-background {
-        display: none;
-    }
-
-    .roadmap-container {
-        display: none;
-        /* Hide desktop content on mobile */
-    }
-
-    .roadmap-container-mobile {
-        display: flex;
-        height: 100%;
-        padding-top: 20px;
-        /* Add padding to create space between image and content */
-    }
-
-    .road-img-mobile {
-        position: relative;
-        display: block;
-        width: 100%;
-        top: 0;
-        left: -16rem;
-        margin: 0 auto;
-        z-index: 1;
-    }
-
-    .road-img-mobile>img {
-        width: 80vw;
-    }
-
     .program-details-roadmap>h1 {
         font-size: 20px;
         margin-left: 0;
         margin: 0 auto;
     }
-
-    .roadmap-modules-mobile {
-        position: relative;
-        z-index: 2;
-        width: 100%;
-        left: 4rem;
-        top: -1rem;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .roadmap-bullets>ul {
-        left: -1rem;
-        position: relative;
-        width: 70vw;
-    }
-
-    .roadmap-bullets>ul>li {
-        line-height: 1.5;
-    }
-
-    .roadmap-card-img-mobile {
-        width: 25vw;
-        height: 15vh;
-        overflow: hidden;
-    }
-
-    .roadmap-card-img-mobile>img {
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: cover;
-    }
-
-    .roadmap-module-card {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        width: 70vw;
-        height: 31vh;
-    }
-
-}
-
-@media screen and (min-width: 321px) and (max-width: 376px) {
-    .program-details-roadmap {
-        margin-bottom: 5vh;
-    }
-
-    .roadmap-background {
+    .roadmap-background{
         display: none;
     }
-
-    .roadmap-container {
+    .roadmap-container{
         display: none;
-        /* Hide desktop content on mobile */
     }
-
-    .roadmap-container-mobile {
-        display: flex;
-        height: 100%;
-        padding-top: 20px;
-        /* Add padding to create space between image and content */
-    }
-
-    .road-img-mobile {
-        position: relative;
+    .roadmap-container-mobile{
         display: block;
-        width: 100%;
-        top: 0;
-        left: -18rem;
-        margin: 0 auto;
-        z-index: 1;
     }
-
-    .road-img-mobile>img {
-        width: 80vw;
-    }
-
-    .program-details-roadmap>h1 {
-        font-size: 20px;
-        margin-left: 0;
-        margin: 0 auto;
-    }
-
-    .roadmap-modules-mobile {
-        position: relative;
-        z-index: 2;
-        width: 100%;
-        left: 5rem;
-        top: -1rem;
+    .roadmap-modules-mobile{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        margin-top: 5vh;
     }
-
-    .roadmap-bullets>ul {
-        left: -1rem;
-        position: relative;
-        width: 70vw;
+    .roadmap-point-mobile{
+        position: absolute;
+        z-index: 2;
+        width: 20vw;
+        top: 0;
+        left: -15px;
     }
-
-    .roadmap-bullets>ul>li {
-        line-height: 1.5;
-    }
-
-    .roadmap-card-img-mobile {
-        width: 25vw;
-        height: 15vh;
-        overflow: hidden;
-    }
-
-    .roadmap-card-img-mobile>img {
+    .roadmap-point-mobile>img{
         max-width: 100%;
         max-height: 100%;
         object-fit: cover;
     }
-
-    .roadmap-module-card {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        width: 70vw;
-        height: 16.5rem;
-    }
-}
-
-@media screen and (min-width: 377px) and (max-width: 399px) {
-    .program-details-roadmap {
-        margin-bottom: 5vh;
-    }
-
-    .roadmap-background {
-        display: none;
-    }
-
-    .roadmap-container {
-        display: none;
-        /* Hide desktop content on mobile */
-    }
-
-    .roadmap-container-mobile {
-        display: flex;
-        height: 100%;
-        padding-top: 20px;
-        /* Add padding to create space between image and content */
-    }
-
-    .road-img-mobile {
-        position: relative;
+    .roadmap-module-card{
         display: block;
-        width: 100%;
-        top: 0;
-        left: -21rem;
+        width: 70vw;
         margin: 0 auto;
-        z-index: 1;
-    }
-
-    .road-img-mobile>img {
-        width: 80vw;
-    }
-
-    .program-details-roadmap>h1 {
-        font-size: 20px;
-        margin-left: 0;
-        margin: 0 auto;
-    }
-
-    .roadmap-modules-mobile {
+        border-left: solid 5px #ff7a01;
         position: relative;
-        z-index: 2;
-        width: 100%;
-        left: 5rem;
-        top: -1rem;
+    }
+    .roadmap-module-content{
         display: flex;
         flex-direction: column;
     }
-
-    .roadmap-bullets>ul {
-        left: -1rem;
-        position: relative;
-        width: 70vw;
+    .roadmap-card-img-mobile{
+        width: 30vw;
+        height: 18vh;
+        padding-inline-start: 40px;
     }
-
-    .roadmap-bullets>ul>li {
-        line-height: 1.5;
-    }
-
-    .roadmap-card-img-mobile {
-        width: 25vw;
-        height: 15vh;
-        overflow: hidden;
-    }
-
-    .roadmap-card-img-mobile>img {
+    .roadmap-card-img-mobile>img{
         max-width: 100%;
         max-height: 100%;
         object-fit: cover;
     }
-
-    .roadmap-module-card {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        width: 70vw;
-        height: 41vh;
+    .roadmap-module-content>.module-text{
+        padding-inline-start: 40px;
+        margin: 0;
+        margin-top: 1vh;
     }
-}
-
-@media screen and (min-width:400px) and (max-width:425px){
-    .program-details-roadmap {
-        margin-bottom: 5vh;
+    .roadmap-final-point-mobile{
+        position: absolute;
+        z-index: 2;
+        width: 30vw;
+        left: -9.5vw;
+        top: -6vh;
     }
-
-    .roadmap-background {
-        display: none;
-    }
-
-    .roadmap-container {
-        display: none;
-        /* Hide desktop content on mobile */
-    }
-
-    .roadmap-container-mobile {
-        display: flex;
-        height: 100%;
-        padding-top: 20px;
-        /* Add padding to create space between image and content */
-    }
-
-    .road-img-mobile {
-        position: relative;
+    .roadmap-final-card-mobile{
         display: block;
-        width: 100%;
-        top: 0;
-        left: -20rem;
-        margin: 0 auto;
-        z-index: 1;
-    }
-
-    .road-img-mobile>img {
         width: 80vw;
-    }
-
-    .program-details-roadmap>h1 {
-        font-size: 20px;
-        margin-left: 0;
         margin: 0 auto;
-    }
-
-    .roadmap-modules-mobile {
         position: relative;
-        z-index: 2;
-        width: 100%;
-        left: 5rem;
-        top: -1rem;
-        display: flex;
-        flex-direction: column;
     }
-
-    .roadmap-bullets>ul {
-        left: -1rem;
-        position: relative;
-        width: 70vw;
-    }
-
-    .roadmap-bullets>ul>li {
-        line-height: 1.5;
-    }
-
-    .roadmap-card-img-mobile {
-        width: 25vw;
-        height: 15vh;
-        overflow: hidden;
-    }
-
-    .roadmap-card-img-mobile>img {
+    .roadmap-final-point-mobile>img{
         max-width: 100%;
         max-height: 100%;
         object-fit: cover;
+        top: 0;
+        left: -15px;
+    }
+    .roadmap-image-tagline{
+        margin-left: 15vw;
+        margin-top: 4vh;
+        margin-bottom: 3vh;
     }
 
-    .roadmap-module-card {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        width: 70vw;
-        height: 44vh;
-    }
 }
 
 /* Small Tablets and Large Phones (portrait) */

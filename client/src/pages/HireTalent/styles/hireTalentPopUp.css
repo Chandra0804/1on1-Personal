@@ -56,15 +56,15 @@
   display: flex;
   align-items: center;
   font-weight: bold;
-  gap: 1vw;
+  gap: 1rem;
   font-size: 20px;
   font-weight: 600;
 }
  .required-position-input{
-  width: 27.5vw;
+  width: 27vw;
  }
  .required-class{
-  width: 27.5vw;
+  width: 27vw;
  }
 
 .popup-form label select,
@@ -87,16 +87,16 @@
 } */
 
 .required-class{
-  flex: 1;
-  margin-left: 6rem !important;
+  margin-left: 5rem;
 }
 
 .company-name{
-  margin-left: 5rem !important;
+  width: 25.5vw;
+  margin-left: 4.2rem;
 }
 
 .required-position-input{
-  margin-left: 4rem !important;
+  margin-left: 3.2rem;
 }
 
 .review-input{
@@ -105,14 +105,14 @@
   height: 5vw;
 }
 
-.popup-form label input[type='number'] {
-  width: 25rem;
-  margin-left: 1.5rem;
+.email-input{
+  width: 26vw;
+  margin-left: 10.3rem;
 }
 
-.popup-form label input[type='text'] {
-  width: 25.5rem;
-  margin-left: 3rem;
+.phone-input {
+  width: 26vw;
+  margin-left: 4.5rem;
 }
 
 .popup-form button[type='submit'] {
@@ -167,12 +167,20 @@
   }
   .required-class{
     margin-left: 2rem !important;
-  }  
+  } 
+  .email-input{
+    width: 30vw;
+    margin-left: 6.3rem;
+  } 
   .required-position-input{
     margin-left: 0.5rem !important;
   }
   .popup-form label input[type='text']{
     width: 30vw;
+  }
+  .phone-input{
+    width: 28vw;
+    margin-left: 1.7rem;
   }
   .required-class, .required-position-input{
     width: 34vw;
@@ -215,6 +223,14 @@
   }
   .popup-form label input[type='text']{
     width: 30vw;
+  }
+  .email-input{
+    margin-left: 6.5rem;
+    width: 30vw;
+  }
+  .phone-input{
+    width: 30vw;
+    margin-left: 2.3rem;
   }
   .required-class{
     width: 32vw;

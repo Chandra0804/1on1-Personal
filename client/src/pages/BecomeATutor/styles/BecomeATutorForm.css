@@ -117,6 +117,10 @@
     border: none;
     height: auto;
 }
+.tutor-github input{
+    width: 28vw;
+    margin-left: 4.5vw;
+}
 .resume-requires{
     color: #737373;
     font-size: 0.9em;
@@ -181,6 +185,10 @@
         margin-left: 15vw;
         width: 49vw;
     }
+    .tutor-github input{
+        width: 48vw;
+        margin-left: 8.5vw;
+    }
     .country-phone input{
         margin-left: 0.5vw;
         width: 47vw;
@@ -206,7 +214,7 @@
         margin-left: 6vw;
     }
     .tutor-letter textarea{
-        height: 10vh;
+        height: 11vh;
         width: 47vw;
         margin-left: 7vw;
     }
@@ -286,6 +294,10 @@
         width: 20.5vw;
         margin-left: 4vw;
     }
+    .tutor-github input{
+        width: 20vw;
+        margin-left: 6vw;
+    }
     .tutor-letter textarea{
         height: 15vh;
         width: 20vw;
@@ -363,6 +375,10 @@
         width: 20.5vw;
         margin-left: 4vw;
     }
+    .tutor-github input{
+        width: 20vw;
+        margin-left: 6vw;
+    }
     .tutor-letter textarea{
         height: 8vh;
         width: 20vw;
@@ -439,6 +455,10 @@
     .tutor-salary input{
         width: 22.5vw;
         margin-left: 3vw;
+    }
+    .tutor-github input{
+        width: 22vw;
+        margin-left: 5vw;
     }
     .tutor-letter textarea{
         height: 15vh;

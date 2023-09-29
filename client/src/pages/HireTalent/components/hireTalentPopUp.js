@@ -11,7 +11,8 @@ const Popup = ({ onClose }) => {
     const requiredPosition = useRef();
     const requiredType = useRef();
     const review = useRef();
-
+    const email = useRef();
+    const phone = useRef();
 
     const submitHandler = async (e) => {
         // if(requiredPosition.current.value!=='SELECT' && requiredType.current.value!=='SELECT' && companyName.current.value && companyName.current.value.trim().length>0 && requiredPosition.current.value && requiredPosition.current.value.trim().length>0 && requiredType.current.value && requiredType.current.value.trim().length>0 && review.current.value && review.current.value.trim().length>0){
@@ -46,6 +47,8 @@ const Popup = ({ onClose }) => {
                         companyName.current.value, // Get the value from the ref
                         requiredPosition.current.value,
                         requiredType.current.value,
+                        phone.current.value,
+                        email.current.value,
                         new Date().toLocaleString()
                     ]
                 ])
@@ -62,7 +65,7 @@ const Popup = ({ onClose }) => {
         }
 
     }
-    const programs = ["Full Stack Developer", "Front-End Developer", "Back-End Developer", "UI/UX Designer", "AI Engineer", "Data Science Engineer", "Python Developer", "Java Developer", "QA Automation Enginner", "DevOps Enginner", "App Developer(Android)", "App Developer(iOS)" , "Other"]
+    const programs = ["Full Stack Developer", "Front-End Developer", "Back-End Developer", "UI/UX Designer", "AI Engineer", "Data Science Engineer", "Python Developer", "Java Developer", "QA Automation Enginner", "DevOps Enginner", "App Developer(Android)", "App Developer(iOS)", "Other"]
 
 
 
@@ -117,13 +120,31 @@ const Popup = ({ onClose }) => {
                             <option value='contract'>Contract</option>
                         </select>
                     </label>
-                    <label>
-                        {/* <div className='LabelName'>Review</div>
+                    {/*<label>
+                         <div className='LabelName'>Review</div>
                         <textarea
                         className='review-input'
                             ref={review}
                             // onChange={(e) => setReview(e.target.value)}
-                        /> */}
+                        /> 
+                    </label>*/}
+                    <label>
+                        <div className='LabelName'>Email<span>*</span></div>
+                        <input
+                            type='email'
+                            ref={email}
+                            className='email-input'
+                            placeholder='Enter your email'
+                        />
+                    </label>
+                    <label>
+                        <div className='LabelName'>Phone Number<span>*</span></div>
+                        <input
+                            type='number'
+                            ref={phone}
+                            className='phone-input'
+                            placeholder='Enter your phone number'
+                        />
                     </label>
                     <button type='submit' onClick={submitHandler}>Submit</button>
                 </div>

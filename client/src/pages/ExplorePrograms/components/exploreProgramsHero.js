@@ -12,7 +12,7 @@ export default function ExploreProgramsHero() {
           <p className='placement-guarantee-blackText'>Placement Guarantee Courses</p>
           <h1>Unlocking your Dream Job:<br /><span className='orange-text'>Expert Placement Training</span></h1>
           <p className='placement-grey-text'>Unleash Your Potential, Build Interview Confidence, and Secure Your Dream Job with Our Proven Strategies and Interview Mastery Program</p>
-          <button><span className='orange-text'>Get Hired</span> before you Graduate</button>
+          <button><span className='orange-text'>Get Hired</span>  before you Graduate</button>
         </div>
         <div className='explore-programs-heroRight'>
           <img src={exploreProgramsHero} alt='explore programs hero' />

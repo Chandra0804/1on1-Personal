@@ -87,36 +87,36 @@
   ],
   "Back-End Development": [
     {
-      "background_color":"#258160",
+      "background_color":"#0E256E",
       "program_card_image": "backendp.png",
       "program_banner_images": "backendimages/backend.png",
       "skills_images": [
         "backendimages/Visual studio code.png",
         "backendimages/nodejs.png",
         "backendimages/django.png",
-        "backendimages/mySQL.png",
-        "backendimages/Apache.png",
-        "backendimages/Laravel.png",
-        "backendimages/Rubyonrails.png",
+        "backendimages/mysql.png",
+        "backendimages/apache.png",
+        "backendimages/laravel.png",
+        "backendimages/rubyonrails.png",
         "backendimages/Git.png",
-        "backendimages/Firebase.png"
+        "backendimages/firebase.png"
       ],
       "career_options": [
         {
           "title": "Back-End Developer",
-          "img": "backendimages/Backend_developer.png"
+          "img": "backendimages/backend_developer.png"
         },
         {
           "title": "Database Administrator",
-          "img": "backendimages/Database_administrator.png"
+          "img": "backendimages/database_administrator.png"
         },
         {
           "title": "Backend Architect",
-          "img": "backendimages/Backend_architect.png"
+          "img": "backendimages/backend_architect.png"
         },
         {
           "title": "ApI Developer",
-          "img": "backendimages/API_developer.png"
+          "img": "backendimages/api_developer.png"
         }
       ],
       "modules": [
@@ -177,19 +177,19 @@
   ],
   "Full-Stack Development": [
     {
-      "background_color":"#4f50c5",
+      "background_color":"#0E256E",
       "program_card_image": "fullstackp.png",
       "program_banner_images": "backendimages/fullstack.png",
       "skills_images": [
         "backendimages/Visual studio code.png",
         "backendimages/Git.png",
-        "backendimages/Angular Developer.png",
+        "backendimages/angular.png",
         "backendimages/Grunt.png",
-        "backendimages/Vue.png",
-        "backendimages/HTML5.png",
+        "backendimages/vue.png",
+        "backendimages/Html5.png",
         "backendimages/CSS3.png",
         "backendimages/Bootstrap 4.png",
-        "backendimages/React.png"
+        "backendimages/react.png"
       ],
       "career_options": [
         {
@@ -198,11 +198,11 @@
         },
         {
           "title": "Back-End Developer",
-          "img": "backendimages/Backend_Developer.png"
+          "img": "backendimages/backend_developer.png"
         },
         {
           "title": "Full-Stack Developer",
-          "img": "backendimages/Fullstack_Developer.png"
+          "img": "backendimages/fullstack_developer.png"
         },
         {
           "title": "Technical Lead/Architect",
@@ -263,28 +263,28 @@
   ],
   "UI/UX Designer": [
     {
-      "background_color":"#9f4b3a",
+      "background_color":"#0E256E",
       "program_card_image": "uiuxp.png",
       "program_banner_images": "backendimages/uiux.png",
       "skills_images": [
-        "backendimages/Figma.png",
-        "backendimages/Adobe.png",
+        "backendimages/figma.png",
+        "backendimages/adobe.png",
         "backendimages/sketch.png",
-        "backendimages/Azure.png",
-        "backendimages/Invision.png",
+        "backendimages/azure.png",
+        "backendimages/invision.png",
         "backendimages/adobexd.png",
-        "backendimages/Photoshop.png",
+        "backendimages/photoshop.png",
         "backendimages/canva.png",
-        "backendimages/Adobeanimate.png"
+        "backendimages/adobeanimate.png"
       ],
       "career_options":[
         {
             "title":"UI/UX Designer",
-            "img":"backendimages/Ux_designer.png"
+            "img":"backendimages/ux_designer.png"
         },
         {
             "title":"Information Architect",
-            "img":"backendimages/Information_architect.png"
+            "img":"backendimages/information_architect.png"
         },
         {
             "title":"User Researcher",
@@ -292,7 +292,7 @@
         },
         {
             "title":"Product Designer",
-            "img":"backendimages/Product_designer.png"
+            "img":"backendimages/product_designer.png"
         }
       ],
       "modules": [
@@ -359,27 +359,27 @@
   ],
   "AI Engineer": [
     {
-      "background_color":"#4389a5",
+      "background_color":"#0E256E",
       "program_card_image": "aip.png",
       "program_banner_images": "backendimages/aiengineer.png",
       "skills_images": [
         "backendimages/Visual studio code.png",
-        "backendimages/git.png",
-        "backendimages/Tensorflow.png",
+        "backendimages/Git.png",
+        "backendimages/tensorflow.png",
         "backendimages/pytorch.png",
-        "backendimages/Keras.png",
+        "backendimages/keras.png",
         "backendimages/azure.png",
         "backendimages/scikitlearn.png",
-        "backendimages/Googlecloud.png"
+        "backendimages/googlecloud.png"
       ],
       "career_options":[
         {
             "title":"AI Engineer",
-            "img":"backendimages/AI_Engineer.png"
+            "img":"backendimages/ai_engineer.png"
         },
         {
             "title":"Machine Learning Engineer",
-            "img":"backendimages/ML_Engineer.png"
+            "img":"backendimages/ml_engineer.png"
         },
         {
             "title":"Computer Vision Engineer",
@@ -387,7 +387,7 @@
         },
         {
             "title":"NLP Enginner",
-            "img":"backendimages/NLP_Engineer.png"
+            "img":"backendimages/nlp_engineer.png"
         }
       ],
       "modules": [
@@ -452,16 +452,16 @@
   ],
   "Data Science": [
     {
-      "background_color":"#8f3ea2",
+      "background_color":"#0E256E",
       "program_card_image": "dsp.png",
       "program_banner_images": "backendimages/ds.png",
       "skills_images": [
-        "backendimages/Rapidminer.png",
-        "backendimages/Apachespark.png",
-        "backendimages/KNIME.png",
+        "backendimages/rapidminer.png",
+        "backendimages/apachespark.png",
+        "backendimages/knime.png",
         "backendimages/Grunt.png",
-        "backendimages/Tableau.png",
-        "backendimages/Matlab.png",
+        "backendimages/tableau.png",
+        "backendimages/matlab.png",
         "backendimages/tensorflow.png",
         "backendimages/matplotlib.png",
         "backendimages/pandas.png"
@@ -469,19 +469,19 @@
       "career_options":[
         {
             "title":"Data Scientist",
-            "img":"backendimages/Data_Scientist.png"
+            "img":"backendimages/data_scientist.png"
         },
         {
             "title":"Data Analyst",
-            "img":"backendimages/Data_Analyst.png"
+            "img":"backendimages/data_analyst.png"
         },
         {
             "title":"Data Engineer",
-            "img":"backendimages/Data_Engineer.png"
+            "img":"backendimages/data_engineer.png"
         },
         {
             "title":"AI Research Scientist",
-            "img":"backendimages/AI_Research_Analyst.png"
+            "img":"backendimages/ai_research_analyst.png"
         }
       ],
       "modules": [
@@ -546,36 +546,36 @@
   ],
   "QA Automation": [
     {
-      "background_color":"#8662bf",
+      "background_color":"#0E256E",
       "program_card_image": "qap.png",
       "program_banner_images": "backendimages/qa.png",
       "skills_images": [
-        "backendimages/Selenium.png",
+        "backendimages/selenium.png",
         "backendimages/appium.png",
         "backendimages/soapui.png",
         "backendimages/ranorex.png",
         "backendimages/testcomplete.png",
         "backendimages/microfocus.png",
         "backendimages/katalon.png",
-        "backendimages/Watir.png",
+        "backendimages/watir.png",
         "backendimages/telerikteststudio.png"
       ],
       "career_options":[
         {
             "title":"QA Automation Engineer",
-            "img":"backendimages/QA_Automation_Engineer.png"
+            "img":"backendimages/qa_automation_engineer.png"
         },
         {
             "title":"QA Analyst",
-            "img":"backendimages/QA_Analyst.png"
+            "img":"backendimages/qa_analyst.png"
         },
         {
             "title":"Test Automation Architect",
-            "img":"backendimages/Test_Automation_Architect.png"
+            "img":"backendimages/test_automation_architect.png"
         },
         {
             "title":"Performance Testing Engineer",
-            "img":"backendimages/Performance_Tester.png"
+            "img":"backendimages/performance_tester.png"
         }
       ],
       "modules": [
@@ -644,36 +644,36 @@
   ],
   "Python Developer": [
     {
-      "background_color":"#3a65ba",
+      "background_color":"#0E256E",
       "program_card_image": "pythonp.png",
       "program_banner_images": "backendimages/python.png",
       "skills_images": [
         "backendimages/Visual studio code.png",
         "backendimages/Git.png",
-        "backendimages/Pycharm.png",
-        "backendimages/Flask.png",
-        "backendimages/Scrapy.png",
-        "backendimages/Scipy.png",
+        "backendimages/pycharm.png",
+        "backendimages/flask.png",
+        "backendimages/scrapy.png",
+        "backendimages/scipy.png",
         "backendimages/beautifulsoap.png",
         "backendimages/selenium.png",
-        "backendimages/Spyder.png"
+        "backendimages/spyder.png"
       ],
       "career_options":[
         {
             "title":"Python Developer",
-            "img":"backendimages/Python_Developer.png"
+            "img":"backendimages/python_developer.png"
         },
         {
             "title":"QA Automation Engineer",
-            "img":"backendimages/QA_Automation_Engineer.png"
+            "img":"backendimages/qa_automation_engineer.png"
         },
         {
             "title":"Software Engineer",
-            "img":"backendimages/Software_Engineer.png"
+            "img":"backendimages/software_engineer.png"
         },
         {
             "title":"Back-End Developer",
-            "img":"backendimages/Backend_Developer-1.png"
+            "img":"backendimages/backend_developer-1.png"
         }
       ],
       "modules": [
@@ -744,35 +744,35 @@
   ],
   "Java Developer": [
     {
-      "background_color":"#d06262",
+      "background_color":"#0E256E",
       "program_card_image": "javap.png",
       "program_banner_images": "backendimages/java.png",
       "skills_images": [
-        "backendimages/Apachemaven.png",
-        "backendimages/Eclipse.png",
-        "backendimages/NetBeans.png",
-        "backendimages/Gradle.png",
-        "backendimages/JUnit.png",
-        "backendimages/Jenkins.png",
-        "backendimages/Docker.png",
+        "backendimages/apachemaven.png",
+        "backendimages/eclipse.png",
+        "backendimages/netBeans.png",
+        "backendimages/gradle.png",
+        "backendimages/junit.png",
+        "backendimages/jenkins.png",
+        "backendimages/docker.png",
         "backendimages/Git.png"
       ],
       "career_options":[
         {
             "title":"Java Devloper",
-            "img":"backendimages/Java_Developer.png"
+            "img":"backendimages/java_developer.png"
         },
         {
             "title":"Back-End Developer",
-            "img":"backendimages/Backend_Development.png"
+            "img":"backendimages/backend_development.png"
         },
         {
             "title":"Java Architect",
-            "img":"backendimages/Java_Architect.png"
+            "img":"backendimages/java_architect.png"
         },
         {
             "title":"Web Developer",
-            "img":"backendimages/Web_Developer.png"
+            "img":"backendimages/web_developer.png"
         }
       ],
       "modules": [
@@ -834,36 +834,36 @@
   ],
   "DevOps Engineer": [
     {
-      "background_color":"#67268f",
+      "background_color":"#0E256E",
       "program_card_image": "devopsp.png",
       "program_banner_images": "backendimages/devops.png",
       "skills_images": [
-        "backendimages/Jenkins.png",
-        "backendimages/Docker.png",
-        "backendimages/Ansible.png",
-        "backendimages/Puppet.png",
-        "backendimages/Progresschef.png",
-        "backendimages/Kubernetes.png",
-        "backendimages/Teraform.png",
-        "backendimages/Prometheus.png",
-        "backendimages/Saltsack.png"
+        "backendimages/jenkins.png",
+        "backendimages/docker.png",
+        "backendimages/ansible.png",
+        "backendimages/puppet.png",
+        "backendimages/progresschef.png",
+        "backendimages/kubernetes.png",
+        "backendimages/teraform.png",
+        "backendimages/prometheus.png",
+        "backendimages/saltsack.png"
       ],
       "career_options":[
         {
             "title":"DevOps Engineer",
-            "img":"backendimages/Dev_Ops_Engineer.png"
+            "img":"backendimages/dev_ops_engineer.png"
         },
         {
             "title":"Cloud Engineer",
-            "img":"backendimages/Cloud_Engineer.png"
+            "img":"backendimages/cloud_engineer.png"
         },
         {
             "title":"Infrastructure Engineer",
-            "img":"backendimages/Infrastructure_Engineer.png"
+            "img":"backendimages/infrastructure_engineer.png"
         },
         {
             "title":"Site Realibility Engineer",
-            "img":"backendimages/Site_Reliability_Engineer.png"
+            "img":"backendimages/site_reliability_engineer.png"
         }
       ],
       "modules": [
@@ -924,17 +924,17 @@
   ],
   "App Development(Android)": [
     {
-      "background_color":"#c46f20",
+      "background_color":"#0E256E",
       "program_card_image": "mobile.png",
       "program_banner_images": "backendimages/mobandroid.png",
       "skills_images": [
-        "backendimages/Ionic.png",
+        "backendimages/ionic.png",
         "backendimages/xamarin.png",
         "backendimages/redwerk.png",
         "backendimages/flutter.png",
-        "backendimages/Androidstudio.png",
+        "backendimages/androidstudio.png",
         "backendimages/firebase.png",
-        "backendimages/Cordova.png"
+        "backendimages/cordova.png"
       ],
       "career_options":[
         {
@@ -943,7 +943,7 @@
         },
         {
             "title":"Mobile App Architect",
-            "img":"backendimages/Mobile_App_Architect.png"
+            "img":"backendimages/mobile_app_architect.png"
         },
         {
             "title":"Android App Security Analyst",
@@ -1008,36 +1008,36 @@
   ],
   "App Development(iOS)": [
     {
-      "background_color":"#aa4486",
+      "background_color":"#0E256E",
       "program_card_image": "mobiosp.png",
       "program_banner_images": "backendimages/mobios.png",
       "skills_images": [
-        "backendimages/Xcode.png",
-        "backendimages/Cocoapods.png",
-        "backendimages/Swift.png",
-        "backendimages/Alamofire.png",
-        "backendimages/Firebase.png",
-        "backendimages/Realm.png",
-        "backendimages/Postman.png",
-        "backendimages/StackOverflow.png",
-        "backendimages/Shake.png"
+        "backendimages/xcode.png",
+        "backendimages/cocoapods.png",
+        "backendimages/swift.png",
+        "backendimages/alamofire.png",
+        "backendimages/firebase.png",
+        "backendimages/realm.png",
+        "backendimages/postman.png",
+        "backendimages/stackoverflow.png",
+        "backendimages/shake.png"
       ],
       "career_options":[
         {
             "title":"iOS Application Developer",
-            "img":"backendimages/Ios_Application_Developer.png"
+            "img":"backendimages/ios_application_developer.png"
         },
         {
             "title":"iOS App Architect",
-            "img":"backendimages/IOS_App_Architect.png"
+            "img":"backendimages/ios_app_architect.png"
         },
         {
             "title":"iOS App Security Analyst",
-            "img":"backendimages/IOS_App_Security_Analyst.png"
+            "img":"backendimages/ios_app_security_analyst.png"
         },
         {
             "title":"Freelance iOS Developer",
-            "img":"backendimages/Freelance_IOS_Developer.png"
+            "img":"backendimages/freelance_ios_developer.png"
         }
       ],
       "modules": [

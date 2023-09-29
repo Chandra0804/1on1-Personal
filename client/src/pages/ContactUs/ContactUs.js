@@ -7,6 +7,7 @@ import ContactUsphone from './assets/ContactUsPagephone.png';
 import ContactCard1 from './assets/ContactCard1.png';
 import ContactCard2 from './assets/ContactCard2.png';
 import ContactCard3 from './assets/ContactCard3.png';
+import ContactCard4 from './assets/ContactCard4.png'
 import ContactUsimage from './assets/Contactusimage.png';
 import userName from './assets/image-removebg-preview (4).png';
 import purpose from './assets/image-removebg-preview (1).png';
@@ -36,9 +37,9 @@ const contactusCardData = [
         description: "All you can-eat self-serve problem-solving"
     },
     {
-        img: ContactCard3,
-        title: "FAQ's Made Simpler",
-        description: "All you can-eat self-serve problem-solving"
+        img: ContactCard4,
+        title: "24/7 Availability",
+        description: "Our Customer support has 24 hours x 7 Days Availability."
     }
 ];
 
