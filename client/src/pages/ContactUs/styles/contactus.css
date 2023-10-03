@@ -1,0 +1,570 @@
+.contact-us-hero-section {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(130deg, rgba(242, 137, 49, 1) 0%, rgba(254, 185, 80, 1) 89%);
+}
+
+.contact-us-heroleft{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+
+.contact-us-heroleft>p{
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+}
+.quote{
+    font-size: 27px !important;
+    color: black !important;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    font-weight: 600;
+    text-shadow: 0 0 2px #ff3e6d;
+}
+.quote span{
+    font-size: 12px;
+}
+.quote svg{
+    vertical-align: 1em;
+}
+.author{
+    font-size: 19px !important;
+    margin-left: 55vw !important;
+}
+
+.contact-us-heroleft>h1{
+    color: #fff;
+    font-size: 30px;
+}
+
+.contactus-input-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.contactus-input-container>input{
+    border: none;
+    margin: 0.75rem 1rem;
+    font-size: 13px;
+    width: 30vw;
+}
+
+.contactus-input-container>button{
+    background-color: #ff7a01;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    margin: 2px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+}
+
+.contact-us-heroright{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 5rem;
+}
+
+.contact-us-heroright>img {
+    width: 25vw;
+}
+
+.contact-us-cards-section{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact-us-cards-top{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards-topleft>h3{
+    font-size: 24px;
+    color: #ff7a01;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.cards-topleft>p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.card-topright>button{
+    border: solid 0.75px #ff7a01;
+    background-color: #fff;
+    color: #ff7a01;
+    box-shadow: 0 2px 2px #c4c4c4;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+}
+.card-topright>button img{
+    width: 1.5vw;
+}
+
+.contact-us-cards-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2em;
+}
+.contact-us-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffe4cc;
+    border-radius: 30px;
+    border: none;
+    width: 15vw;
+    padding: 1rem;
+}
+.contact-us-card>img{
+    width: 5vw;
+}
+.contact-us-card>h3{
+    font-size: 15px;
+}
+.contact-us-card>p{
+    font-size: 12px;
+}
+
+.write-to-us-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.write-to-us-right>h1{
+    text-align: center;
+    font-size: 1.5em;
+    color: #ff7a01;
+}
+.write-to-us-left img{
+    width: 30vw;
+}
+.contactus-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding:  1rem 2rem;
+    border-radius: 20px;
+    box-shadow: 2px 1px 2px #ccc;
+    border: 1px solid #ccc;
+}
+
+.contactus-row1, .contactus-row2{
+    gap: 5em;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+}
+.contactus-comments{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactus-purpose, .contactus-name, .contactus-username, .contactus-phno{
+    display: flex;
+    flex-direction: column;
+}
+.contactus-form input{
+    border-radius: 10px;
+    border: none;
+    height: 1vh;
+    width: 17vw;
+    padding: 1em;
+    font-size: 0.7em;
+}
+.contactus-form input:focus{
+    outline: none;
+}
+.contactus-form select{
+    border-radius: 10px;
+    padding-left: 0.5em;
+    color: #818181;
+    border: none;
+    font-size: 0.7em;
+}
+.contactus-form select:focus{
+    outline: none;
+}
+.contactus-input select option {
+    /* Add your CSS properties here */
+    line-height: 1em;
+    padding: 5px 10px;
+  }
+.contactus-form label{
+    font-size: 0.7em;
+}
+.contactus-button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contactus-button{
+    margin-left: 20vw;
+    width: 10vw;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    border: 1px solid #ccc;
+}
+.contactus-button:focus {
+    outline: none;
+}
+
+.contactus-input{
+    padding: 0.5em 1em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    align-items: center;
+}
+.contactus-input img{
+    width: 1.3vw;
+}
+.contactus-purpose select{
+    width: 18vw;
+}
+.contactus-name input{
+    width: 18vw;
+}
+.contactus-username input{
+    width: 16.5vw;
+}
+.contactus-phno input{
+    width: 18vw;
+}
+.contactus-comments textarea{
+    border: none;
+    height: 10vh;
+    width: 45vw;
+}
+
+@media screen and (max-width: 480px){
+    .contact-us-heroright{
+        display: none;
+    }
+    .quote{
+        font-size: 18px !important;
+        text-align: center;
+    }
+    .author{
+        font-size: 13px !important;
+        margin-left: 40vw !important;
+    }
+    .contact-us-heroleft{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+    .contact-us-cards-section{
+        width: 100%;
+        flex-direction: column;
+    }
+    .contact-us-cards-top{
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .cards-topleft{
+        align-items: center;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction:column;
+    }
+    .card-topright>button img{
+        width: 4vw;
+    }
+    .contact-us-cards-bottom{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 1rem;
+        gap: 1rem;
+    }
+    .contact-us-card{
+        flex: 1;
+        width: 35vw;
+        height: 20vh;
+    }
+    .write-to-us-left{
+        display: none;
+    }
+    .write-to-us-right{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contactus-row1,.contactus-row2{
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+    .contactus-purpose, .contactus-name, .contactus-username, .contactus-phno {
+        width: 100%;
+    }
+    .contactus-purpose select,.contactus-name input,.contactus-username input,.contactus-phno input,.contactus-comments textarea{
+        width: 100%;
+    }
+    .contactus-button{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .contactus-input img{
+        width: 4vw;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .contact-us-hero-section{
+        padding: 1rem 0;
+    }
+    .quote{
+        font-size: 18px !important;
+        text-align: center;
+    }
+    .author{
+        font-size: 13px !important;
+        margin-left: 35vw !important;
+    }
+    .contact-us-heroright{
+        width: 40%;
+        margin-right: 0;
+    }
+    .contact-us-heroleft{
+        width: 60%;
+    }
+    .contact-us-heroright>img{
+        width: 30vw;
+    }
+    .contact-us-cards-section{
+        width: 80%;
+    }
+    .cards-topleft>h3{
+        font-size: 17px;
+    }
+    .cards-topleft>p{
+        font-size: 13px;
+    }
+    .write-to-us-left{
+        display: none;
+    }
+    .contactus-button{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .contactus-purpose select{
+        width: 20vw;
+    }
+    .contact-us-cards-bottom{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+    }
+    .contact-us-card{
+        flex: 1;
+        width: 35vw;
+    }
+    .contactus-input img{
+        width: 2.5vw;
+    }
+    .contactus-purpose select{
+        width: 20vw;
+    }
+    .contactus-name input{
+        width: 18vw;
+    }
+    .contactus-username input{
+        width: 17vw;
+    } 
+    .contactus-phno input{
+        width: 18vw;
+    }
+    .contactus-input textarea{
+        width: 60vw;
+        height: 15vh;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .contact-us-hero-section{
+        padding: 1rem 0;
+    }
+    .quote{
+        font-size: 19px !important;
+        text-align: center;
+    }
+    .author{
+        font-size: 13px !important;
+        margin-left: 42vw !important;
+    }
+    .contact-us-heroright{
+        width: 40%;
+        margin-right: 0;
+    }
+    .contact-us-heroleft{
+        width: 60%;
+    }
+    .contact-us-heroright>img{
+        width: 30vw;
+    }
+    .contact-us-cards-section{
+        width: 80%;
+    }
+    .cards-topleft>h3{
+        font-size: 17px;
+    }
+    .cards-topleft>p{
+        font-size: 13px;
+    }
+    .write-to-us-left{
+        display: none;
+    }
+    .contactus-button{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .contactus-purpose select{
+        width: 20vw;
+    }
+    .contact-us-cards-bottom{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+    }
+    .contact-us-card{
+        flex: 1;
+        width: 35vw;
+    }
+    .contactus-input img{
+        width: 2.5vw;
+    }
+    .contactus-purpose select{
+        width: 20vw;
+    }
+    .contactus-name input{
+        width: 18vw;
+    }
+    .contactus-username input{
+        width: 17vw;
+    } 
+    .contactus-phno input{
+        width: 18vw;
+    }
+    .contactus-input textarea{
+        width: 60vw;
+        height: 15vh;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1024px){
+    .contact-us-hero-section{
+        padding: 1rem 0;
+        margin-bottom: 1rem;
+    }
+    .quote{
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .author{
+        font-size: 15px !important;
+        margin-left: 42vw !important;
+    }
+    .contact-us-heroright{
+        width: 40%;
+        margin-right: 0;
+    }
+    .contact-us-heroleft{
+        width: 60%;
+    }
+    .contact-us-heroright>img{
+        width: 30vw;
+    }
+    .contact-us-cards-section{
+        width: 85vw;
+    }
+    .cards-topleft>h3{
+        font-size: 17px;
+    }
+    .cards-topleft>p{
+        font-size: 13px;
+    }
+    .write-to-us-section{
+        gap: 1.5em;
+    }
+    .write-to-us-left img{
+        width: 25vw;
+    }
+    .write-to-us-form-container{
+        width: 60vw;
+    }
+    .contactus-button{
+        width: 10vw;
+        margin: 0 auto;
+    }
+    .contactus-purpose select{
+        width: 20vw;
+    }
+    .contact-us-cards-bottom{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 1rem;
+    }
+    .contactus-row1, .contactus-row2{
+        gap: 3em;
+    }
+    .contactus-input{
+        padding: 0.2em 1em;
+    }
+    
+    .contact-us-card{
+        width: 16vw;
+    }
+    .contactus-input img{
+        width: 2vw;
+    }
+    .contactus-purpose select{
+        width: 18vw;
+    }
+    .contactus-name input{
+        width: 17vw;
+    }
+    .contactus-username input{
+        width: 16vw;
+    } 
+    .contactus-phno input{
+        width: 17vw;
+    }
+    .contactus-input textarea{
+        width: 60vw;
+        height: 15vh;
+    }
+}

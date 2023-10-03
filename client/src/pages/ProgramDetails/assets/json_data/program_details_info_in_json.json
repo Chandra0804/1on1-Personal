@@ -1,0 +1,1103 @@
+{
+  "Front-End Development": [
+    {
+      "background_color":"#0E256E",
+      "program_card_image": "frontendp.png",
+      "program_banner_images": "backendimages/frontend.png",
+      "skills_images": [
+        "backendimages/Visual studio code.png",
+        "backendimages/Git.png",
+        "backendimages/Flycode.png",
+        "backendimages/Grunt.png",
+        "backendimages/Code pen.png",
+        "backendimages/Html5.png",
+        "backendimages/CSS3.png",
+        "backendimages/Bootstrap 4.png",
+        "backendimages/react.png"
+      ],
+      "career_options": [
+        {
+          "title": "Front-End Development",
+          "img": "backendimages/Frontend Developer.png"
+        },
+        {
+          "title": "Front-End Architect",
+          "img": "backendimages/Frontend Architect.png"
+        },
+        {
+          "title": "React Developer",
+          "img": "backendimages/React Developer.png"
+        },
+        {
+          "title": "Angular Developer",
+          "img": "backendimages/Angular Developer.png"
+        }
+      ],
+      "modules": [
+        ["HTML", "CSS", "Responsive Web Design"],
+        ["Version Control", "JavaScript", "CSS Preprocessors"],
+        ["React/Angular", "State Management", "API Integration"],
+        ["Debugging", "Testing", "Web Performance Optimization"],
+        ["Accessibility", "Progressive Web Apps", "Security"],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
+        },
+        {
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
+        },
+        {
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
+        },
+        {
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
+        },
+        {
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
+        }
+      ]
+    }
+  ],
+  "Back-End Development": [
+    {
+      "background_color":"#0E256E",
+      "program_card_image": "backendp.png",
+      "program_banner_images": "backendimages/backend.png",
+      "skills_images": [
+        "backendimages/Visual studio code.png",
+        "backendimages/nodejs.png",
+        "backendimages/django.png",
+        "backendimages/mysql.png",
+        "backendimages/apache.png",
+        "backendimages/laravel.png",
+        "backendimages/rubyonrails.png",
+        "backendimages/Git.png",
+        "backendimages/firebase.png"
+      ],
+      "career_options": [
+        {
+          "title": "Back-End Developer",
+          "img": "backendimages/backend_developer.png"
+        },
+        {
+          "title": "Database Administrator",
+          "img": "backendimages/database_administrator.png"
+        },
+        {
+          "title": "Backend Architect",
+          "img": "backendimages/backend_architect.png"
+        },
+        {
+          "title": "ApI Developer",
+          "img": "backendimages/api_developer.png"
+        }
+      ],
+      "modules": [
+        ["Back-end programming language", "Basic Server Administration", "SSH"],
+        ["SQL", "NoSQL", "Database Design"],
+        [
+          "RESTful API Development",
+          "Authentication and Authorization",
+          "Security"
+        ],
+        ["Git and GitHub", "Cloud Platforms", "DevOps and Automation"],
+        ["Docker", "CI/CD", "API Documentation", "Webpack/Parcel"],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
+        },
+        {
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
+        },
+        {
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
+        },
+        {
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
+        },
+        {
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
+        }
+      ]
+    }
+  ],
+  "Full-Stack Development": [
+    {
+      "background_color":"#0E256E",
+      "program_card_image": "fullstackp.png",
+      "program_banner_images": "backendimages/fullstack.png",
+      "skills_images": [
+        "backendimages/Visual studio code.png",
+        "backendimages/Git.png",
+        "backendimages/angular.png",
+        "backendimages/Grunt.png",
+        "backendimages/vue.png",
+        "backendimages/Html5.png",
+        "backendimages/CSS3.png",
+        "backendimages/Bootstrap 4.png",
+        "backendimages/react.png"
+      ],
+      "career_options": [
+        {
+          "title": "Front-End Development",
+          "img": "backendimages/Frontend Developer.png"
+        },
+        {
+          "title": "Back-End Developer",
+          "img": "backendimages/backend_developer.png"
+        },
+        {
+          "title": "Full-Stack Developer",
+          "img": "backendimages/fullstack_developer.png"
+        },
+        {
+          "title": "Technical Lead/Architect",
+          "img": "backendimages/Frontend Architect.png"
+        }
+      ],
+      "modules": [
+        ["Web Fundamentals", "Responsive Web Design", "React/Angular"],
+        ["Node.js/Django", "MySQL", "MongoDB"],
+        ["API Development", "SQL, NoSQL", "Database Design"],
+        ["Git and GitHub", "Cloud Platforms", "Heroku/Netlify"],
+        ["Authentication and Security", "Docker", "CI/CD", "Webpack/Parcel"],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
+        },
+        {
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
+        },
+        {
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
+        },
+        {
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
+        },
+        {
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
+        }
+      ]
+    }
+  ],
+  "UI/UX Designer": [
+    {
+      "background_color":"#0E256E",
+      "program_card_image": "uiuxp.png",
+      "program_banner_images": "backendimages/uiux.png",
+      "skills_images": [
+        "backendimages/figma.png",
+        "backendimages/adobe.png",
+        "backendimages/sketch.png",
+        "backendimages/azure.png",
+        "backendimages/invision.png",
+        "backendimages/adobexd.png",
+        "backendimages/photoshop.png",
+        "backendimages/canva.png",
+        "backendimages/adobeanimate.png"
+      ],
+      "career_options":[
+        {
+            "title":"UI/UX Designer",
+            "img":"backendimages/ux_designer.png"
+        },
+        {
+            "title":"Information Architect",
+            "img":"backendimages/information_architect.png"
+        },
+        {
+            "title":"User Researcher",
+            "img":"backendimages/user_researcher.png"
+        },
+        {
+            "title":"Product Designer",
+            "img":"backendimages/product_designer.png"
+        }
+      ],
+      "modules": [
+        ["UI/UX Fundamentals", "Design Principles","Typography"],
+        ["Color Theory", "Grid Systems", "Figma"],
+        ["Adobe XD, Sketch", "User Research", "Wireframing", "Prototyping"],
+        [
+          "Information Architecture",
+          "Icon Design",
+          "Usability Testing",
+          "User Flows"
+        ],
+        [
+          "Mobile App Design",
+          "Web Design",
+          "Responsive Design",
+          "Design Systems"
+        ],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
+        },
+        {
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
+        },
+        {
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
+        },
+        {
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
+        },
+        {
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
+        }
+      ]
+    }
+  ],
+  "AI Engineer": [
+    {
+      "background_color":"#0E256E",
+      "program_card_image": "aip.png",
+      "program_banner_images": "backendimages/aiengineer.png",
+      "skills_images": [
+        "backendimages/Visual studio code.png",
+        "backendimages/Git.png",
+        "backendimages/tensorflow.png",
+        "backendimages/pytorch.png",
+        "backendimages/keras.png",
+        "backendimages/azure.png",
+        "backendimages/scikitlearn.png",
+        "backendimages/googlecloud.png"
+      ],
+      "career_options":[
+        {
+            "title":"AI Engineer",
+            "img":"backendimages/ai_engineer.png"
+        },
+        {
+            "title":"Machine Learning Engineer",
+            "img":"backendimages/ml_engineer.png"
+        },
+        {
+            "title":"Computer Vision Engineer",
+            "img":"backendimages/computer_vision_engineer.png"
+        },
+        {
+            "title":"NLP Enginner",
+            "img":"backendimages/nlp_engineer.png"
+        }
+      ],
+      "modules": [
+        ["Statistics and Probability", "Python"],
+        [
+          "Machine Learning",
+          "Python Libraries",
+          "Data Preprocessing"
+        ],
+        ["Deep Learning", "Model Evaluations", "Ensemble Methods"],
+        [
+          "NLP",
+          "Computer Vision",
+          "Reinforcement Learning"
+        ],
+        ["Generative AI", "Latest advancements in AI", "Kaggle Competitions"],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
+        },
+        {
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
+        },
+        {
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
+        },
+        {
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
+        },
+        {
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
+        }
+      ]
+    }
+  ],
+  "Data Science": [
+    {
+      "background_color":"#0E256E",
+      "program_card_image": "dsp.png",
+      "program_banner_images": "backendimages/ds.png",
+      "skills_images": [
+        "backendimages/rapidminer.png",
+        "backendimages/apachespark.png",
+        "backendimages/knime.png",
+        "backendimages/Grunt.png",
+        "backendimages/tableau.png",
+        "backendimages/matlab.png",
+        "backendimages/tensorflow.png",
+        "backendimages/matplotlib.png",
+        "backendimages/pandas.png"
+      ],
+      "career_options":[
+        {
+            "title":"Data Scientist",
+            "img":"backendimages/data_scientist.png"
+        },
+        {
+            "title":"Data Analyst",
+            "img":"backendimages/data_analyst.png"
+        },
+        {
+            "title":"Data Engineer",
+            "img":"backendimages/data_engineer.png"
+        },
+        {
+            "title":"AI Research Scientist",
+            "img":"backendimages/ai_research_analyst.png"
+        }
+      ],
+      "modules": [
+        ["Statistics and Probability", "Python/R"],
+        [
+          "Data Wrangling and Cleaning",
+          "Exploratory Data Analysis",
+          "Data Visualization"
+        ],
+        [
+          "Machine Learning",
+          "Data Preprocessing",
+          "Feature Engineering"
+        ],
+        ["SQL", "Python Libraries", "Big Data"],
+        ["Deep Learning", "NLP/Computer Vision", "Specialization"],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
+        },
+        {
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
+        },
+        {
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
+        },
+        {
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
+        },
+        {
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
+        }
+      ]
+    }
+  ],
+  "QA Automation": [
+    {
+      "background_color":"#0E256E",
+      "program_card_image": "qap.png",
+      "program_banner_images": "backendimages/qa.png",
+      "skills_images": [
+        "backendimages/selenium.png",
+        "backendimages/appium.png",
+        "backendimages/soapui.png",
+        "backendimages/ranorex.png",
+        "backendimages/testcomplete.png",
+        "backendimages/microfocus.png",
+        "backendimages/katalon.png",
+        "backendimages/watir.png",
+        "backendimages/telerikteststudio.png"
+      ],
+      "career_options":[
+        {
+            "title":"QA Automation Engineer",
+            "img":"backendimages/qa_automation_engineer.png"
+        },
+        {
+            "title":"QA Analyst",
+            "img":"backendimages/qa_analyst.png"
+        },
+        {
+            "title":"Test Automation Architect",
+            "img":"backendimages/test_automation_architect.png"
+        },
+        {
+            "title":"Performance Testing Engineer",
+            "img":"backendimages/performance_tester.png"
+        }
+      ],
+      "modules": [
+        [
+          "Understanding of Software Development",
+          "Basic Testing Concepts"
+        ],
+        [
+          "Python/Java",
+          "Test Case Management",
+          "Introduction to Automation"          
+        ],
+        ["Selenium WebDriver", "Appium", "PyTest(Python)/TestNG(Java)"],
+        ["Testing Libraries and Frameworks", "Page Object Model (POM)", "Test Data Management"],
+        [
+          "API Testing",
+          "Performance Testing",
+          "Cloud Testing",
+          "Security Testing"
+        ],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
+        },
+        {
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
+        },
+        {
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
+        },
+        {
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
+        },
+        {
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
+        }
+      ]
+    }
+  ],
+  "Python Developer": [
+    {
+      "background_color":"#0E256E",
+      "program_card_image": "pythonp.png",
+      "program_banner_images": "backendimages/python.png",
+      "skills_images": [
+        "backendimages/Visual studio code.png",
+        "backendimages/Git.png",
+        "backendimages/pycharm.png",
+        "backendimages/flask.png",
+        "backendimages/scrapy.png",
+        "backendimages/scipy.png",
+        "backendimages/beautifulsoap.png",
+        "backendimages/selenium.png",
+        "backendimages/spyder.png"
+      ],
+      "career_options":[
+        {
+            "title":"Python Developer",
+            "img":"backendimages/python_developer.png"
+        },
+        {
+            "title":"QA Automation Engineer",
+            "img":"backendimages/qa_automation_engineer.png"
+        },
+        {
+            "title":"Software Engineer",
+            "img":"backendimages/software_engineer.png"
+        },
+        {
+            "title":"Back-End Developer",
+            "img":"backendimages/backend_developer-1.png"
+        }
+      ],
+      "modules": [
+        ["Basics","Functions", "Data Structures"],
+        [
+          "Classes and Objects",
+          "OOPS concepts",
+          "Modules and Packages"
+        ],
+        [
+          "File Handling",
+          "Exception Handling",
+          "Decorators",
+          "Generators and Iterators"
+        ],
+        ["SQL, Flask/Django", "Web Scraping", "Deployment"],
+        [
+          "Python scripting",
+          "Web Development with Python",
+          "Introduction to Data Science",
+          "Specialization"
+        ],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
+        },
+        {
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
+        },
+        {
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
+        },
+        {
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
+        },
+        {
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
+        }
+      ]
+    }
+  ],
+  "Java Developer": [
+    {
+      "background_color":"#0E256E",
+      "program_card_image": "javap.png",
+      "program_banner_images": "backendimages/java.png",
+      "skills_images": [
+        "backendimages/apachemaven.png",
+        "backendimages/eclipse.png",
+        "backendimages/netBeans.png",
+        "backendimages/gradle.png",
+        "backendimages/junit.png",
+        "backendimages/jenkins.png",
+        "backendimages/docker.png",
+        "backendimages/Git.png"
+      ],
+      "career_options":[
+        {
+            "title":"Java Devloper",
+            "img":"backendimages/java_developer.png"
+        },
+        {
+            "title":"Back-End Developer",
+            "img":"backendimages/backend_development.png"
+        },
+        {
+            "title":"Java Architect",
+            "img":"backendimages/java_architect.png"
+        },
+        {
+            "title":"Web Developer",
+            "img":"backendimages/web_developer.png"
+        }
+      ],
+      "modules": [
+        ["Basic Syntax", "Control Flow", "Functions"],
+        ["Data Structures", "Classes and Objects", "OOPS concepts"],
+        ["File Handling", "Exception Handling", "SQL"],
+        [
+          "Java Standard Library",
+          "Database Connectivity",
+          "Java Web Development",
+          "Servlets and JSP"
+        ],
+        ["Advanced Java", "RESTful Services", "JUnit/TestNG"],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
+        },
+        {
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
+        },
+        {
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
+        },
+        {
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
+        },
+        {
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
+        }
+      ]
+    }
+  ],
+  "DevOps Engineer": [
+    {
+      "background_color":"#0E256E",
+      "program_card_image": "devopsp.png",
+      "program_banner_images": "backendimages/devops.png",
+      "skills_images": [
+        "backendimages/jenkins.png",
+        "backendimages/docker.png",
+        "backendimages/ansible.png",
+        "backendimages/puppet.png",
+        "backendimages/progresschef.png",
+        "backendimages/kubernetes.png",
+        "backendimages/teraform.png",
+        "backendimages/prometheus.png",
+        "backendimages/saltsack.png"
+      ],
+      "career_options":[
+        {
+            "title":"DevOps Engineer",
+            "img":"backendimages/dev_ops_engineer.png"
+        },
+        {
+            "title":"Cloud Engineer",
+            "img":"backendimages/cloud_engineer.png"
+        },
+        {
+            "title":"Infrastructure Engineer",
+            "img":"backendimages/infrastructure_engineer.png"
+        },
+        {
+            "title":"Site Realibility Engineer",
+            "img":"backendimages/site_reliability_engineer.png"
+        }
+      ],
+      "modules": [
+        ["Basic IT Knowledge", "Python/Ruby/Javascript", "Git"],
+        ["Linux Fundamentals", "Operating Systems", "CI/CD Concepts & tools"],
+        ["Docker", "Kubernetes", "AWS"],
+        ["Configuration Management", "Monitoring and Logging", "Security"],
+        [
+          "Scripting and Automation",
+          "Collaboration Tools",
+          "Agile and DevOps Culture"
+        ],
+        ["Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
+        },
+        {
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
+        },
+        {
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
+        },
+        {
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
+        },
+        {
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
+        }
+      ]
+    }
+  ],
+  "App Development(Android)": [
+    {
+      "background_color":"#0E256E",
+      "program_card_image": "mobile.png",
+      "program_banner_images": "backendimages/mobandroid.png",
+      "skills_images": [
+        "backendimages/ionic.png",
+        "backendimages/xamarin.png",
+        "backendimages/redwerk.png",
+        "backendimages/flutter.png",
+        "backendimages/androidstudio.png",
+        "backendimages/firebase.png",
+        "backendimages/cordova.png"
+      ],
+      "career_options":[
+        {
+            "title":"Android Application Developer",
+            "img":"backendimages/andriod_application_developer.png"
+        },
+        {
+            "title":"Mobile App Architect",
+            "img":"backendimages/mobile_app_architect.png"
+        },
+        {
+            "title":"Android App Security Analyst",
+            "img":"backendimages/andriod_app_security_analyst.png"
+        },
+        {
+            "title":"Freelance Android Developer",
+            "img":"backendimages/freelance_andriod_developer.png"
+        }
+      ],
+      "modules": [
+        ["Java", "Kotlin", "IDE Familiarization"],
+        ["Android Fundamentals", "Event Handling", "UI Controls"],
+        ["Activities and Intents", "Shared Preferences", "SQLite Database"],
+        ["HTTP Requests", "JSON Parsing", "Unit Testing"],
+        ["Fragments and Navigation", "Permission Handling", "Publishing Apps"],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
+        },
+        {
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
+        },
+        {
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
+        },
+        {
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
+        },
+        {
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
+        }
+      ]
+    }
+  ],
+  "App Development(iOS)": [
+    {
+      "background_color":"#0E256E",
+      "program_card_image": "mobiosp.png",
+      "program_banner_images": "backendimages/mobios.png",
+      "skills_images": [
+        "backendimages/xcode.png",
+        "backendimages/cocoapods.png",
+        "backendimages/swift.png",
+        "backendimages/alamofire.png",
+        "backendimages/firebase.png",
+        "backendimages/realm.png",
+        "backendimages/postman.png",
+        "backendimages/stackoverflow.png",
+        "backendimages/shake.png"
+      ],
+      "career_options":[
+        {
+            "title":"iOS Application Developer",
+            "img":"backendimages/ios_application_developer.png"
+        },
+        {
+            "title":"iOS App Architect",
+            "img":"backendimages/ios_app_architect.png"
+        },
+        {
+            "title":"iOS App Security Analyst",
+            "img":"backendimages/ios_app_security_analyst.png"
+        },
+        {
+            "title":"Freelance iOS Developer",
+            "img":"backendimages/freelance_ios_developer.png"
+        }
+      ],
+      "modules": [
+        ["Swift", "Xcode", "iOS App Fundamentals"],
+        ["UIKit Framework", "View Controllers", "Interface Builder"],
+        [
+          "UI Elements",
+          "Table Views and Collection Views",
+          "Model-View-Controller"
+        ],
+        ["Dependency Injection", "Networking", "Unit Testing"],
+        [
+          "Advanced iOS App Development",
+          "Xcode Debugging Tools",
+          "App Deployment"
+        ],
+        ["Projects", "Job-ready portfolio", "Mock Interviews"]
+      ],
+      "testimonials": [
+        {
+          "name": "Marry Welsom",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "Henry Bard",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        },
+        {
+          "name": "John Schemdt",
+          "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed at semper purus, a commodo lectus. Nullam vel nunc vel justosagittis gravida id vel metus",
+          "stars": "4",
+          "img": "userImage.png"
+        }
+      ],
+      "faq": [
+        {
+            "question": "What is 1-on-1 Teaching Friend platform?",
+            "answer": "The 1-on-1 Teaching Friend platform is a platform where a teacher and a student can have personalized and customized learning experience with a one-to-one interaction."
+        },
+        {
+            "question": "How do I schedule a one-on-one class with a teacher?",
+            "answer": "You can schedule a one-on-one class by choosing a time that works for you and the teacher."
+        },
+        {
+            "question": "How long is each one-on-one class?",
+            "answer": "Each one-on-one class is typically 45-60 minutes long, but the duration can be customized based on the student\"s needs."
+        },
+        {
+            "question": "What technology or equipment do I need to have to take Teaching Friend classes on this platform?",
+            "answer": "You will need a computer/laptop with an internet connection and a webcam. You may also need a headset or microphone for better audio quality."
+        },
+        {
+            "question": "Can I cancel or reschedule a one-on-one class?",
+            "answer": "Yes, you can cancel or reschedule a one-on-one class, but please make sure to do so at least 24 hours before the scheduled start time."
+        }
+      ]
+    }
+  ]
+}
