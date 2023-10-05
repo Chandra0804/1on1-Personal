@@ -77,7 +77,7 @@ const Popup = ({ onClose }) => {
                     <h1>Hire <span className='orange-text'>Talent</span></h1>
                     <button className='close-button-popup' onClick={onClose}>X</button>
                 </div>
-                <div className='popup-form'>
+                <form className='popup-form' onSubmit={submitHandler}>
                     <label>
                         <div className='LabelName'>Company Name<span>*</span></div>
                         <input
@@ -85,12 +85,13 @@ const Popup = ({ onClose }) => {
                             ref={companyName}
                             className='company-name'
                             placeholder='Enter your company name'
+                            required
                         // onChange={(e) => setCompanyName(e.target.value)}
                         />
                     </label>
                     <label>
                         <div className='LabelName'>Required Position<span>*</span></div>
-                        <select className='required-position-input' type="select" ref={requiredPosition}
+                        <select className='required-position-input' type="select" ref={requiredPosition} required
                         // value={positionType}
                         // onChange={(e) => setPositionType(e.target.value)}
                         >
@@ -112,6 +113,7 @@ const Popup = ({ onClose }) => {
                         <select className='required-class'
                             type="select"
                             ref={requiredType}
+                            required
                         // onChange={(e) => setPositionType(e.target.value)}
                         >
                             <option value=''>Select</option>
@@ -135,6 +137,7 @@ const Popup = ({ onClose }) => {
                             ref={email}
                             className='email-input'
                             placeholder='Enter your email'
+                            required
                         />
                     </label>
                     <label>
@@ -144,10 +147,11 @@ const Popup = ({ onClose }) => {
                             ref={phone}
                             className='phone-input'
                             placeholder='Enter your phone number'
+                            required
                         />
                     </label>
-                    <button type='submit' onClick={submitHandler}>Submit</button>
-                </div>
+                    <button type='submit'>Submit</button>
+                </form>
             </div>
         </div>
     );

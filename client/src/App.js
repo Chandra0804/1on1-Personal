@@ -9,6 +9,7 @@ import HireTalent from './pages/HireTalent/HireTalent';
 import BecomeATutor from './pages/BecomeATutor/BecomeATutor';
 import ContactUs from './pages/ContactUs/ContactUs'
 import AboutUs from './pages/AboutUs/AboutUs';
+import Demo from './pages/demo'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/becomeATutor' element={<BecomeATutor />} />
           <Route path='/contactus' element={<ContactUs/>} />
           <Route path='/aboutus' element={<AboutUs/>} />
+          <Route path='/demo' element={<Demo/>} />
         </Routes>
       </div>
     </Router>

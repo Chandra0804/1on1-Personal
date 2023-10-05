@@ -20,7 +20,8 @@
 .become-tutor-heroImg {
     margin-left: 8rem;
     margin-right: 4rem;
-    margin-bottom: -0.2rem;
+    margin-bottom: -0.25rem;
+    z-index: 2;
 }
 
 .become-tutor-heroImg>img{

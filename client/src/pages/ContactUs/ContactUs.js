@@ -186,6 +186,7 @@ export default function ContactUs() {
                                             type="select"
                                             value={purposeValue}
                                             onChange={handlePurposeChange}
+                                            required
                                         >
                                             <option value=''>Choose Program</option>
                                             {programs.map((program)=>(
@@ -199,9 +200,10 @@ export default function ContactUs() {
                                     <div className='contactus-input'>
                                         <img src={userName} alt="User Name" />
                                         <input
-                                            placeholder='Enter User Name'
+                                            placeholder='Enter Name'
                                             value={userNameValue}
                                             onChange={handleUserNameChange}
+                                            required
                                         />
                                     </div>
                                 </div>
@@ -212,9 +214,11 @@ export default function ContactUs() {
                                     <div className='contactus-input'>
                                         <img src={registeredUserName} alt="Registered Username" />
                                         <input
+                                            type="email"
                                             placeholder='Enter your email'
                                             value={registeredUserNameValue}
                                             onChange={handleRegisteredUserNameChange}
+                                            required
                                         />
                                     </div>
                                 </div>
@@ -223,9 +227,11 @@ export default function ContactUs() {
                                     <div className='contactus-input'>
                                         <img src={phonenumber} alt="Phone Number" />
                                         <input
+                                            type="number"
                                             placeholder='Enter Phone Number'
                                             value={phoneNumberValue}
                                             onChange={handlePhoneNumberChange}
+                                            required
                                         />
                                     </div>
                                 </div>
@@ -238,6 +244,7 @@ export default function ContactUs() {
                                         placeholder='Write Something here'
                                         value={commentsValue}
                                         onChange={handleCommentsChange}
+                                        required
                                     />
                                 </div>
                             </div>

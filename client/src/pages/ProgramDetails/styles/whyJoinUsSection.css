@@ -163,7 +163,7 @@
     }
 }
 
-@media (min-width:667px) and (max-width:768px){
+@media (min-width:667px) and (max-width:849px){
     .joinUs-section {
         grid-template-columns: repeat(2, 1fr); /* Display two containers in landscape mode */
         grid-row-gap: 9rem;
@@ -171,7 +171,7 @@
     }
 }
 
-@media(min-width:769px) and (max-width: 1024px) and (orientation: landscape) {
+@media(min-width:850px) and (max-width: 1024px) and (orientation: landscape) {
     .joinUs-section {
         grid-template-columns: repeat(3, 1fr); /* Display two containers in landscape mode */
         grid-row-gap: 9rem;

@@ -40,9 +40,26 @@
     width: 8vw;
   }
 
-  @media screen and (max-width:480px){
+  @media screen and (max-width:486px){
     .hovered-icons img{
-      width: 20vw;
+      width: 30vw;
+    }
+  }
+  @media screen and (min-width: 487px) and (max-width: 850px) {
+    .hovered-icons img{
+      
+      width: 15vw;
+    }
+  }
+  @media screen and (min-width: 851px) and (max-width: 992px){
+    .hovered-icons img{
+      
+      width: 15vw;
+    }
+  }
+  @media screen and (min-width: 993px) and (max-width: 1024px){
+    .hovered-icons img{
+      width: 15vw;
     }
   }
   

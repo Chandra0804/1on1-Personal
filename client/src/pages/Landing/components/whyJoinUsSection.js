@@ -13,7 +13,7 @@ export default function WhyJoinUsSection() {
     const cardData = [
         {
             title: "1 on 1 Teaching",
-            description: "Teaching adapt thier instructional strategies to suit the student's preferred learning style, making the learning experience more engaging and effective",
+            description: "Teachers adapt thier instructional strategies to suit the student's preferred learning style, making the learning experience more engaging and effective.",
             imagesrc: JoinCard1,
             icon: faUser
         },
@@ -25,13 +25,13 @@ export default function WhyJoinUsSection() {
         },
         {
             title: "Customized Course Plan",
-            description: "Customized course plans that cater to each student's specific needs, and goals, ensuring a learning journey that aligns perfectly with their aspirations",
+            description: "Customized course plans that cater to each student's specific needs, and goals, ensuring a learning journey that aligns perfectly with their aspirations.",
             imagesrc: JoinCard3,
             icon: faChalkboard
         },
         {
             title: "Professional Profile",
-            description: "Our courses provide valuable insights and practical knowledge , helping studnets build a strong professional profile that enhances their career prospects.",
+            description: "Our courses provide valuable insights and practical knowledge, helping students build a strong professional profile that enhances their career prospects.",
             imagesrc: JoinCard4,
             icon: faIdCard
         },
@@ -43,7 +43,7 @@ export default function WhyJoinUsSection() {
         },
         {
             title: "Personalized Attention",
-            description: "Our dedicated instructos provide personalized attention and support, addressing each student's unique challenges and strengths.",
+            description: "Our dedicated instructor's provide personalized attention and support, addressing each student's unique challenges and strengths.",
             imagesrc: JoinCard6,
             icon: faLightbulb
         },

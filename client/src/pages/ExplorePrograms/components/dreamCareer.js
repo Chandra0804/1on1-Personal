@@ -9,7 +9,7 @@ export default function DreamCareer() {
         <div className='dreamCareer-section'>
             <div className='dream-career-top'>
                 <h1>Giving a Start to your <span className='orange-text'>Dream Career</span></h1>
-                <p>Real success requires the right skillset. Through our online courses, you too can give wings to your dreams.</p>
+                <p>Real success requires the right skillset. Through our online programs, you too can give wings to your dreams.</p>
             </div>
             <div className='dream-career-bottom'>
                 <div className='dream-image-container'>
@@ -25,7 +25,7 @@ export default function DreamCareer() {
                 <div className='dream-image-container'>
                     <img src={WinnerImg} alt='winner' />
                     <h3>Certified Value Courses</h3>
-                    <p>Valued certificiates World Wide</p>
+                    <p>Valued certificates World Wide</p>
                 </div>
             </div>
         </div>

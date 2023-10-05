@@ -127,6 +127,11 @@
   box-shadow: 0 2px #ebebeb;
 }
 
+.active .navbar-button{
+  color: white;
+  background-color: #ff7f06;
+}
+
 .navbar-logo {
   margin-left: 40px;
   height: 55px;
@@ -136,6 +141,7 @@
 
 .navbar-buttons {
   display: flex;
+  align-items: center;
   justify-content: flex-end;
 }
 

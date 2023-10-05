@@ -11,10 +11,10 @@ export default function ProgramDetailsHero(props) {
         <p className='text1'>Placement Guarantee <span><FontAwesomeIcon icon={faCheckCircle} /></span></p>
         <h1>{props.name}<br /><span className='yellow-text'>Placement Program</span></h1>
         <p className='text2'>| Get Guaranteed Placement Opportunities</p>
-        <p className='text3'>{props.courseDuration} | Full-time Online Classroom format | guaranteed* placement opportunities</p>
+        <p className='text3'>{props.courseDuration} | Full-time Online Classroom format | Guaranteed* placement opportunities</p>
         <p className='text4'>*Upon successful program completion</p>
         <div className='program-details-hero-button-container'>
-          <button className='apply-button'>Get Hired! Before you Graduate</button>
+          <button className='apply-button'>Get Hired before you Graduate</button>
           {/* <button className='download-button'>Download Syllabus</button> */}
         </div>
       </div>

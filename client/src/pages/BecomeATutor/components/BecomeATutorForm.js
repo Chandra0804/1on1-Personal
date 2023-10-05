@@ -140,14 +140,14 @@ export default function BecomeATutorForm() {
     return (
         <div className="tutor-right-container">
             <h1>Fill Your <span className="orange-text">Application</span></h1>
-            <div className="tutor-form">
+            <form className="tutor-form" onSubmit={submitHandler}>
                 <div className="tutor-name tutor-field">
                     <label >Name<span>*</span></label>
-                    <input type="text" placeholder="Person A" value={fullName} onChange={(e) => setFullName(e.target.value)} />
+                    <input type="text" placeholder="Person A" required value={fullName} onChange={(e) => setFullName(e.target.value)} />
                 </div>
                 <div className="program-input tutor-field">
                     <label>Program<span>*</span></label>
-                    <select id="dropdown" value={program} onChange={(e) => setProgram(e.target.value)}>
+                    <select id="dropdown" value={program} onChange={(e) => setProgram(e.target.value)} required>
                         <option value=''>Select Program</option>
                         {programs.map((program) => (
                             <option value={program} key={program}>{program}</option>
@@ -156,15 +156,15 @@ export default function BecomeATutorForm() {
                 </div>
                 <div className="country-phone tutor-field">
                     <label>Phone Number<span>*</span></label>
-                    <input value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} />
+                    <input value={phoneNumber} type="number"required onChange={(e) => setPhoneNumber(e.target.value)} />
                 </div>
                 <div className="tutor-field mail-input">
                     <label>Mail<span>*</span></label>
-                    <input type="email" value={emailAddress} onChange={(e) => setEmailAddress(e.target.value)} />
+                    <input type="email" value={emailAddress} required onChange={(e) => setEmailAddress(e.target.value)} />
                 </div>
                 <div className="tutor-field tutor-residence">
                     <label>Residence State<span>*</span></label>
-                    <select value={state} onChange={(e) => setState(e.target.value)}>
+                    <select value={state} onChange={(e) => setState(e.target.value)} required>
                         <option>Select State</option>
                         {states.map((state) => (
                             <option value={state} key={state}>{state}</option>
@@ -172,12 +172,12 @@ export default function BecomeATutorForm() {
                     </select>
                 </div>
                 <div className="tutor-field tutor-linkedin">
-                    <label>Linked In<span>*</span></label>
-                    <input value={linkedinProfile} onChange={(e) => setLinkedinProfile(e.target.value)} />
+                    <label>LinkedIn<span>*</span></label>
+                    <input value={linkedinProfile} required onChange={(e) => setLinkedinProfile(e.target.value)} />
                 </div>
                 <div className="tutor-field tutor-experience">
                     <label>Work Experience<span>*</span></label>
-                    <select id="dropdown" value={workExperience} onChange={(e) => setWorkExperience(e.target.value)}>
+                    <select id="dropdown" value={workExperience} onChange={(e) => setWorkExperience(e.target.value)} required>
                         <option value=''>Select Work Experience</option>
                         <option value='2 years'>2 years</option>
                         <option value='3 years'>3 years</option>
@@ -187,15 +187,15 @@ export default function BecomeATutorForm() {
                 </div>
                 <div className="tutor-field tutor-salary">
                     <label>Additional Info</label>
-                    <input value={additionalInfo} onChange={(e) => setAdditionalInfo(e.target.value)} />
+                    <input value={additionalInfo} onChange={(e) => setAdditionalInfo(e.target.value)}/>
                 </div>
                 <div className="tutor-field tutor-letter">
                     <label>Cover Letter<span>*</span></label>
-                    <textarea placeholder="Write in less than 100 words." value={coverLetter} onChange={(e) => setCoverLetter(e.target.value)} />
+                    <textarea placeholder="Write in less than 100 words." value={coverLetter} onChange={(e) => setCoverLetter(e.target.value)} required/>
                 </div>
                 <div className="tutor-field tutor-github">
-                    <label>Github Link<span>*</span></label>
-                    <input value={githubInput} onChange={(e) => setGithubInput(e.target.value)} />
+                    <label>GitHub Link<span>*</span></label>
+                    <input value={githubInput} onChange={(e) => setGithubInput(e.target.value)} required/>
                 </div>
                 {/* <div className="tutor-field tutor-resume" style={{ zIndex: 1 }}>
                     <label>Resume<span>*</span></label>
@@ -205,8 +205,8 @@ export default function BecomeATutorForm() {
                     </div>
 
                 </div> */}
-                <button onClick={submitHandler} id="submit" value="Submit">Submit</button>
-            </div>
+                <button type="submit" id="submit" value="Submit">Submit</button>
+            </form>
         </div>
     )
 }

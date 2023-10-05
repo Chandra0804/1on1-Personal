@@ -8,12 +8,12 @@ export default function ProgramDetailsCourseHighlights() {
     const highlightsData = [
         {
             title: 'Live Classes',
-            subtitle: 'Best Learning Preperation',
+            subtitle: 'Best Learning Experience',
             icon: faCirclePlay
         },
         {
             title: 'Assignments',
-            subtitle: 'Practical Preperation',
+            subtitle: 'Practical Preparation',
             icon: faBook
         },
         {
@@ -42,8 +42,8 @@ export default function ProgramDetailsCourseHighlights() {
             icon: faLifeRing
         },
         {
-            title: 'Get Ready Portfolio',
-            subtitle: 'Github , Linkedin',
+            title: 'Get Job-Ready Portfolio',
+            subtitle: 'Resume, Github, Linkedin',
             icon: faUser
         },
         {

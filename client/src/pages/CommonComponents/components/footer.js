@@ -43,6 +43,7 @@ const FooterPartOne = () => {
           placeholder='Enter your Email'
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          required
         />
         <button type="submit" className='subscribe-button'>Subscribe</button>
       </form>
@@ -61,7 +62,7 @@ export default function Footer({ isFooterPart1 }) {
           <div className='footer-part2-left'>
             <img src={Footerlogo} alt='footer-logo' />
             <h1>1 on 1 Teaching Friend Technologies</h1>
-            <p>Our main goal is to provide excellent education through high-quality teaching. We keep track of your progress and provide real-world experiences to enrich your learning. We aim to help you learn essential skills without spending excessive time, ensuring your learning experience is efficient and effective.
+            <p>Our goal is to provide excellent education through high-quality teaching. We keep track of your progress and provide real-world experience to enrich your learning. We aim to help you learn essential skills without spending excessive time, ensuring your learning experience is efficient and effective.
               <br/><span><FontAwesomeIcon icon={faPhone}/> +91 86882 83415</span>
             </p>
           </div>

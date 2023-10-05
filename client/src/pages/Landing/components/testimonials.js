@@ -21,19 +21,19 @@ const TestimonialCardData = [
     photo: Avatarg1,
     title: 'Shreya Shrivastava',
     subtitle: 'Student',
-    description: 'I ve taken many courses in the past, but this one stands out as the best The personalized 1-on-1 teaching, guidance, and mentoring I receive here, along with the supportive community for collaborative project work, make it truly exceptional.',
+    description: 'I have taken many courses in the past, but this one stands out as the best The personalized 1-on-1 teaching, guidance, and mentoring I receive here, along with the supportive community for collaborative project work, make it truly exceptional.',
   },
   {
     photo: Avatarb2,
     title: 'Mokshith Reddy',
     subtitle: 'Student',
-    description: ' I ve reached the halfway mark in the Front-End Development program and am eager to complete it. Throughout this journey, my Teaching Friend "Shruthi D" has been exceptional at explaining complex concepts in a clear and understandable manner.'
+    description: ' I have reached the halfway mark in the Front-End Development program and am eager to complete it. Throughout this journey, my Teaching Friend "Shruthi D" has been exceptional at explaining complex concepts in a clear and understandable manner.'
   },
   {
     photo: Avatarg2,
     title: 'Aryan Sharma',
     subtitle: 'Student',
-    description: 'I ve completed most of the Data Science program and already got an internship offer. Now, I\'m super excited to work on real projects even before finishing the program. Huge thanks to my Teaching Friend, Rahul V!"'
+    description: 'I have completed most of the Data Science program and already got an internship offer. Now, I\'m super excited to work on real projects even before finishing the program. Huge thanks to my Teaching Friend, Rahul V!'
   },
 ];
 

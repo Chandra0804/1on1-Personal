@@ -24,7 +24,7 @@ export default function HireTalent() {
       <Navbar />
       <div className='hire-talent-hero'>
         <div className='hire-talent-heroLeft'>
-          <p className='hire-talent-blackText'>TRUSTED AND HANDPICKED</p>
+          <p className='hire-talent-blackText'>Trusted and Handpicked</p>
           <h1>We Connect companies<br />with <span className='orange-text'>incredible Professionals</span></h1>
           <p className='hire-talent-grey-text'>Empowering Recruiters to Discover and Connect with Exceptional Talent for Success</p>
           <button onClick={openPopup}>Hire Talent</button>
@@ -43,7 +43,7 @@ export default function HireTalent() {
             <img src={FrameImg} alt='Frame'/>
           </div>
           <div className='why-platform-right-container'>
-            <p>Discover a competitve edge in your recruitment process with our platform. At 1 on 1 Teaching Friend Technologies , we specialize in connecting employers with the finest, skillfully trained students. Our mission is to simplify and enhance your hiring experiences, ensuring that you receive top-tier-talent to meet your organization's needs. Through our platform, you'll gain access to a pool of exceptional students who have undergone vigorous training and are well-prepared to excel in your industry. Join us today and let us help you find the perfect match for your company's success.</p>
+            <p>"At <span className='orange-text ot-hire'>1 on 1 Teaching Friend Technologies</span>, we're here to give your recruitment process a competitive edge. We specialize in bridging the gap between employers and highly skilled, well-trained students. Our mission is to streamline and elevate your hiring process, ensuring that you connect with top-tier talent to fulfill your organization's needs. With our platform, you'll tap into a diverse pool of <b>exceptional students</b> who have undergone rigorous training, equipping them to thrive in your industry. Join us today, and together, we can find the perfect match for your <b>company's success</b>."</p>
           </div>
         </div>
       </div>

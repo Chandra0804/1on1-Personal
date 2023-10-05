@@ -47,9 +47,9 @@ export default function PlacementPrograms() {
   const programCardContainerRef3 = useRef(null);
 
   // Create separate currentPage state variables for each slider
-  const [currentPage1, setCurrentPage1] = useState(-1);
-  const [currentPage2, setCurrentPage2] = useState(-1);
-  const [currentPage3, setCurrentPage3] = useState(-1);
+  const [currentPage1, setCurrentPage1] = useState(0);
+  const [currentPage2, setCurrentPage2] = useState(0);
+  const [currentPage3, setCurrentPage3] = useState(0);
 
   useEffect(() => {
     setProgramData(data);

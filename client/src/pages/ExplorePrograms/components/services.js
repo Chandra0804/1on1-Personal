@@ -38,7 +38,7 @@ export default function Services() {
             col4: faCheck
         },
         {
-            col1: 'Job Ready Portfolio',
+            col1: 'Job-Ready Portfolio',
             col2: faXmark,
             col3: faXmark,
             col4: faCheck
