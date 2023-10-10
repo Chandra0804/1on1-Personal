@@ -1,12 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0fa40887.css",
-    "main.js": "/static/js/main.c1d9be88.js",
-    "static/js/872.85a21d26.chunk.js": "/static/js/872.85a21d26.chunk.js",
-    "static/js/227.5279cdc2.chunk.js": "/static/js/227.5279cdc2.chunk.js",
-    "static/js/526.fea1c74b.chunk.js": "/static/js/526.fea1c74b.chunk.js",
-    "static/js/232.de95059a.chunk.js": "/static/js/232.de95059a.chunk.js",
-    "static/js/237.01d46935.chunk.js": "/static/js/237.01d46935.chunk.js",
+    "main.css": "/static/css/main.f2137d01.css",
+    "main.js": "/static/js/main.8bbeedb7.js",
     "static/media/About us Image.png": "/static/media/About us Image.3185c183bf57cbea4bc7.png",
     "static/media/image 246.png": "/static/media/image 246.ed870242642401993465.png",
     "static/media/Hire Talent Hero BG.png": "/static/media/Hire Talent Hero BG.b8d9c3695fb47a4e9e90.png",
@@ -73,16 +68,11 @@
     "static/media/ContactCard3.png": "/static/media/ContactCard3.08bb6e1f702b4cd3d8a5.png",
     "static/media/ContactCard4.png": "/static/media/ContactCard4.bb8611514762bb61c84b.png",
     "index.html": "/index.html",
-    "main.0fa40887.css.map": "/static/css/main.0fa40887.css.map",
-    "main.c1d9be88.js.map": "/static/js/main.c1d9be88.js.map",
-    "872.85a21d26.chunk.js.map": "/static/js/872.85a21d26.chunk.js.map",
-    "227.5279cdc2.chunk.js.map": "/static/js/227.5279cdc2.chunk.js.map",
-    "526.fea1c74b.chunk.js.map": "/static/js/526.fea1c74b.chunk.js.map",
-    "232.de95059a.chunk.js.map": "/static/js/232.de95059a.chunk.js.map",
-    "237.01d46935.chunk.js.map": "/static/js/237.01d46935.chunk.js.map"
+    "main.f2137d01.css.map": "/static/css/main.f2137d01.css.map",
+    "main.8bbeedb7.js.map": "/static/js/main.8bbeedb7.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fa40887.css",
-    "static/js/main.c1d9be88.js"
+    "static/css/main.f2137d01.css",
+    "static/js/main.8bbeedb7.js"
   ]
 }

@@ -165,6 +165,7 @@ export default function PopularCourses() {
                       purchases={0}
                       star={card.rating}
                       period={card.period}
+                      gradientColors={card.gradientColors}
                       className={
                         index === currentPage1 ? '' : 'program-card-hidden'
                       }
@@ -203,6 +204,7 @@ export default function PopularCourses() {
                     purchases={0}
                     star={card.rating}
                     period={card.period}
+                    gradientColors={card.gradientColors}
                   />
                 ))}
               </div>
@@ -233,6 +235,7 @@ export default function PopularCourses() {
                       purchases={0}
                       star={card.rating}
                       period={card.period}
+                      gradientColors={card.gradientColors}
                       className={
                         index === currentPage2 ? '' : 'program-card-hidden'
                       }
@@ -272,6 +275,7 @@ export default function PopularCourses() {
                     purchases={0}
                     star={card.rating}
                     period={card.period}
+                    gradientColors={card.gradientColors}
                   />
 
                 ))}

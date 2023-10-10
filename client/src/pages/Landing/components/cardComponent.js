@@ -11,7 +11,7 @@ import { useLocation } from 'react-router-dom';
 import GetInTouchPopUp from '../components/getInTouchPopUp';
 
 
-const CardComponent = ({key,courseId,objectId, title, imageSrc, purchases, star, period }) => {
+const CardComponent = ({key,courseId,objectId,gradientColors, title, imageSrc, purchases, star, period }) => {
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   const onbId = queryParams.get('objectId');
@@ -19,9 +19,14 @@ const CardComponent = ({key,courseId,objectId, title, imageSrc, purchases, star,
   const togglePopup = () => {
     setShowPopup(!showPopup);
   };
+
+  const gradientStyle = {
+    background: `linear-gradient(130deg, #ffffff 15%, ${gradientColors} 46%)`
+  };
+
   return (
     <div className="card">
-      <div className='image-container-p'>
+      <div className='image-container-p' style={gradientStyle}>
         <img src={imageSrc} alt="Course" className="card-image" />
         <div className='icons-container'>
         </div>
