@@ -1,0 +1,281 @@
+/* .services-section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.table{
+    width: 58vw;
+    border: solid 2px black;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 0;
+}
+.custom-table {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+    border-collapse: collapse;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    padding: 1.4rem;
+    text-align: center;
+    border: none;
+  }
+  
+  .custom-table th {
+    background-color: #ff7900;
+    color: #fff;
+    padding: 2rem;
+  }
+
+  .first-column{
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .odd-row {
+    background-color: #fff;
+  }
+  
+  .even-row {
+    background-color: #ffe4cc;
+  }
+  
+  .last-column {
+    background-color: #ffeedd;
+  }
+  
+  .even-row .last-column {
+    background-color: #fed7b0; 
+  }
+  
+  .odd-row .last-column {
+    background-color: #ffeddc; 
+  }
+  
+  .services-check-icon {
+    font-size: 30px;
+  }
+  
+  .services-check-icon.fa-check {
+    color: #ff7a01;
+  }
+
+  .services-check-icon.fa-xmark{
+    color:#969696;
+  }
+
+  @media (max-width: 768px) {
+    .services-section {
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 2rem; 
+    }
+  
+    .table {
+      width: 90%; 
+      border-radius: 20px;
+    }
+  
+    .custom-table {
+      border-radius: 20px; 
+    }
+  
+    .custom-table th,
+    .custom-table td {
+      padding: 1rem;
+      text-align: left;
+    }
+
+    .custom-table td{
+      
+    }
+  
+    .custom-table th {
+      padding: 0.5rem;
+      font-size: 15px; 
+    }
+  
+    .first-column {
+      font-size: 12px; 
+    }
+  
+    .services-check-icon {
+      font-size: 20px; 
+    }
+  }
+   */
+
+
+
+/* Default styles for .services-section */
+.services-section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.table {
+  width: 58vw;
+  /* border: solid 2px black; */
+  border-radius: 30px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.custom-table {
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 30px;
+  overflow: hidden;
+  border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 1.4rem;
+  text-align: center;
+  border: none;
+}
+
+.custom-table th {
+  background-color: #ff7900;
+  color: #fff;
+  padding: 2rem;
+}
+
+.first-column {
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.odd-row {
+  background-color: #fff;
+}
+
+.even-row {
+  background-color: #ffe4cc;
+}
+
+.last-column {
+  background-color: #ffeedd;
+}
+
+.even-row .last-column {
+  background-color: #fed7b0;
+}
+
+.odd-row .last-column {
+  background-color: #ffeddc;
+}
+
+.services-check-icon {
+  font-size: 30px;
+}
+
+.services-check-icon.fa-check {
+  color: #ff7a01;
+}
+
+.services-check-icon.fa-xmark {
+  color: #969696;
+}
+
+/* Media query for tablet devices */
+@media (max-width: 768px) {
+  .services-section {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .table {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .custom-table {
+    border-radius: 20px;
+  }
+
+  .custom-table th,
+  .custom-table td {
+    padding: 1rem;
+    text-align: left;
+  }
+
+
+
+  .custom-table th {
+    padding: 0.5rem;
+    font-size: 10px;
+  }
+
+  .first-column {
+    font-size: 10px;
+  }
+
+  .services-check-icon {
+    font-size: 20px;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .table {
+    width: 95%;
+    border-radius: 15px;
+  }
+
+  .custom-table {
+    border-radius: 15px;
+  }
+
+  .custom-table th,
+  .custom-table td {
+    padding: 1rem;
+    text-align: left;
+  }
+
+  .first-column {
+    font-size: 11px;
+  }
+
+  .services-check-icon {
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+
+  .table {
+    width: 90%;
+    border-radius: 20px;
+  }
+
+  .custom-table th {
+    padding: 0.5rem;
+    font-size: 12px;
+  }
+}
+
+@media (min-width:767px) and (max-width:1025px){
+  .table{
+    width: 90% !important;
+  }
+}

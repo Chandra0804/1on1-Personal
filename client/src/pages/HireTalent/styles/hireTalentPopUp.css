@@ -1,0 +1,345 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 30px;
+  width: 45vw;
+  height: auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.close-button-popup {
+  background-color: #ff7a01;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  height: 3vh;
+  width: 3vh;
+  font-size: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.popup-form {
+  display: flex;
+  flex-direction: column;
+  flex:1 1 auto;
+  gap: 2vh;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.popup-form label {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+ .required-position-input{
+  width: 27vw;
+ }
+ .required-class{
+  width: 27vw;
+ }
+
+.popup-form label select,
+.popup-form label input {
+  padding: 1vh;
+  color: #818181;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.69em;
+  font-weight: 400;
+}
+.popup-form label select option{
+  font-weight: 400;
+}
+
+
+/* .popup-form label select{
+  flex: 1;
+  margin-left: 6rem;
+} */
+
+.required-class{
+  margin-left: 5rem;
+}
+
+.company-name{
+  width: 25.5vw;
+  margin-left: 4.2rem;
+}
+
+.required-position-input{
+  margin-left: 3.2rem;
+}
+
+.review-input{
+  margin-left: 10rem !important;
+  width: 30vw !important;
+  height: 5vw;
+}
+
+.email-input{
+  width: 26vw;
+  margin-left: 10.3rem;
+}
+
+.phone-input {
+  width: 26vw;
+  margin-left: 4.5rem;
+}
+
+.popup-form button[type='submit'] {
+  background-color: #000;
+  border: none;
+  margin: 0 auto;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 1rem 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-form button[type='submit']:hover {
+  background-color: #fff;
+  color: #000;
+  border: solid 1px #000;
+}
+
+.hireTalent-duration label{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-right: 1vw;
+}
+
+.LabelName>span{
+  color: red;
+}
+
+
+@media (max-width: 486px) {
+  .popup-content {
+    align-items: center;
+    width: 80vw; 
+    padding: 1rem; 
+  }
+  .popup-header{
+    margin-left: 4em;
+    font-size: 0.7em;
+  }
+  .LabelName{
+    font-size: 0.8em;
+  }
+  .company-name{
+    margin-left: 1.2rem !important;
+  }
+  .required-class{
+    margin-left: 2rem !important;
+  } 
+  .email-input{
+    width: 30vw;
+    margin-left: 6.3rem;
+  } 
+  .required-position-input{
+    margin-left: 0.5rem !important;
+  }
+  .popup-form label input[type='text']{
+    width: 30vw;
+  }
+  .phone-input{
+    width: 30vw;
+    margin-left: 1.7rem;
+  }
+  .required-class, .required-position-input{
+    width: 34vw;
+  }
+  .popup-form button[type='submit'] {
+    font-weight: 600;
+    font-size: 0.9em;
+    padding: 0.7rem 0.7rem;
+  }
+}
+
+
+@media (min-width: 487px) and (max-width: 736px){
+  .popup-content {
+    align-items: center;
+    width: 60vw; 
+    padding: 1rem 2rem; 
+  }
+  .popup-header{
+    font-size: 0.7em;
+  }
+  .close-button-popup{
+    height: 6vh;
+    width: 6vh;
+  }
+  .popup-form{
+    gap: 4vh;
+  }
+  .LabelName{
+    font-size: 0.74em;
+  }
+  .company-name{
+    margin-left: 1.8rem !important;
+  }
+  .required-class{
+    margin-left: 2.3rem !important;
+  }  
+  .required-position-input{
+    margin-left: 1rem !important;
+  }
+  .popup-form label input[type='text']{
+    width: 30vw;
+  }
+  .email-input{
+    margin-left: 6.5rem;
+    width: 30vw;
+  }
+  .phone-input{
+    width: 30vw;
+    margin-left: 2.3rem;
+  }
+  .required-class{
+    width: 32vw;
+  } 
+  .required-position-input{
+    width: 31.5vw;
+  }
+  .popup-form button[type='submit'] {
+    font-weight: 600;
+    font-size: 0.9em;
+    padding: 0.7rem 0.7rem;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 992px){
+  .popup-content {
+    align-items: center;
+    width: 55vw; 
+    padding: 2rem; 
+  }
+  .popup-header{
+    font-size: 0.7em;
+  }
+  .popup-form{
+    gap: 2vh;
+  }
+  .LabelName{
+    font-size: 0.74em;
+  }
+  .company-name{
+    margin-left: 1.4rem !important;
+  }
+  .required-class{
+    margin-left: 2rem !important;
+  }  
+  .required-position-input{
+    margin-left: 0.8rem !important;
+  }
+  .popup-form label input[type='text']{
+    width: 31vw;
+  }
+  .required-class{
+    width: 34vw;
+  }
+  .required-position-input{
+    width: 33vw;
+  }
+  .popup-form button[type='submit'] {
+    font-weight: 600;
+    font-size: 0.9em;
+    padding: 0.7rem 0.7rem;
+  }
+  .email-input{
+    margin-left: 6.5rem;
+    width: 30vw;
+  }
+  .phone-input{
+    width: 30vw;
+    margin-left: 2.3rem;
+  }
+
+}
+@media (min-width: 993px) and (max-width: 1024px){
+  .popup-content {
+    align-items: center;
+    width: 50vw; 
+    padding: 2rem; 
+  }
+  .popup-header{
+    font-size: 0.8em;
+  }
+  .popup-form{
+    gap: 2vh;
+  }
+  .LabelName{
+    font-size: 0.74em;
+  }
+  .company-name{
+    margin-left: 1.2rem !important;
+  }
+  .required-class{
+    margin-left: 2rem !important;
+  }  
+  .required-position-input{
+    margin-left: 0.5rem !important;
+  }
+  .popup-form label input[type='text']{
+    height: 4vh !important;
+    width: 32vw;
+  }
+  .required-class{
+    width: 34vw;
+  }
+  .required-position-input{
+    width: 34vw
+  }
+  .popup-form button[type='submit'] {
+    font-weight: 600;
+    font-size: 0.95em;
+    padding: 0.8rem 0.8rem;
+  }
+  .email-input{
+    margin-left: 6rem;
+    width: 32.5vw;
+    height: 4vh !important;
+  }
+  .phone-input{
+    width: 32.5vw;
+    margin-left: 1.75rem;
+    height: 4vh !important;
+  }
+}

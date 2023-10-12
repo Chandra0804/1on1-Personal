@@ -1,0 +1,240 @@
+.popular-courses-section{
+  position: relative;
+}
+
+.popular-programs-section{
+  position: relative;
+}
+
+.popular-course-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 50px;
+  z-index: 2;
+}
+
+.course-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  overflow: hidden;
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.course-list>h1{
+  margin-left: 3vw;
+  margin-bottom: 1em;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  transition: transform 0.3s ease-in-out;
+  align-items: stretch;
+  grid-column-gap: 1rem;
+}
+
+.arrow {
+  cursor: pointer;
+  font-size: 30px; 
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #000;
+  position: absolute;
+  z-index: 3;
+  top: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease-in-out; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.arrow-container2{
+  top: 40%;
+}
+
+.arrow:hover {
+  background-color: #ff641e; 
+}
+
+.left-arrow {
+  left: 8%;
+}
+
+.right-arrow {
+  right: 8%; 
+}
+
+.explore-button {
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-size: 20px;
+  background-color: #ff7a01;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  width: 15vw;
+}
+
+.explore-card {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+  width: 50vw;
+}
+
+.explore-card h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.explore-card p {
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+@media (max-width: 487px){
+  .cards-container {
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.3s ease-in-out;
+    gap: 1rem;
+  }
+  .popular-course-container{
+    margin-bottom: 25px;
+  }
+  .course-list{
+    width: 90vw;
+    margin-left: 2.5rem;
+  }
+  .course-list h1{
+    margin-left: 2.5rem;
+  }
+  .card-margin-right{
+    margin-right: 2.3rem;
+  }
+  .programs-scroll{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 3.8rem;
+    scroll-behavior: smooth;
+    padding: 1em;
+    padding-left: 0.2em;
+    padding-bottom: 0.2em;
+  }
+  .programs-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  .course-list>h1{
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 488px) and (max-width: 786px) {
+  .cards-container {
+    width: 80vw;
+    transition: transform 0.3s ease-in-out;
+    align-items: center;
+    grid-column-gap: 0rem;
+  }
+  .arrow{
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+  }
+  .left-arrow {
+    left: 8vw;
+  }
+  .course-list {
+    align-items: center;
+    width: 80vw;
+  }
+  
+  .right-arrow {
+    right: 8vw; 
+  }
+  .course-list>h1{
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 787px) and (max-width: 850px) {
+  .popular-course-container{
+    height: 100vh;;
+  }
+  .cards-container {
+    width: 80vw;
+    transition: transform 0.3s ease-in-out;
+    align-items: center;
+    grid-column-gap: 0rem;
+  }
+  .course-list{
+    height: 100vh;
+  }
+  .arrow{
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+  }
+  .left-arrow {
+    left: 6vw;
+  }
+  .leftarrow2, .rightarrow2{
+    top: 40%;
+  }
+  .course-list {
+    align-items: center;
+    width: 80vw;
+  }
+  
+  .right-arrow {
+    right: 8vw; 
+  }
+  .course-list>h1{
+    font-size: 1.5em;
+  }
+}
+
+@media  screen and (min-width:993px) and (max-width:1024px) {
+  .cards-container{
+    margin: auto;
+    width: 90vw;
+    row-gap: 0rem;
+  }
+  .arrow{
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+  }
+  .left-arrow {
+    left: 8vw;
+  }
+  .course-list {
+    align-items: center;
+    width: 80vw;
+  }
+  
+  .right-arrow {
+    right: 8vw; 
+  }
+  .course-list>h1{
+    font-size: 1.5em;
+  }
+}

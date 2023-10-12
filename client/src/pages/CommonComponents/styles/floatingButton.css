@@ -1,0 +1,65 @@
+.floating-button-container {
+    position: fixed;
+    bottom: -1rem;
+    right: 0px;
+    z-index: 10;
+  }
+  
+  .floating-button {
+    cursor: pointer;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    width: 3vw;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+  }
+
+  .floating-button > img{
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .floating-button.hovered {
+    background-color: #fff;
+  }
+  
+  .hovered-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2rem;
+    padding: 10px;
+    font-size: 55px;
+  }
+
+  .hovered-icons img{
+    width: 8vw;
+  }
+
+  @media screen and (max-width:486px){
+    .hovered-icons img{
+      width: 30vw;
+    }
+  }
+  @media screen and (min-width: 487px) and (max-width: 850px) {
+    .hovered-icons img{
+      
+      width: 15vw;
+    }
+  }
+  @media screen and (min-width: 851px) and (max-width: 992px){
+    .hovered-icons img{
+      
+      width: 15vw;
+    }
+  }
+  @media screen and (min-width: 993px) and (max-width: 1024px){
+    .hovered-icons img{
+      width: 15vw;
+    }
+  }
+  

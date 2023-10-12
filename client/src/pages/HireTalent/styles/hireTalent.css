@@ -1,0 +1,404 @@
+.hire-talent-hero {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 5vw;
+    box-shadow: 2px 2px #e4e4e4;
+    border: solid 2px #e4e4e4;
+    margin-top: 5vh;
+}
+
+.hire-talent-heroLeft {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1vh 0;
+    justify-content: center;
+}
+
+.hire-talent-heroLeft>h1 {
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 2vh;
+}
+
+.hire-talent-grey-text {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 2vh;
+}
+
+.hire-talent-blackText {
+    background-color: #000;
+    width: fit-content;
+    padding: 0.6vh 0.6vw;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 30px;
+    color: #fff;
+    margin-bottom: 2vh;
+}
+
+.hire-talent-heroLeft>button {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 2% 5%;
+    border: none;
+    border-radius: 30px;
+    background-color: #000;
+    color: #fff;
+    width: fit-content;
+    margin-top: 2vh;
+}
+
+.hire-talent-heroRight {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hire-talent-heroRight>img {
+    width: 100%;
+}
+
+.why-1-on-1-platform-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 8vh;
+    margin-bottom: 9vh;
+}
+
+.why-1-on-1-platform-section>p {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.hire-talent-bg {
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+.ot-hire{
+    font-weight: 600;
+}
+
+.hire-talent-bg>img {
+    width: 100vw;
+    height: 60vh;
+}
+
+.why-1-on-1-platform-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    position: relative;
+    z-index: 2;
+    margin-top: 1vh;
+    margin-bottom: 12vh;
+}
+
+.why-platform-left-container {
+    flex: 1;
+}
+
+.why-platform-left-container>img {
+    width: 25vw;
+}
+
+.why-platform-right-container {
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+
+.why-platform-right-container>p {
+    font-size: 18px;
+    line-height: 1.75;
+    font-weight: 400;
+}
+
+.blur {
+    filter: blur(5px);
+}
+
+
+@media (max-width: 468px) {
+    .hire-talent-heroRight{
+        display: none;
+    }
+    .hire-talent-hero{
+        align-items: center;
+        background: linear-gradient(130deg, rgba(248, 248, 248, 1) 41%, rgba(254, 231, 218, 1) 63%);
+    }
+    .hire-talent-heroLeft{
+        width: 95%;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .hire-talent-heroLeft>h1 {
+        font-size: 1.25em; 
+        margin-bottom: 0;
+    }
+    .hire-talent-blackText{
+        font-size: 0.8em;
+        padding: 0.25rem 1rem;
+    }
+    .hire-talent-grey-text{
+        font-size: 1em;
+        margin-top: 0.2;
+        margin-bottom: 0;
+    }
+    .hire-talent-heroLeft button{
+        font-size: 1em;
+        margin-bottom: 3vh;
+    }
+    .hire-talent-bg{
+        display: none;
+    }
+    .why-1-on-1-platform-section{
+        margin-bottom: 3vh;
+    }
+    .why-1-on-1-platform-section p{
+        font-size: 1.3em;
+    }
+    .why-1-on-1-platform-container{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0vh;
+    }
+    .why-platform-left-container img{
+        align-content: center;
+        width: 70vw;
+    }
+    .why-platform-right-container p{
+        text-align: center;
+        font-size: 0.8em;
+    }
+}
+@media (min-width: 512px) and (max-width: 683px){
+    .hire-talent-hero{
+        width: 90vw;
+        margin-left: 1vw;
+        padding-bottom: 1vh;
+    }
+    .hire-talent-heroLeft{
+        align-items: center;
+        text-align: center;
+    }
+    .hire-talent-blackText{
+        font-size: 0.7em;
+        padding: 0.25rem 1rem;
+    }
+    .hire-talent-heroLeft>h1 {
+        font-size: 1.2em; 
+        margin-bottom: 0;
+    }
+    .hire-talent-grey-text{
+        font-size: 0.95em;
+        margin-top: 0.2;
+        margin-bottom: 0;
+    }
+    .hire-talent-heroLeft button{
+        font-size: 1em;
+        margin-bottom: 3vh;
+    }
+    .why-1-on-1-platform-section p{
+        font-size: 1.4em;
+    }
+    .why-1-on-1-platform-section{
+        align-items: center;
+    }
+    .why-platform-right-container p{
+        text-align: center;
+        font-size: 0.75em;
+        line-height: 1.6;
+        margin: 0;
+        font-weight: 400;
+    }
+    .why-platform-left-container>img {
+        margin-top: 12vh;
+        width: 27vw;
+        height: 45vh;
+    }
+    .hire-talent-bg>img {
+        width: 100vw;
+        height: 102vh;
+    }
+}
+
+@media (min-width: 684px) and (max-width: 767px){
+    .hire-talent-hero{
+        width: 90vw;
+        margin-left: 1vw;
+        padding-bottom: 1vh;
+    }
+    .hire-talent-heroLeft{
+        align-items: center;
+        text-align: center;
+    }
+    .hire-talent-blackText{
+        font-size: 0.7em;
+        padding: 0.25rem 1rem;
+    }
+    .hire-talent-heroLeft>h1 {
+        font-size: 1.2em; 
+        margin-bottom: 0;
+    }
+    .hire-talent-grey-text{
+        font-size: 0.95em;
+        margin-top: 0.2;
+        margin-bottom: 0;
+    }
+    .hire-talent-heroLeft button{
+        font-size: 1em;
+        margin-bottom: 3vh;
+    }
+    .why-1-on-1-platform-section p{
+        font-size: 1.4em;
+    }
+    .why-1-on-1-platform-section{
+        align-items: center;
+    }
+    .why-platform-right-container p{
+        text-align: center;
+        font-size: 0.75em;
+        line-height: 1.6;
+        margin: 0;
+        font-weight: 400;
+    }
+    .why-platform-left-container>img {
+        margin-top: 5vh;
+        width: 27vw;
+    }
+    .hire-talent-bg>img {
+        width: 100vw;
+        height: 85vh;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .hire-talent-hero{
+        width: 90vw;
+        margin-left: 1vw;
+        padding-bottom: 1vh;
+    }
+    .hire-talent-heroLeft{
+        align-items: center;
+        text-align: center;
+    }
+    .hire-talent-blackText{
+        font-size: 0.7em;
+        padding: 0.25rem 1rem;
+    }
+    .hire-talent-heroLeft>h1 {
+        font-size: 1.2em; 
+        margin-bottom: 0;
+    }
+    .hire-talent-grey-text{
+        font-size: 0.95em;
+        margin-top: 0.2;
+        margin-bottom: 0;
+    }
+    .hire-talent-heroLeft button{
+        font-size: 1em;
+        margin-bottom: 3vh;
+    }
+    .why-1-on-1-platform-section p{
+        font-size: 1.4em;
+    }
+    .why-1-on-1-platform-section{
+        align-items: center;
+    }
+    .why-1-on-1-platform-section{
+        margin-bottom: 0vh;
+    }
+    .why-1-on-1-platform-container{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0vh;
+    }
+    .why-platform-right-container p{
+        text-align: center;
+        font-size: 0.75em;
+        line-height: 1.6;
+        margin: 0;
+        font-weight: 400;
+    }
+    .why-platform-left-container>img {
+        width: 27vw;
+    }
+    .hire-talent-bg {
+       display: none;
+    }
+    .why-1-on-1-platform-container{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5vh;
+    }
+    .why-platform-left-container img{
+        align-content: center;
+        width: 40vw;
+    }
+    .why-platform-right-container p{
+        text-align: center;
+        font-size: 0.9em;
+        margin-bottom: 1vh;
+    }
+}
+@media (min-width: 993px) and (max-width: 1024px){
+    .hire-talent-hero{
+        width: 90vw;
+        margin-left: 1vw;
+        padding-bottom: 1vh;
+    }
+    .hire-talent-blackText{
+        font-size: 0.9em;
+        padding: 0.25rem 1rem;
+    }
+    .hire-talent-heroLeft>h1 {
+        font-size: 1.7em; 
+        margin-bottom: 0;
+    }
+    .hire-talent-grey-text{
+        font-size: 1.1em;
+        margin-top: 0.2;
+        margin-bottom: 2vh;
+    }
+    .hire-talent-heroLeft button{
+        font-size: 1.2em;
+        margin-bottom: 2vh;
+    }
+    .why-1-on-1-platform-section p{
+        font-size: 1.4em;
+    }
+    .why-1-on-1-platform-section{
+        align-items: center;
+    }
+    .why-platform-right-container p{
+        text-align: center;
+        font-size: 0.9em;
+        line-height: 1.6;
+        margin: 0;
+        font-weight: 400;
+    }
+    .why-platform-left-container>img {
+        width: 29vw;
+    }
+    .hire-talent-bg>img {
+        width: 100vw;
+        height: 55vh;
+    }
+}
