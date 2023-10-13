@@ -54,10 +54,12 @@ export default function Testimonials() {
 
   const handleLeftArrowClick = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? TestimonialCardData.length - 1 : prevIndex - 1));
+    setCenterIndex((prevCenterIndex) => (prevCenterIndex === 0 ? TestimonialCardData.length - 1 : prevCenterIndex - 1)); 
   };
 
   const handleRightArrowClick = () => {
     setCurrentIndex((prevIndex) => (prevIndex === TestimonialCardData.length - 1 ? 0 : prevIndex + 1));
+    setCenterIndex((prevCenterIndex) => (prevCenterIndex === TestimonialCardData.length - 1 ? 0 : prevCenterIndex + 1)); 
   };
 
   const circularIndex = (currentIndex + TestimonialCardData.length) % TestimonialCardData.length;
