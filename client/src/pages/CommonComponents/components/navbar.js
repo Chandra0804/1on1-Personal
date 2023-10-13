@@ -12,6 +12,9 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const togglePopup = () => {
+    if(mobileMenuOpen===true){
+      setMobileMenuOpen(!mobileMenuOpen);
+    }
     setShowPopup(!showPopup);
   };
 
