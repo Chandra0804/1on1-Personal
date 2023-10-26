@@ -1,0 +1,130 @@
+.downloadbutton-form {
+    display: flex;
+    flex-direction: column;
+    flex:1 1 auto;
+    gap: 4vh;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .downloadsyllabus-form{
+      width: 40vw !important;
+  }
+  .downloadbutton-form label {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      gap: 1rem;
+      font-size: 20px;
+      font-weight: 600;
+  }
+  
+  .download_phoneverf {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .downloadbutton-name input {
+      margin-left: 3.5rem;
+  }
+  
+  .downloadbutton-name input{
+      width: 21vw;
+      padding: 1vh;
+      color: #818181;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 0.69em;
+      font-weight: 400;
+  }
+  
+  .download-emailverf input{
+      width: 21vw;
+      padding: 1vh;
+      color: #818181;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 0.69em;
+      font-weight: 400;
+  }
+  
+  .download-phonelabel input{
+      width: 15vw;
+      height: 3vh;
+      padding: 1vh;
+      color: #818181;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 0.69em;
+      font-weight: 400;
+  }
+  
+  #send-otp-button, .verify-otp-button{
+      background-color: #ff7a01;
+      border: none;
+      margin: 0 auto;
+      color: #fff;
+      font-weight: 600;
+      font-size: 13px;
+      padding: 0.5rem;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+    
+  #send-otp-button:hover, .verify-otp-button:hover {
+      background-color: #fff;
+      color: #000;
+      border: solid 1px #000;
+  }
+  
+  .verify-otp{
+      display: flex;
+      flex-direction: row;
+      gap: 2em;
+  }
+  .verify-otp label {
+      display: flex;
+      flex-direction: row;
+      gap: 5em;
+  }
+  .verify-otp label input{
+      width: 8vw;
+      height: 3vh;
+      padding: 1vh;
+      color: #818181;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 0.69em;
+      font-weight: 400;
+  }
+  
+  .syllabus-download-button{
+      background-color: #818181;
+      border: none;
+      margin: 0 auto;
+      color: #fff;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 1rem;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+  }
+  .verified{
+      background-color: #000 !important;
+  }
+  
+  .download-checkicon{
+      font-size: 20px;
+      color: green
+  }

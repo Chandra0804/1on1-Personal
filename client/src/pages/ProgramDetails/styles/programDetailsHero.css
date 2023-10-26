@@ -71,6 +71,15 @@
     gap: 2rem;
     margin-top: 1.5rem;
 }
+.download-button{
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+    background-color: #0e256e;
+    border: none;
+    margin-top: -2rem;
+    font-size: 30px;
+}
 
 
 .apply-button{

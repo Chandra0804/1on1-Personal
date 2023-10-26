@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../styles/programDetailsHero.css'
 import ProgramHero from '../assets/Hero Image.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCheckCircle, faDownload, faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
+import DownloadSyallabusPopUp from '../components/downloadSyllabusPopup';
 
 export default function ProgramDetailsHero(props) {
+
+  const [showPopup, setShowPopup] = useState(false);
+
+  const togglePopup = () => {
+    setShowPopup(!showPopup);
+  };
+
   return (
     <div className='program-details-hero-section' style={{ "background-color": props.bannerbackground }}>
       <div className='program-details-heroLeft laptop'>
@@ -13,10 +21,12 @@ export default function ProgramDetailsHero(props) {
         <p className='text2'>| Get Guaranteed Placement Opportunities</p>
         <p className='text3'>{props.courseDuration} | Full-time Online Classroom format | Guaranteed* placement opportunities</p>
         <p className='text4'>*Upon successful program completion</p>
-        <div className='program-details-hero-button-container'>
-          <button className='apply-button'>Get Hired before you Graduate</button>
-          {/* <button className='download-button'>Download Syllabus</button> */}
-        </div>
+        <div className="program-details-hero-button-container">
+        <button className="apply-button">Get Hired before you Graduate</button>
+        <button className="download-button" onClick={togglePopup}>
+          <FontAwesomeIcon icon={faDownload} />
+        </button>
+      </div>
       </div>
       <div className='program-details-heroRight laptop'>
         <img src={props.programimg} alt='program-hero' />
@@ -35,6 +45,7 @@ export default function ProgramDetailsHero(props) {
         <button className='apply-button'>Get Hired before you Graduate</button>
         {/* <button className='download-button'>Download Syllabus</button> */}
       </div>
+      {showPopup && <DownloadSyallabusPopUp onClose={togglePopup} />}
     </div>
   )
 }
